@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/mobilitydcat-ap/data-model#"
+     xml:base="https://w3id.org/mobilitydcat-ap/data-model"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/data-model">
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/0.1.0"/>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the data model of a distribution.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
+        <terms:title xml:lang="en">Data model</terms:title>
+        <owl:versionInfo xml:lang="en">0.1.0</owl:versionInfo>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/c-its"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/datex-II-light"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/datex-II-v2"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/datex-II-v3"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/datex-II-v4"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/dino"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/gbfs"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/gml"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/gtfs"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/gtfs-rt"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/inspire"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/netex"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/ocit-c"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/siri"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/tn-its"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-model/tpegml"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/c-its -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/c-its">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">C-ITS</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/datex-II-light -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/datex-II-light">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">DATEX II (CEN/TS 16157)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">DATEX II Light</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/datex-II-v2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/datex-II-v2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">DATEX II (CEN/TS 16157)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">DATEX II V2</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/datex-II-v3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/datex-II-v3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">DATEX II (CEN/TS 16157)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">DATEX II V3</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/datex-II-v4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/datex-II-v4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">DATEX II (CEN/TS 16157)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">DATEX II V4</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/dino -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/dino">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">DINO</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/gbfs -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/gbfs">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">GBFS</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/gml -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/gml">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">GML</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/gtfs -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/gtfs">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">GTFS</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/gtfs-rt -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/gtfs-rt">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">GTFS-RT</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/inspire -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/inspire">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">D2.8.I.7 Data Specification on Transport Networks – Technical 
+Guidelines</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">INSPIRE</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/netex -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/netex">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">NeTEx (CEN/TS 16614)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">NeTEx</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/ocit-c -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/ocit-c">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">OCIT-C</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/siri -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/siri">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">SIRI (CEN/TS 15531)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">SIRI</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/tn-its -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/tn-its">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">TN-ITS (CEN/TS 17268)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">TN-ITS</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/data-model/tpegml -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-model/tpegml">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+        <skos:prefLabel xml:lang="en">tpegML</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-model"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

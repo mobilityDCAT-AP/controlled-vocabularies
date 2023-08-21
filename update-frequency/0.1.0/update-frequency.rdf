@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/mobilitydcat-ap/update-frequency#"
+     xml:base="https://w3id.org/mobilitydcat-ap/update-frequency"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency">
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/0.1.0"/>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the update frequency of a dataset.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
+        <terms:title xml:lang="en">Update frequency</terms:title>
+        <owl:versionInfo xml:lang="en">0.1.0</owl:versionInfo>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/1h"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/1min"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/10min"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/12h"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/15min"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/2h"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/24h"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/3h"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/3-months"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/30min"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/5min"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/6-months"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Less frequent than yearly</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">Less than yearly</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/1h -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/1h">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 1h</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">1h</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/1min -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/1min">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 1 min</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">1min</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/10min -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/10min">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 10 min</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">10min</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/12h -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/12h">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 12h</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">12h</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/15min -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/15min">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 15 min</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">15min</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/2h -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/2h">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 2h</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">2h</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/24h -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/24h">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 24h</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">24h</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/3h -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/3h">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 3h</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">3h</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/3-months -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/3-months">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to every 3 months</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">3 months</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/30min -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/30min">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 30 min</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">30min</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/5min -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/5min">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to 5 min</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">5min</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/update-frequency/6-months -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/6-months">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Up to every 6 months</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+        <skos:prefLabel xml:lang="en">6 months</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,125 @@
+@prefix : <https://w3id.org/mobilitydcat-ap/grammar#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/mobilitydcat-ap/grammar#> .
+
+<https://w3id.org/mobilitydcat-ap/grammar> rdf:type owl:Ontology ;
+                                            owl:versionIRI <https://w3id.org/mobilitydcat-ap/grammar/0.1.0> ;
+                                            <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en ,
+                                                                               "Peter Lubrich (BASt)"@en ;
+                                            <http://purl.org/dc/terms/description> "Controlled vocabulary for the data grammar of a distribution."@en ;
+                                            <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                            <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en ;
+                                            <http://purl.org/dc/terms/title> "Data Grammar"@en ;
+                                            owl:versionInfo "0.1.0"@en ;
+                                            <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/grammar/asn.1> ,
+                                                                                                <https://w3id.org/mobilitydcat-ap/grammar/json-schema> ,
+                                                                                                <https://w3id.org/mobilitydcat-ap/grammar/other> ,
+                                                                                                <https://w3id.org/mobilitydcat-ap/grammar/protocol-buffers> ,
+                                                                                                <https://w3id.org/mobilitydcat-ap/grammar/xsd> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/mobilitydcat-ap/grammar
+<https://w3id.org/mobilitydcat-ap/grammar> rdf:type owl:NamedIndividual ,
+                                                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  https://w3id.org/mobilitydcat-ap/grammar/asn.1
+<https://w3id.org/mobilitydcat-ap/grammar/asn.1> rdf:type owl:NamedIndividual ,
+                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/grammar> ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "ASN.1"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/grammar> .
+
+
+###  https://w3id.org/mobilitydcat-ap/grammar/json-schema
+<https://w3id.org/mobilitydcat-ap/grammar/json-schema> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/grammar> ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "JSON Schema"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/grammar> .
+
+
+###  https://w3id.org/mobilitydcat-ap/grammar/other
+<https://w3id.org/mobilitydcat-ap/grammar/other> rdf:type owl:NamedIndividual ,
+                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/grammar> ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/grammar> .
+
+
+###  https://w3id.org/mobilitydcat-ap/grammar/protocol-buffers
+<https://w3id.org/mobilitydcat-ap/grammar/protocol-buffers> rdf:type owl:NamedIndividual ,
+                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/grammar> ;
+                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Protocol buffers"@en ;
+                                                            <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/grammar> .
+
+
+###  https://w3id.org/mobilitydcat-ap/grammar/xsd
+<https://w3id.org/mobilitydcat-ap/grammar/xsd> rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                               <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/grammar> ;
+                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "XSD"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/grammar> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

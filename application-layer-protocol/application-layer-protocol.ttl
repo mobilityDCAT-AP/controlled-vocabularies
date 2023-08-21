@@ -1,0 +1,72 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:description "Controlled vocabulary for the application layer protocol of a distribution."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  dct:title "Application layer protocol"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/application-layer-protocol/0.1.0>;
+  owl:versionInfo "0.1.0"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp>,
+    <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc>,
+    <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt>,
+    <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other>,
+    <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss>,
+    <https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "OTS2"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "OCIT"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> a skos:Concept;
+  skos:definition "HTTP/HTTPS"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "HTTP HTTPS"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> a skos:Concept;
+  skos:definition "HTTP/HTTPS-SOAP"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "SOAP"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "FTP"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "RSS"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "AMQP"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "MQTT"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "gRPC"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
+  skos:prefLabel "Other"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .

@@ -1,0 +1,160 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:description "Controlled vocabulary for the transport modes covered by a dataset."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  dct:title "Transport Mode"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/transport-mode/0.1.0>;
+  owl:versionInfo "0.1.0"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/transport-mode/air>, <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire>, <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/bus>, <https://w3id.org/mobilitydcat-ap/transport-mode/car>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire>, <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing>, <https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach>, <https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/maritime>, <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle>, <https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail>, <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus>, <https://w3id.org/mobilitydcat-ap/transport-mode/other>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry>, <https://w3id.org/mobilitydcat-ap/transport-mode/taxi>,
+    <https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail>, <https://w3id.org/mobilitydcat-ap/transport-mode/truck> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Air"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Bicycle"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Bike Hire"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Bike Sharing"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/bus> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Bus"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/car> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Car"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Car Hire"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Car Pooling"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Car Sharing"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "E-Scooter"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Long-distance coach"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Long-distance rail"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> a skos:Concept;
+  skos:definition "Maritime including ferry"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Maritime"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Metro, Subway train"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Motorcycle"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Pedestrian"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Regional and local rail"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Ride Pooling"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Shuttle bus"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Shuttle ferry"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Taxi"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Tram, Light rail"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/truck> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Truck"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
+
+<https://w3id.org/mobilitydcat-ap/transport-mode/other> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
+  skos:prefLabel "Other"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .

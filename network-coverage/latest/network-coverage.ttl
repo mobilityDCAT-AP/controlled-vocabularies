@@ -1,0 +1,188 @@
+@prefix : <https://w3id.org/mobilitydcat-ap/network-coverage#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/mobilitydcat-ap/network-coverage#> .
+
+<https://w3id.org/mobilitydcat-ap/network-coverage> rdf:type owl:Ontology ;
+                                                     owl:versionIRI <https://w3id.org/mobilitydcat-ap/network-coverage/0.1.0> ;
+                                                     <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en ,
+                                                                                        "Peter Lubrich (BASt)"@en ;
+                                                     <http://purl.org/dc/terms/description> "Controlled vocabulary for the transport network coverage of a dataset."@en ;
+                                                     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                     <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en ;
+                                                     <http://purl.org/dc/terms/title> "Network Coverage"@en ;
+                                                     owl:versionInfo "0.1.0"@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/network-coverage/air-network> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/metro-subway-tram-or-light-rail-network> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/motorways> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/other> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/other-public-transport-network> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/rail-network> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/regional-roads> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/state-roads-or-federal-roads> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/ten-network> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/tern-network> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/urban-and-local-roads> ,
+                                                                                                         <https://w3id.org/mobilitydcat-ap/network-coverage/waterways> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage
+<https://w3id.org/mobilitydcat-ap/network-coverage> rdf:type owl:NamedIndividual ,
+                                                             <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/air-network
+<https://w3id.org/mobilitydcat-ap/network-coverage/air-network> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Air network"@en ;
+                                                                <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/metro-subway-tram-or-light-rail-network
+<https://w3id.org/mobilitydcat-ap/network-coverage/metro-subway-tram-or-light-rail-network> rdf:type owl:NamedIndividual ,
+                                                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Metro, subway, tram or light-rail network"@en ;
+                                                                                            <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/motorways
+<https://w3id.org/mobilitydcat-ap/network-coverage/motorways> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                              <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Motorways"@en ;
+                                                              <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/other
+<https://w3id.org/mobilitydcat-ap/network-coverage/other> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en ;
+                                                          <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/other-public-transport-network
+<https://w3id.org/mobilitydcat-ap/network-coverage/other-public-transport-network> rdf:type owl:NamedIndividual ,
+                                                                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Other public transport network"@en ;
+                                                                                   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/rail-network
+<https://w3id.org/mobilitydcat-ap/network-coverage/rail-network> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Rail network"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/regional-roads
+<https://w3id.org/mobilitydcat-ap/network-coverage/regional-roads> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Regional roads"@en ;
+                                                                   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/state-roads-or-federal-roads
+<https://w3id.org/mobilitydcat-ap/network-coverage/state-roads-or-federal-roads> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "State roads or federal roads"@en ;
+                                                                                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/ten-network
+<https://w3id.org/mobilitydcat-ap/network-coverage/ten-network> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "TEN Network"@en ;
+                                                                <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/tern-network
+<https://w3id.org/mobilitydcat-ap/network-coverage/tern-network> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "TERN Network"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/urban-and-local-roads
+<https://w3id.org/mobilitydcat-ap/network-coverage/urban-and-local-roads> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Urban and local roads"@en ;
+                                                                          <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  https://w3id.org/mobilitydcat-ap/network-coverage/waterways
+<https://w3id.org/mobilitydcat-ap/network-coverage/waterways> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                              <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/network-coverage> ;
+                                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Waterways"@en ;
+                                                              <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/network-coverage> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

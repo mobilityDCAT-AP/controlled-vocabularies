@@ -1,0 +1,5 @@
+*.jar
+*.log
+base
+template
+tools

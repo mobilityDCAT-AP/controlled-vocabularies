@@ -1,0 +1,53 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:description "Controlled vocabulary for the conditions for access and usage for a Rights Statement."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  dct:title "Conditions for access and usage"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/0.1.0>;
+  owl:versionInfo "0.1.0"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement>,
+    <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/fee-required>, <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/free-of-charge>,
+    <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided>,
+    <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/other>, <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/royalty-free> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided>
+  a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage>;
+  skos:prefLabel "Licence provided"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement>
+  a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage>;
+  skos:prefLabel "Contractual arrangement"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/free-of-charge>
+  a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage>;
+  skos:prefLabel "Free of charge"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/fee-required> a
+    skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage>;
+  skos:prefLabel "Fee required"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/royalty-free> a
+    skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage>;
+  skos:prefLabel "Royalty-free"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> .
+
+<https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/other> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage>;
+  skos:prefLabel "Other"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage> .

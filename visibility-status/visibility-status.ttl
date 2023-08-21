@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/mobilitydcat-ap/visibility-status> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:description "Controlled vocabulary for the visibility status of a metadata entry."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  dct:title "Visibility"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/visibility-status/0.1.0>;
+  owl:versionInfo "0.1.0"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/visibility-status/private>, <https://w3id.org/mobilitydcat-ap/visibility-status/public> .
+
+<https://w3id.org/mobilitydcat-ap/visibility-status/public> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/visibility-status>;
+  skos:prefLabel "Public"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/visibility-status> .
+
+<https://w3id.org/mobilitydcat-ap/visibility-status/private> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/visibility-status>;
+  skos:prefLabel "Private"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/visibility-status> .

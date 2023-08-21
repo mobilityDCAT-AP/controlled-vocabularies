@@ -1,0 +1,411 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Mario Scrocca (Cefriel)"
+  }, {
+    "@language" : "en",
+    "@value" : "Peter Lubrich (BASt)"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Controlled vocabulary for the update frequency of a dataset."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "en",
+    "@value" : "NAPCORE SubWG4.4"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Update frequency"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/0.1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "0.1.0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/1h"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/1min"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/10min"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/12h"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/15min"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/2h"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/24h"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/3h"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/3-months"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/30min"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/5min"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/6-months"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/10min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 10 min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "10min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/12h",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 12h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "12h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/15min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 15 min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "15min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/1h",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 1h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "1h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/1min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 1 min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "1min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/24h",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 24h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "24h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/2h",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 2h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "2h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/3-months",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to every 3 months"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "3 months"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/30min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 30 min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "30min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/3h",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 3h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "3h"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/5min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to 5 min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "5min"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/6-months",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Up to every 6 months"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "6 months"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Less frequent than yearly"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Less than yearly"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/update-frequency"
+  } ]
+} ]

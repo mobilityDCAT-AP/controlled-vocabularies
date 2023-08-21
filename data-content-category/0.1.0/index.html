@@ -1,0 +1,3226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>Data Content Category</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/mobilitydcat-ap/data-content-category","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/mobilitydcat-ap/data-content-category","name":"Data Content Category", "headline":"Controlled vocabulary for the classification of the content of a mobility dataset.", "datePublished":"Mon Aug 21 16:03:57 CEST 2023", "version":"0.1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Mario Scrocca (Cefriel)"},{"@type":"Person","name":"Peter Lubrich (BASt)"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Data Content Category</h1>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0">https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0</a></dd>
+<dt>Revision:</dt>
+<dd>0.1.0</dd>
+<dt>Authors:</dt>
+<dd>Mario Scrocca (Cefriel)</dd><dd>Peter Lubrich (BASt)</dd>
+
+<dt>Publisher:</dt>
+<dd>NAPCORE SubWG4.4</dd>
+<dt>Download serialization:</dt><dd><span><a href="data-content-category.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="data-content-category.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="data-content-category.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="data-content-category.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>Mario Scrocca (Cefriel), Peter Lubrich (BASt). Data Content Category. Revision: 0.1.0. Retrieved from: https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+Controlled vocabulary for the classification of the content of a mobility dataset.</span>
+</div>
+<div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Data Content Category: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:extra="https://w3id.org/extra#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#/accesibility-information-for-vehicles"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/accesibility-information-for-vehicles">Accesibility information for vehicles</a>
+   </li>
+   <li>
+      <a href="#/accidents-and-incidents"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/accidents-and-incidents">Accidents and incidents</a>
+   </li>
+   <li>
+      <a href="#/address-identifiers"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/address-identifiers">Address identifiers</a>
+   </li>
+   <li>
+      <a href="#/air-and-space-travel"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/air-and-space-travel">Air and space travel</a>
+   </li>
+   <li>
+      <a href="#/applicable-road-user-charges-and-payment-methods"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/applicable-road-user-charges-and-payment-methods">Applicable road user charges and payment methods</a>
+   </li>
+   <li>
+      <a href="#/availability-of-charging-points-for-electric-vehicles"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-charging-points-for-electric-vehicles">Availability of charging points for electric vehicles</a>
+   </li>
+   <li>
+      <a href="#/availability-of-delivery-areas"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-delivery-areas">Availability of delivery areas</a>
+   </li>
+   <li>
+      <a href="#/availability-of-filling-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-filling-stations">Availability of filling stations</a>
+   </li>
+   <li>
+      <a href="#/basic-commercial-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/basic-commercial-conditions">Basic commercial conditions</a>
+   </li>
+   <li>
+      <a href="#/basic-common-standard-fares"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/basic-common-standard-fares">Basic common standard fares</a>
+   </li>
+   <li>
+      <a href="#/bike-sharing-availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-availability">Bike sharing Availability</a>
+   </li>
+   <li>
+      <a href="#/bike-hiring-availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-hiring-availability">Bike-hiring Availability</a>
+   </li>
+   <li>
+      <a href="#/bike-hiring-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-hiring-stations">Bike-hiring Stations</a>
+   </li>
+   <li>
+      <a href="#/bike-parking-locations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-parking-locations">Bike-parking locations</a>
+   </li>
+   <li>
+      <a href="#/bike-sharing-locations-and-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-locations-and-stations">Bike-sharing Locations and stations</a>
+   </li>
+   <li>
+      <a href="#/bridge-access-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-access-conditions">Bridge access conditions</a>
+   </li>
+   <li>
+      <a href="#/bridge-closures-and-access-conditions-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-">Bridge closures and access conditions</a>
+   </li>
+   <li>
+      <a href="#/car-parking-availability-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability-">Car parking availability</a>
+   </li>
+   <li>
+      <a href="#/car-parking-locations-and-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions">Car parking locations and conditions</a>
+   </li>
+   <li>
+      <a href="#/car-hiring-availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/car-hiring-availability">Car-hiring Availability</a>
+   </li>
+   <li>
+      <a href="#/car-sharing-availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-availability">Car-sharing Availability</a>
+   </li>
+   <li>
+      <a href="#/car-sharing-locations-and-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-locations-and-stations">Car-sharing Locations and stations</a>
+   </li>
+   <li>
+      <a href="#/car-sharing-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-stations">Car-sharing Stations</a>
+   </li>
+   <li>
+      <a href="#/common-fare-products"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/common-fare-products">Common fare products</a>
+   </li>
+   <li>
+      <a href="#/connection-links"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/connection-links">Connection links</a>
+   </li>
+   <li>
+      <a href="#/current-travel-times"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/current-travel-times">Current travel times</a>
+   </li>
+   <li>
+      <a href="#/cycle-network-data"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/cycle-network-data">Cycle network data</a>
+   </li>
+   <li>
+      <a href="#"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category">
+         <span>data content category</span>
+      </a>
+   </li>
+   <li>
+      <a href="#/data-content-category"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category">Data content category</a>
+   </li>
+   <li>
+      <a href="#/data-content-sub-category"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category">Data content sub-category</a>
+   </li>
+   <li>
+      <a href="#/direction-of-travel-on-reversible-lanes"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes">Direction of travel on reversible lanes</a>
+   </li>
+   <li>
+      <a href="#/disruptions-delays-cancellations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/disruptions-delays-cancellations">Disruptions, delays, cancellations</a>
+   </li>
+   <li>
+      <a href="#/dynamic-overtaking-bans-on-heavy-goods-vehicles"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles">Dynamic overtaking bans on heavy goods vehicles</a>
+   </li>
+   <li>
+      <a href="#/dynamic-speed-limits"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits">Dynamic speed limits</a>
+   </li>
+   <li>
+      <a href="#/dynamic-traffic-signs-and-regulations-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-">Dynamic traffic signs and regulations</a>
+   </li>
+   <li>
+      <a href="#/e-scooter-sharing-availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability">E-scooter-sharing Availability</a>
+   </li>
+   <li>
+      <a href="#/e-scooter-sharing-locations-and-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-locations-and-stations">E-scooter-sharing Locations and stations</a>
+   </li>
+   <li>
+      <a href="#/environmental-standards-for-vehicles"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/environmental-standards-for-vehicles">Environmental standards for vehicles</a>
+   </li>
+   <li>
+      <a href="#/expected-delays"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/expected-delays">Expected delays</a>
+   </li>
+   <li>
+      <a href="#/fares"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/fares">Fares</a>
+   </li>
+   <li>
+      <a href="#/filling-and-charging-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/filling-and-charging-stations">Filling and charging stations</a>
+   </li>
+   <li>
+      <a href="#/freight-and-logistics"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics">Freight and logistics</a>
+   </li>
+   <li>
+      <a href="#/freight-delivery-regulations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/freight-delivery-regulations">Freight delivery regulations</a>
+   </li>
+   <li>
+      <a href="#/general-information-for-trip-planning-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/general-information-for-trip-planning-">General information for trip-planning</a>
+   </li>
+   <li>
+      <a href="#/geometry"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/geometry">Geometry</a>
+   </li>
+   <li>
+      <a href="#/gradients"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/gradients">Gradients</a>
+   </li>
+   <li>
+      <a href="#/hours-of-operation"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/hours-of-operation">Hours of operation</a>
+   </li>
+   <li>
+      <a href="#/identification-of-tolled-roads"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/identification-of-tolled-roads">Identification of tolled roads</a>
+   </li>
+   <li>
+      <a href="#/junctions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/junctions">Junctions</a>
+   </li>
+   <li>
+      <a href="#/lane-closures-and-access-conditions-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions-">Lane closures and access conditions</a>
+   </li>
+   <li>
+      <a href="#/location-and-conditions-of-charging-points"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-charging-points">Location and conditions of charging points</a>
+   </li>
+   <li>
+      <a href="#/location-and-conditions-of-filling-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-filling-stations">Location and conditions of filling stations</a>
+   </li>
+   <li>
+      <a href="#/location-and-length-of-queues"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-length-of-queues">Location and length of queues</a>
+   </li>
+   <li>
+      <a href="#/location-of-delivery-areas"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/location-of-delivery-areas">Location of delivery areas</a>
+   </li>
+   <li>
+      <a href="#/location-of-tolling-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/location-of-tolling-stations">Location of tolling stations</a>
+   </li>
+   <li>
+      <a href="#/locations-and-stations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/locations-and-stations">Locations and stations</a>
+   </li>
+   <li>
+      <a href="#/long-term-road-works"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/long-term-road-works">Long-term road works</a>
+   </li>
+   <li>
+      <a href="#/network-closures-diversions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/network-closures-diversions">Network closures/diversions</a>
+   </li>
+   <li>
+      <a href="#/network-detailed-attributes"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/network-detailed-attributes">Network detailed attributes</a>
+   </li>
+   <li>
+      <a href="#/network-geometry-and-lane-character"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/network-geometry-and-lane-character">Network geometry and lane character</a>
+   </li>
+   <li>
+      <a href="#/network-topology-and-routes-lines"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/network-topology-and-routes-lines">Network topology and routes/lines</a>
+   </li>
+   <li>
+      <a href="#/number-of-lanes"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/number-of-lanes">Number of lanes</a>
+   </li>
+   <li>
+      <a href="#/operational-calendar"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/operational-calendar">Operational Calendar</a>
+   </li>
+   <li>
+      <a href="#/other"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/other">Other</a>
+   </li>
+   <li>
+      <a href="#/other-access-restrictions-and-traffic-regulations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations">Other access restrictions and traffic regulations</a>
+   </li>
+   <li>
+      <a href="#/other-static-traffic-signs"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/other-static-traffic-signs">Other static traffic signs</a>
+   </li>
+   <li>
+      <a href="#/other-temporary-traffic-management-measures-or-plans"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans">Other temporary traffic management measures or plans</a>
+   </li>
+   <li>
+      <a href="#/other-traffic-regulations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/other-traffic-regulations">Other traffic regulations</a>
+   </li>
+   <li>
+      <a href="#/parameters-needed-to-calculate-costs"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/parameters-needed-to-calculate-costs">Parameters needed to calculate costs</a>
+   </li>
+   <li>
+      <a href="#/parameters-needed-to-calculate-environmental-factors"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/parameters-needed-to-calculate-environmental-factors">Parameters needed to calculate environmental factors</a>
+   </li>
+   <li>
+      <a href="#/park-and-ride-stops"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/park-and-ride-stops">Park and Ride stops</a>
+   </li>
+   <li>
+      <a href="#/parking-service-and-rest-area-information"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/parking-service-and-rest-area-information">Parking, service and rest area information</a>
+   </li>
+   <li>
+      <a href="#/passenger-classes"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/passenger-classes">Passenger classes</a>
+   </li>
+   <li>
+      <a href="#/payment-methods"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods">Payment methods</a>
+   </li>
+   <li>
+      <a href="#/payment-methods-for-tolls"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods-for-tolls">Payment methods for tolls</a>
+   </li>
+   <li>
+      <a href="#/pedestrian-accessibility-facilities"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-accessibility-facilities">Pedestrian accessibility facilities</a>
+   </li>
+   <li>
+      <a href="#/pedestrian-network-data"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-data">Pedestrian network data</a>
+   </li>
+   <li>
+      <a href="#/pedestrian-network-geometry"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-geometry">Pedestrian network geometry</a>
+   </li>
+   <li>
+      <a href="#/permanent-access-restrictions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/permanent-access-restrictions">Permanent access restrictions</a>
+   </li>
+   <li>
+      <a href="#/planned-interchanges-between--scheduled-services"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between--scheduled-services">Planned interchanges between scheduled services</a>
+   </li>
+   <li>
+      <a href="#/points-of-interest"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/points-of-interest">Points of interest</a>
+   </li>
+   <li>
+      <a href="#/poor-road-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/poor-road-conditions">Poor road conditions</a>
+   </li>
+   <li>
+      <a href="#/predicted-travel-times"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/predicted-travel-times">Predicted travel times</a>
+   </li>
+   <li>
+      <a href="#/provider-data"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/provider-data">Provider data</a>
+   </li>
+   <li>
+      <a href="#/public-transport-non-scheduled-transport"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-non-scheduled-transport">Public transport non-scheduled transport</a>
+   </li>
+   <li>
+      <a href="#/public-transport-scheduled-transport"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-scheduled-transport">Public transport scheduled transport</a>
+   </li>
+   <li>
+      <a href="#/purchase-information"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/purchase-information">Purchase information</a>
+   </li>
+   <li>
+      <a href="#/real-time-estimated-departure-and-arrival-times"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/real-time-estimated-departure-and-arrival-times">Real-time estimated departure and arrival times</a>
+   </li>
+   <li>
+      <a href="#/real-time-traffic-data"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/real-time-traffic-data">Real-time traffic data</a>
+   </li>
+   <li>
+      <a href="#/reservation-and-purchase-options"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/reservation-and-purchase-options">Reservation and purchase options</a>
+   </li>
+   <li>
+      <a href="#/road-classification"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/road-classification">Road classification</a>
+   </li>
+   <li>
+      <a href="#/road-closures-and-access-conditions-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-">Road closures and access conditions</a>
+   </li>
+   <li>
+      <a href="#/road-events-and-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/road-events-and-conditions">Road events and conditions</a>
+   </li>
+   <li>
+      <a href="#/road-weather-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/road-weather-conditions">Road weather conditions</a>
+   </li>
+   <li>
+      <a href="#/road-width"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/road-width">Road width</a>
+   </li>
+   <li>
+      <a href="#/road-work-information"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/road-work-information">Road work information</a>
+   </li>
+   <li>
+      <a href="#/service-and-rest-area--availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area--availability">Service and rest area availability</a>
+   </li>
+   <li>
+      <a href="#/service-and-rest-area-locations-and-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-locations-and-conditions">Service and rest area locations and conditions</a>
+   </li>
+   <li>
+      <a href="#/service-areas-and-service-times"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/service-areas-and-service-times">Service areas and service times</a>
+   </li>
+   <li>
+      <a href="#/sharing-and-hiring-services"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/sharing-and-hiring-services">Sharing and Hiring Services</a>
+   </li>
+   <li>
+      <a href="#/short-term-road-works"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/short-term-road-works">Short-term road works</a>
+   </li>
+   <li>
+      <a href="#/special-fare-products"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/special-fare-products">Special Fare Products</a>
+   </li>
+   <li>
+      <a href="#/speed"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/speed">Speed</a>
+   </li>
+   <li>
+      <a href="#/speed-limits"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/speed-limits">Speed limits</a>
+   </li>
+   <li>
+      <a href="#/static-road-network-data"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/static-road-network-data">Static road network data</a>
+   </li>
+   <li>
+      <a href="#/static-traffic-signs-and-regulations"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/static-traffic-signs-and-regulations">Static traffic signs and regulations</a>
+   </li>
+   <li>
+      <a href="#/stop-facilities-accessibility-and-paths-within-facility"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-accessibility-and-paths-within-facility">Stop facilities accessibility and paths within facility</a>
+   </li>
+   <li>
+      <a href="#/stop-facilities-geometry-and-map-layout"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-geometry-and-map-layout">Stop facilities geometry and map layout</a>
+   </li>
+   <li>
+      <a href="#/stop-facilities-location-and-features"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-location-and-features">Stop facilities location and features</a>
+   </li>
+   <li>
+      <a href="#/stop-facilities-status-of-features"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-status-of-features">Stop facilities status of features</a>
+   </li>
+   <li>
+      <a href="#/timetables-static"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/timetables-static">Timetables static</a>
+   </li>
+   <li>
+      <a href="#/toll-information"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/toll-information">Toll information</a>
+   </li>
+   <li>
+      <a href="#/topographic-places"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/topographic-places">Topographic places</a>
+   </li>
+   <li>
+      <a href="#/traffic-circulation-plans"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/traffic-circulation-plans">Traffic circulation plans</a>
+   </li>
+   <li>
+      <a href="#/traffic-data-at-border-crossings-to-third-countries"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/traffic-data-at-border-crossings-to-third-countries">Traffic data at border crossings to third countries</a>
+   </li>
+   <li>
+      <a href="#/traffic-volume"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/traffic-volume">Traffic volume</a>
+   </li>
+   <li>
+      <a href="#/transport-operators"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/transport-operators">Transport operators</a>
+   </li>
+   <li>
+      <a href="#/truck-parking-availability"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-availability">Truck parking availability</a>
+   </li>
+   <li>
+      <a href="#/truck-parking-locations-and-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-locations-and-conditions">Truck parking locations and conditions</a>
+   </li>
+   <li>
+      <a href="#/tunnel-access-conditions"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-access-conditions">Tunnel access conditions</a>
+   </li>
+   <li>
+      <a href="#/tunnel-closures-and-access-conditions-"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions-">Tunnel closures and access conditions</a>
+   </li>
+   <li>
+      <a href="#/vehicle-details"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/vehicle-details">Vehicle details</a>
+   </li>
+   <li>
+      <a href="#/waiting-time-at-border-crossings-to-non-eu-member-states"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/waiting-time-at-border-crossings-to-non-eu-member-states">Waiting time at border crossings to non-EU Member States</a>
+   </li>
+   <li>
+      <a href="#/waterways-and-water-bodies"
+         title="https://w3id.org/mobilitydcat-ap/data-content-category/waterways-and-water-bodies">Waterways and water bodies</a>
+   </li>
+</ul>
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Data Content Category classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Data Content Category.
+<div xmlns:extra="https://w3id.org/extra#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/accesibility-information-for-vehicles"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/accesibility-information-for-vehicles">Accesibility information for vehicles</a>
+      </li>
+      <li>
+         <a href="#/accidents-and-incidents"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/accidents-and-incidents">Accidents and incidents</a>
+      </li>
+      <li>
+         <a href="#/address-identifiers"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/address-identifiers">Address identifiers</a>
+      </li>
+      <li>
+         <a href="#/air-and-space-travel"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/air-and-space-travel">Air and space travel</a>
+      </li>
+      <li>
+         <a href="#/applicable-road-user-charges-and-payment-methods"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/applicable-road-user-charges-and-payment-methods">Applicable road user charges and payment methods</a>
+      </li>
+      <li>
+         <a href="#/availability-of-charging-points-for-electric-vehicles"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-charging-points-for-electric-vehicles">Availability of charging points for electric vehicles</a>
+      </li>
+      <li>
+         <a href="#/availability-of-delivery-areas"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-delivery-areas">Availability of delivery areas</a>
+      </li>
+      <li>
+         <a href="#/availability-of-filling-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-filling-stations">Availability of filling stations</a>
+      </li>
+      <li>
+         <a href="#/basic-commercial-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/basic-commercial-conditions">Basic commercial conditions</a>
+      </li>
+      <li>
+         <a href="#/basic-common-standard-fares"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/basic-common-standard-fares">Basic common standard fares</a>
+      </li>
+      <li>
+         <a href="#/bike-sharing-availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-availability">Bike sharing Availability</a>
+      </li>
+      <li>
+         <a href="#/bike-hiring-availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-hiring-availability">Bike-hiring Availability</a>
+      </li>
+      <li>
+         <a href="#/bike-hiring-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-hiring-stations">Bike-hiring Stations</a>
+      </li>
+      <li>
+         <a href="#/bike-parking-locations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-parking-locations">Bike-parking locations</a>
+      </li>
+      <li>
+         <a href="#/bike-sharing-locations-and-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-locations-and-stations">Bike-sharing Locations and stations</a>
+      </li>
+      <li>
+         <a href="#/bridge-access-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-access-conditions">Bridge access conditions</a>
+      </li>
+      <li>
+         <a href="#/bridge-closures-and-access-conditions-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-">Bridge closures and access conditions</a>
+      </li>
+      <li>
+         <a href="#/car-parking-availability-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability-">Car parking availability</a>
+      </li>
+      <li>
+         <a href="#/car-parking-locations-and-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions">Car parking locations and conditions</a>
+      </li>
+      <li>
+         <a href="#/car-hiring-availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/car-hiring-availability">Car-hiring Availability</a>
+      </li>
+      <li>
+         <a href="#/car-sharing-availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-availability">Car-sharing Availability</a>
+      </li>
+      <li>
+         <a href="#/car-sharing-locations-and-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-locations-and-stations">Car-sharing Locations and stations</a>
+      </li>
+      <li>
+         <a href="#/car-sharing-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-stations">Car-sharing Stations</a>
+      </li>
+      <li>
+         <a href="#/common-fare-products"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/common-fare-products">Common fare products</a>
+      </li>
+      <li>
+         <a href="#/connection-links"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/connection-links">Connection links</a>
+      </li>
+      <li>
+         <a href="#/current-travel-times"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/current-travel-times">Current travel times</a>
+      </li>
+      <li>
+         <a href="#/cycle-network-data"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/cycle-network-data">Cycle network data</a>
+      </li>
+      <li>
+         <a href="#"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category">
+            <span>data content category</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/data-content-category"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category">Data content category</a>
+      </li>
+      <li>
+         <a href="#/data-content-sub-category"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category">Data content sub-category</a>
+      </li>
+      <li>
+         <a href="#/direction-of-travel-on-reversible-lanes"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes">Direction of travel on reversible lanes</a>
+      </li>
+      <li>
+         <a href="#/disruptions-delays-cancellations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/disruptions-delays-cancellations">Disruptions, delays, cancellations</a>
+      </li>
+      <li>
+         <a href="#/dynamic-overtaking-bans-on-heavy-goods-vehicles"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles">Dynamic overtaking bans on heavy goods vehicles</a>
+      </li>
+      <li>
+         <a href="#/dynamic-speed-limits"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits">Dynamic speed limits</a>
+      </li>
+      <li>
+         <a href="#/dynamic-traffic-signs-and-regulations-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-">Dynamic traffic signs and regulations</a>
+      </li>
+      <li>
+         <a href="#/e-scooter-sharing-availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability">E-scooter-sharing Availability</a>
+      </li>
+      <li>
+         <a href="#/e-scooter-sharing-locations-and-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-locations-and-stations">E-scooter-sharing Locations and stations</a>
+      </li>
+      <li>
+         <a href="#/environmental-standards-for-vehicles"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/environmental-standards-for-vehicles">Environmental standards for vehicles</a>
+      </li>
+      <li>
+         <a href="#/expected-delays"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/expected-delays">Expected delays</a>
+      </li>
+      <li>
+         <a href="#/fares"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/fares">Fares</a>
+      </li>
+      <li>
+         <a href="#/filling-and-charging-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/filling-and-charging-stations">Filling and charging stations</a>
+      </li>
+      <li>
+         <a href="#/freight-and-logistics"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics">Freight and logistics</a>
+      </li>
+      <li>
+         <a href="#/freight-delivery-regulations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/freight-delivery-regulations">Freight delivery regulations</a>
+      </li>
+      <li>
+         <a href="#/general-information-for-trip-planning-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/general-information-for-trip-planning-">General information for trip-planning</a>
+      </li>
+      <li>
+         <a href="#/geometry"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/geometry">Geometry</a>
+      </li>
+      <li>
+         <a href="#/gradients"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/gradients">Gradients</a>
+      </li>
+      <li>
+         <a href="#/hours-of-operation"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/hours-of-operation">Hours of operation</a>
+      </li>
+      <li>
+         <a href="#/identification-of-tolled-roads"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/identification-of-tolled-roads">Identification of tolled roads</a>
+      </li>
+      <li>
+         <a href="#/junctions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/junctions">Junctions</a>
+      </li>
+      <li>
+         <a href="#/lane-closures-and-access-conditions-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions-">Lane closures and access conditions</a>
+      </li>
+      <li>
+         <a href="#/location-and-conditions-of-charging-points"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-charging-points">Location and conditions of charging points</a>
+      </li>
+      <li>
+         <a href="#/location-and-conditions-of-filling-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-filling-stations">Location and conditions of filling stations</a>
+      </li>
+      <li>
+         <a href="#/location-and-length-of-queues"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-length-of-queues">Location and length of queues</a>
+      </li>
+      <li>
+         <a href="#/location-of-delivery-areas"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/location-of-delivery-areas">Location of delivery areas</a>
+      </li>
+      <li>
+         <a href="#/location-of-tolling-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/location-of-tolling-stations">Location of tolling stations</a>
+      </li>
+      <li>
+         <a href="#/locations-and-stations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/locations-and-stations">Locations and stations</a>
+      </li>
+      <li>
+         <a href="#/long-term-road-works"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/long-term-road-works">Long-term road works</a>
+      </li>
+      <li>
+         <a href="#/network-closures-diversions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/network-closures-diversions">Network closures/diversions</a>
+      </li>
+      <li>
+         <a href="#/network-detailed-attributes"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/network-detailed-attributes">Network detailed attributes</a>
+      </li>
+      <li>
+         <a href="#/network-geometry-and-lane-character"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/network-geometry-and-lane-character">Network geometry and lane character</a>
+      </li>
+      <li>
+         <a href="#/network-topology-and-routes-lines"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/network-topology-and-routes-lines">Network topology and routes/lines</a>
+      </li>
+      <li>
+         <a href="#/number-of-lanes"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/number-of-lanes">Number of lanes</a>
+      </li>
+      <li>
+         <a href="#/operational-calendar"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/operational-calendar">Operational Calendar</a>
+      </li>
+      <li>
+         <a href="#/other"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/other">Other</a>
+      </li>
+      <li>
+         <a href="#/other-access-restrictions-and-traffic-regulations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations">Other access restrictions and traffic regulations</a>
+      </li>
+      <li>
+         <a href="#/other-static-traffic-signs"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/other-static-traffic-signs">Other static traffic signs</a>
+      </li>
+      <li>
+         <a href="#/other-temporary-traffic-management-measures-or-plans"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans">Other temporary traffic management measures or plans</a>
+      </li>
+      <li>
+         <a href="#/other-traffic-regulations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/other-traffic-regulations">Other traffic regulations</a>
+      </li>
+      <li>
+         <a href="#/parameters-needed-to-calculate-costs"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/parameters-needed-to-calculate-costs">Parameters needed to calculate costs</a>
+      </li>
+      <li>
+         <a href="#/parameters-needed-to-calculate-environmental-factors"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/parameters-needed-to-calculate-environmental-factors">Parameters needed to calculate environmental factors</a>
+      </li>
+      <li>
+         <a href="#/park-and-ride-stops"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/park-and-ride-stops">Park and Ride stops</a>
+      </li>
+      <li>
+         <a href="#/parking-service-and-rest-area-information"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/parking-service-and-rest-area-information">Parking, service and rest area information</a>
+      </li>
+      <li>
+         <a href="#/passenger-classes"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/passenger-classes">Passenger classes</a>
+      </li>
+      <li>
+         <a href="#/payment-methods"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods">Payment methods</a>
+      </li>
+      <li>
+         <a href="#/payment-methods-for-tolls"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods-for-tolls">Payment methods for tolls</a>
+      </li>
+      <li>
+         <a href="#/pedestrian-accessibility-facilities"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-accessibility-facilities">Pedestrian accessibility facilities</a>
+      </li>
+      <li>
+         <a href="#/pedestrian-network-data"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-data">Pedestrian network data</a>
+      </li>
+      <li>
+         <a href="#/pedestrian-network-geometry"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-geometry">Pedestrian network geometry</a>
+      </li>
+      <li>
+         <a href="#/permanent-access-restrictions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/permanent-access-restrictions">Permanent access restrictions</a>
+      </li>
+      <li>
+         <a href="#/planned-interchanges-between--scheduled-services"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between--scheduled-services">Planned interchanges between scheduled services</a>
+      </li>
+      <li>
+         <a href="#/points-of-interest"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/points-of-interest">Points of interest</a>
+      </li>
+      <li>
+         <a href="#/poor-road-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/poor-road-conditions">Poor road conditions</a>
+      </li>
+      <li>
+         <a href="#/predicted-travel-times"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/predicted-travel-times">Predicted travel times</a>
+      </li>
+      <li>
+         <a href="#/provider-data"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/provider-data">Provider data</a>
+      </li>
+      <li>
+         <a href="#/public-transport-non-scheduled-transport"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-non-scheduled-transport">Public transport non-scheduled transport</a>
+      </li>
+      <li>
+         <a href="#/public-transport-scheduled-transport"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-scheduled-transport">Public transport scheduled transport</a>
+      </li>
+      <li>
+         <a href="#/purchase-information"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/purchase-information">Purchase information</a>
+      </li>
+      <li>
+         <a href="#/real-time-estimated-departure-and-arrival-times"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/real-time-estimated-departure-and-arrival-times">Real-time estimated departure and arrival times</a>
+      </li>
+      <li>
+         <a href="#/real-time-traffic-data"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/real-time-traffic-data">Real-time traffic data</a>
+      </li>
+      <li>
+         <a href="#/reservation-and-purchase-options"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/reservation-and-purchase-options">Reservation and purchase options</a>
+      </li>
+      <li>
+         <a href="#/road-classification"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/road-classification">Road classification</a>
+      </li>
+      <li>
+         <a href="#/road-closures-and-access-conditions-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-">Road closures and access conditions</a>
+      </li>
+      <li>
+         <a href="#/road-events-and-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/road-events-and-conditions">Road events and conditions</a>
+      </li>
+      <li>
+         <a href="#/road-weather-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/road-weather-conditions">Road weather conditions</a>
+      </li>
+      <li>
+         <a href="#/road-width"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/road-width">Road width</a>
+      </li>
+      <li>
+         <a href="#/road-work-information"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/road-work-information">Road work information</a>
+      </li>
+      <li>
+         <a href="#/service-and-rest-area--availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area--availability">Service and rest area availability</a>
+      </li>
+      <li>
+         <a href="#/service-and-rest-area-locations-and-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-locations-and-conditions">Service and rest area locations and conditions</a>
+      </li>
+      <li>
+         <a href="#/service-areas-and-service-times"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/service-areas-and-service-times">Service areas and service times</a>
+      </li>
+      <li>
+         <a href="#/sharing-and-hiring-services"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/sharing-and-hiring-services">Sharing and Hiring Services</a>
+      </li>
+      <li>
+         <a href="#/short-term-road-works"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/short-term-road-works">Short-term road works</a>
+      </li>
+      <li>
+         <a href="#/special-fare-products"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/special-fare-products">Special Fare Products</a>
+      </li>
+      <li>
+         <a href="#/speed"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/speed">Speed</a>
+      </li>
+      <li>
+         <a href="#/speed-limits"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/speed-limits">Speed limits</a>
+      </li>
+      <li>
+         <a href="#/static-road-network-data"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/static-road-network-data">Static road network data</a>
+      </li>
+      <li>
+         <a href="#/static-traffic-signs-and-regulations"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/static-traffic-signs-and-regulations">Static traffic signs and regulations</a>
+      </li>
+      <li>
+         <a href="#/stop-facilities-accessibility-and-paths-within-facility"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-accessibility-and-paths-within-facility">Stop facilities accessibility and paths within facility</a>
+      </li>
+      <li>
+         <a href="#/stop-facilities-geometry-and-map-layout"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-geometry-and-map-layout">Stop facilities geometry and map layout</a>
+      </li>
+      <li>
+         <a href="#/stop-facilities-location-and-features"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-location-and-features">Stop facilities location and features</a>
+      </li>
+      <li>
+         <a href="#/stop-facilities-status-of-features"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-status-of-features">Stop facilities status of features</a>
+      </li>
+      <li>
+         <a href="#/timetables-static"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/timetables-static">Timetables static</a>
+      </li>
+      <li>
+         <a href="#/toll-information"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/toll-information">Toll information</a>
+      </li>
+      <li>
+         <a href="#/topographic-places"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/topographic-places">Topographic places</a>
+      </li>
+      <li>
+         <a href="#/traffic-circulation-plans"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/traffic-circulation-plans">Traffic circulation plans</a>
+      </li>
+      <li>
+         <a href="#/traffic-data-at-border-crossings-to-third-countries"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/traffic-data-at-border-crossings-to-third-countries">Traffic data at border crossings to third countries</a>
+      </li>
+      <li>
+         <a href="#/traffic-volume"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/traffic-volume">Traffic volume</a>
+      </li>
+      <li>
+         <a href="#/transport-operators"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/transport-operators">Transport operators</a>
+      </li>
+      <li>
+         <a href="#/truck-parking-availability"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-availability">Truck parking availability</a>
+      </li>
+      <li>
+         <a href="#/truck-parking-locations-and-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-locations-and-conditions">Truck parking locations and conditions</a>
+      </li>
+      <li>
+         <a href="#/tunnel-access-conditions"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-access-conditions">Tunnel access conditions</a>
+      </li>
+      <li>
+         <a href="#/tunnel-closures-and-access-conditions-"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions-">Tunnel closures and access conditions</a>
+      </li>
+      <li>
+         <a href="#/vehicle-details"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/vehicle-details">Vehicle details</a>
+      </li>
+      <li>
+         <a href="#/waiting-time-at-border-crossings-to-non-eu-member-states"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/waiting-time-at-border-crossings-to-non-eu-member-states">Waiting time at border crossings to non-EU Member States</a>
+      </li>
+      <li>
+         <a href="#/waterways-and-water-bodies"
+            title="https://w3id.org/mobilitydcat-ap/data-content-category/waterways-and-water-bodies">Waterways and water bodies</a>
+      </li>
+   </ul>
+   <div class="entity" id="/accesibility-information-for-vehicles">
+      <h3>Accesibility information for vehicles<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/accesibility-information-for-vehicles</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/accidents-and-incidents">
+      <h3>Accidents and incidents<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/accidents-and-incidents</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/address-identifiers">
+      <h3>Address identifiers<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/address-identifiers</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/air-and-space-travel">
+      <h3>Air and space travel<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/air-and-space-travel</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/applicable-road-user-charges-and-payment-methods">
+      <h3>Applicable road user charges and payment methods<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/applicable-road-user-charges-and-payment-methods</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/availability-of-charging-points-for-electric-vehicles">
+      <h3>Availability of charging points for electric vehicles<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-charging-points-for-electric-vehicles</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/availability-of-delivery-areas">
+      <h3>Availability of delivery areas<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-delivery-areas</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/availability-of-filling-stations">
+      <h3>Availability of filling stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-filling-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/basic-commercial-conditions">
+      <h3>Basic commercial conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/basic-commercial-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/basic-common-standard-fares">
+      <h3>Basic common standard fares<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/basic-common-standard-fares</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bike-sharing-availability">
+      <h3>Bike sharing Availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bike-hiring-availability">
+      <h3>Bike-hiring Availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bike-hiring-availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bike-hiring-stations">
+      <h3>Bike-hiring Stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bike-hiring-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bike-parking-locations">
+      <h3>Bike-parking locations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bike-parking-locations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bike-sharing-locations-and-stations">
+      <h3>Bike-sharing Locations and stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-locations-and-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bridge-access-conditions">
+      <h3>Bridge access conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bridge-access-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/bridge-closures-and-access-conditions-">
+      <h3>Bridge closures and access conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/car-parking-availability-">
+      <h3>Car parking availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/car-parking-locations-and-conditions">
+      <h3>Car parking locations and conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/car-hiring-availability">
+      <h3>Car-hiring Availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/car-hiring-availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/car-sharing-availability">
+      <h3>Car-sharing Availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/car-sharing-locations-and-stations">
+      <h3>Car-sharing Locations and stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-locations-and-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/car-sharing-stations">
+      <h3>Car-sharing Stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/common-fare-products">
+      <h3>Common fare products<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/common-fare-products</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/connection-links">
+      <h3>Connection links<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/connection-links</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/current-travel-times">
+      <h3>Current travel times<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/current-travel-times</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/cycle-network-data">
+      <h3>Cycle network data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/cycle-network-data</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="">
+      <h3>data content category<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">concept scheme</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/data-content-category">
+      <h3>Data content category<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/data-content-sub-category">
+      <h3>Data content sub-category<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/direction-of-travel-on-reversible-lanes">
+      <h3>Direction of travel on reversible lanes<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/disruptions-delays-cancellations">
+      <h3>Disruptions, delays, cancellations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/disruptions-delays-cancellations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/dynamic-overtaking-bans-on-heavy-goods-vehicles">
+      <h3>Dynamic overtaking bans on heavy goods vehicles<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/dynamic-speed-limits">
+      <h3>Dynamic speed limits<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/dynamic-traffic-signs-and-regulations-">
+      <h3>Dynamic traffic signs and regulations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/e-scooter-sharing-availability">
+      <h3>E-scooter-sharing Availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/e-scooter-sharing-locations-and-stations">
+      <h3>E-scooter-sharing Locations and stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-locations-and-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/environmental-standards-for-vehicles">
+      <h3>Environmental standards for vehicles<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/environmental-standards-for-vehicles</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/expected-delays">
+      <h3>Expected delays<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/expected-delays</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/fares">
+      <h3>Fares<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/fares</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/filling-and-charging-stations">
+      <h3>Filling and charging stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/filling-and-charging-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/freight-and-logistics">
+      <h3>Freight and logistics<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/freight-delivery-regulations">
+      <h3>Freight delivery regulations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/freight-delivery-regulations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/general-information-for-trip-planning-">
+      <h3>General information for trip-planning<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/general-information-for-trip-planning-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/geometry">
+      <h3>Geometry<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/geometry</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/gradients">
+      <h3>Gradients<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/gradients</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/hours-of-operation">
+      <h3>Hours of operation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/hours-of-operation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/identification-of-tolled-roads">
+      <h3>Identification of tolled roads<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/identification-of-tolled-roads</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/junctions">
+      <h3>Junctions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/junctions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/lane-closures-and-access-conditions-">
+      <h3>Lane closures and access conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/location-and-conditions-of-charging-points">
+      <h3>Location and conditions of charging points<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-charging-points</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/location-and-conditions-of-filling-stations">
+      <h3>Location and conditions of filling stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-filling-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/location-and-length-of-queues">
+      <h3>Location and length of queues<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/location-and-length-of-queues</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/location-of-delivery-areas">
+      <h3>Location of delivery areas<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/location-of-delivery-areas</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/location-of-tolling-stations">
+      <h3>Location of tolling stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/location-of-tolling-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/locations-and-stations">
+      <h3>Locations and stations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/locations-and-stations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/long-term-road-works">
+      <h3>Long-term road works<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/long-term-road-works</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/network-closures-diversions">
+      <h3>Network closures/diversions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/network-closures-diversions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/network-detailed-attributes">
+      <h3>Network detailed attributes<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/network-detailed-attributes</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/network-geometry-and-lane-character">
+      <h3>Network geometry and lane character<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/network-geometry-and-lane-character</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/network-topology-and-routes-lines">
+      <h3>Network topology and routes/lines<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/network-topology-and-routes-lines</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/number-of-lanes">
+      <h3>Number of lanes<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/number-of-lanes</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/operational-calendar">
+      <h3>Operational Calendar<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/operational-calendar</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/other">
+      <h3>Other<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/other</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/other-access-restrictions-and-traffic-regulations">
+      <h3>Other access restrictions and traffic regulations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/other-static-traffic-signs">
+      <h3>Other static traffic signs<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/other-static-traffic-signs</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/other-temporary-traffic-management-measures-or-plans">
+      <h3>Other temporary traffic management measures or plans<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/other-traffic-regulations">
+      <h3>Other traffic regulations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/other-traffic-regulations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/parameters-needed-to-calculate-costs">
+      <h3>Parameters needed to calculate costs<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/parameters-needed-to-calculate-costs</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/parameters-needed-to-calculate-environmental-factors">
+      <h3>Parameters needed to calculate environmental factors<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/parameters-needed-to-calculate-environmental-factors</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/park-and-ride-stops">
+      <h3>Park and Ride stops<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/park-and-ride-stops</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/parking-service-and-rest-area-information">
+      <h3>Parking, service and rest area information<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/parking-service-and-rest-area-information</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/passenger-classes">
+      <h3>Passenger classes<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/passenger-classes</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/payment-methods">
+      <h3>Payment methods<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/payment-methods-for-tolls">
+      <h3>Payment methods for tolls<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods-for-tolls</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/pedestrian-accessibility-facilities">
+      <h3>Pedestrian accessibility facilities<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-accessibility-facilities</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/pedestrian-network-data">
+      <h3>Pedestrian network data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-data</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/pedestrian-network-geometry">
+      <h3>Pedestrian network geometry<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-geometry</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/permanent-access-restrictions">
+      <h3>Permanent access restrictions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/permanent-access-restrictions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/planned-interchanges-between--scheduled-services">
+      <h3>Planned interchanges between scheduled services<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between--scheduled-services</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/points-of-interest">
+      <h3>Points of interest<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/points-of-interest</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/poor-road-conditions">
+      <h3>Poor road conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/poor-road-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/predicted-travel-times">
+      <h3>Predicted travel times<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/predicted-travel-times</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/provider-data">
+      <h3>Provider data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/provider-data</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/public-transport-non-scheduled-transport">
+      <h3>Public transport non-scheduled transport<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-non-scheduled-transport</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/public-transport-scheduled-transport">
+      <h3>Public transport scheduled transport<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-scheduled-transport</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/purchase-information">
+      <h3>Purchase information<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/purchase-information</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/real-time-estimated-departure-and-arrival-times">
+      <h3>Real-time estimated departure and arrival times<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/real-time-estimated-departure-and-arrival-times</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/real-time-traffic-data">
+      <h3>Real-time traffic data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/real-time-traffic-data</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/reservation-and-purchase-options">
+      <h3>Reservation and purchase options<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/reservation-and-purchase-options</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/road-classification">
+      <h3>Road classification<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/road-classification</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/road-closures-and-access-conditions-">
+      <h3>Road closures and access conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/road-events-and-conditions">
+      <h3>Road events and conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/road-events-and-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/road-weather-conditions">
+      <h3>Road weather conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/road-weather-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/road-width">
+      <h3>Road width<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/road-width</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/road-work-information">
+      <h3>Road work information<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/road-work-information</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/service-and-rest-area--availability">
+      <h3>Service and rest area availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area--availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/service-and-rest-area-locations-and-conditions">
+      <h3>Service and rest area locations and conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-locations-and-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/service-areas-and-service-times">
+      <h3>Service areas and service times<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/service-areas-and-service-times</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/sharing-and-hiring-services">
+      <h3>Sharing and Hiring Services<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/sharing-and-hiring-services</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/short-term-road-works">
+      <h3>Short-term road works<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/short-term-road-works</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/special-fare-products">
+      <h3>Special Fare Products<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/special-fare-products</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/speed">
+      <h3>Speed<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/speed</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/speed-limits">
+      <h3>Speed limits<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/speed-limits</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/static-road-network-data">
+      <h3>Static road network data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/static-road-network-data</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/static-traffic-signs-and-regulations">
+      <h3>Static traffic signs and regulations<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/static-traffic-signs-and-regulations</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/stop-facilities-accessibility-and-paths-within-facility">
+      <h3>Stop facilities accessibility and paths within facility<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-accessibility-and-paths-within-facility</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/stop-facilities-geometry-and-map-layout">
+      <h3>Stop facilities geometry and map layout<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-geometry-and-map-layout</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/stop-facilities-location-and-features">
+      <h3>Stop facilities location and features<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-location-and-features</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/stop-facilities-status-of-features">
+      <h3>Stop facilities status of features<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/stop-facilities-status-of-features</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/timetables-static">
+      <h3>Timetables static<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/timetables-static</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/toll-information">
+      <h3>Toll information<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/toll-information</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/topographic-places">
+      <h3>Topographic places<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/topographic-places</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/traffic-circulation-plans">
+      <h3>Traffic circulation plans<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/traffic-circulation-plans</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/traffic-data-at-border-crossings-to-third-countries">
+      <h3>Traffic data at border crossings to third countries<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/traffic-data-at-border-crossings-to-third-countries</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/traffic-volume">
+      <h3>Traffic volume<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/traffic-volume</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/transport-operators">
+      <h3>Transport operators<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/transport-operators</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/truck-parking-availability">
+      <h3>Truck parking availability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-availability</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/truck-parking-locations-and-conditions">
+      <h3>Truck parking locations and conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-locations-and-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/tunnel-access-conditions">
+      <h3>Tunnel access conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-access-conditions</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/tunnel-closures-and-access-conditions-">
+      <h3>Tunnel closures and access conditions<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions-</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/vehicle-details">
+      <h3>Vehicle details<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/vehicle-details</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/waiting-time-at-border-crossings-to-non-eu-member-states">
+      <h3>Waiting time at border crossings to non-EU Member States<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/waiting-time-at-border-crossings-to-non-eu-member-states</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/waterways-and-water-bodies">
+      <h3>Waterways and water bodies<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/data-content-category/waterways-and-water-bodies</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

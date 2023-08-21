@@ -1,0 +1,130 @@
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/georeferencing-method/0.1.0> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://purl.org/dc/terms/description> "Controlled vocabulary for the georeferencing method of a resource."@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://purl.org/dc/terms/title> "Georeferencing Method"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/other> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> <http://www.w3.org/2004/02/skos/core#prefLabel> "ALERT-C"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geocoordinates"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/gml
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> <http://www.w3.org/2004/02/skos/core#prefLabel> "GML"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO 19148"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenLR"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/other
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> <http://www.w3.org/2004/02/skos/core#prefLabel> "TPEG-LOC"@en .
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

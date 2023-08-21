@@ -1,0 +1,53 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:description "Controlled vocabulary for the georeferencing method of a resource."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  dct:title "Georeferencing Method"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/georeferencing-method/0.1.0>;
+  owl:versionInfo "0.1.0"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c>,
+    <https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates>, <https://w3id.org/mobilitydcat-ap/georeferencing-method/gml>,
+    <https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148>, <https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr>,
+    <https://w3id.org/mobilitydcat-ap/georeferencing-method/other>, <https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/openlr> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "OpenLR"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/alert-c> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "ALERT-C"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/iso-19148> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "ISO 19148"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/tpeg-loc> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "TPEG-LOC"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/gml> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "GML"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/geocoordinates> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "Geocoordinates"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .
+
+<https://w3id.org/mobilitydcat-ap/georeferencing-method/other> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/georeferencing-method>;
+  skos:prefLabel "Other"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/georeferencing-method> .

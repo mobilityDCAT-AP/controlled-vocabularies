@@ -1,0 +1,112 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/mobilitydcat-ap/data-model> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:description "Controlled vocabulary for the data model of a distribution."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  dct:title "Data model"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/data-model/0.1.0>;
+  owl:versionInfo "0.1.0"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/data-model/c-its>, <https://w3id.org/mobilitydcat-ap/data-model/datex-II-light>,
+    <https://w3id.org/mobilitydcat-ap/data-model/datex-II-v2>, <https://w3id.org/mobilitydcat-ap/data-model/datex-II-v3>,
+    <https://w3id.org/mobilitydcat-ap/data-model/datex-II-v4>, <https://w3id.org/mobilitydcat-ap/data-model/dino>,
+    <https://w3id.org/mobilitydcat-ap/data-model/gbfs>, <https://w3id.org/mobilitydcat-ap/data-model/gml>,
+    <https://w3id.org/mobilitydcat-ap/data-model/gtfs>, <https://w3id.org/mobilitydcat-ap/data-model/gtfs-rt>,
+    <https://w3id.org/mobilitydcat-ap/data-model/inspire>, <https://w3id.org/mobilitydcat-ap/data-model/netex>,
+    <https://w3id.org/mobilitydcat-ap/data-model/ocit-c>, <https://w3id.org/mobilitydcat-ap/data-model/siri>,
+    <https://w3id.org/mobilitydcat-ap/data-model/tn-its>, <https://w3id.org/mobilitydcat-ap/data-model/tpegml> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/datex-II-v2> a skos:Concept;
+  skos:definition "DATEX II (CEN/TS 16157)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "DATEX II V2"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/datex-II-v3> a skos:Concept;
+  skos:definition "DATEX II (CEN/TS 16157)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "DATEX II V3"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/datex-II-v4> a skos:Concept;
+  skos:definition "DATEX II (CEN/TS 16157)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "DATEX II V4"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/datex-II-light> a skos:Concept;
+  skos:definition "DATEX II (CEN/TS 16157)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "DATEX II Light"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/ocit-c> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "OCIT-C"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/c-its> a skos:Concept;
+  skos:definition "CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "C-ITS"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/tn-its> a skos:Concept;
+  skos:definition "TN-ITS (CEN/TS 17268)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "TN-ITS"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/inspire> a skos:Concept;
+  skos:definition """D2.8.I.7 Data Specification on Transport Networks – Technical 
+Guidelines"""@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "INSPIRE"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/gml> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "GML"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/netex> a skos:Concept;
+  skos:definition "NeTEx (CEN/TS 16614)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "NeTEx"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/siri> a skos:Concept;
+  skos:definition "SIRI (CEN/TS 15531)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "SIRI"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/gtfs> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "GTFS"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/gtfs-rt> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "GTFS-RT"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/gbfs> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "GBFS"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/tpegml> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "tpegML"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .
+
+<https://w3id.org/mobilitydcat-ap/data-model/dino> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/data-model>;
+  skos:prefLabel "DINO"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/data-model> .

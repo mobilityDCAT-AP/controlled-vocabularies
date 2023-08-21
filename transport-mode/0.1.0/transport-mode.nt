@@ -1,0 +1,270 @@
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/transport-mode/0.1.0> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/description> "Controlled vocabulary for the transport modes covered by a dataset."@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/title> "Transport Mode"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/air> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/bus> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/maritime> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/other> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/truck> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/air
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/2004/02/skos/core#prefLabel> "Air"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/bicycle
+<https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bicycle"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bike Hire"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bike Sharing"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/bus
+<https://w3id.org/mobilitydcat-ap/transport-mode/bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bus> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bus> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bus"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bus> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/car
+<https://w3id.org/mobilitydcat-ap/transport-mode/car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/car-hire
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car Hire"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car Pooling"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car Sharing"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter
+<https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> <http://www.w3.org/2004/02/skos/core#prefLabel> "E-Scooter"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/e-scooter> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> <http://www.w3.org/2004/02/skos/core#prefLabel> "Long-distance coach"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-coach> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Long-distance rail"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/long-distance-rail> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/maritime
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> <http://www.w3.org/2004/02/skos/core#definition> "Maritime including ferry"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maritime"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/maritime> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metro, Subway train"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle
+<https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motorcycle"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/motorcycle> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/other
+<https://w3id.org/mobilitydcat-ap/transport-mode/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian
+<https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedestrian"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/pedestrian> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail
+<https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Regional and local rail"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/regional-and-local-rail> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ride Pooling"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shuttle bus"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-bus> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shuttle ferry"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/shuttle-ferry> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/taxi
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taxi"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tram, Light rail"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# https://w3id.org/mobilitydcat-ap/transport-mode/truck
+<https://w3id.org/mobilitydcat-ap/transport-mode/truck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/truck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/truck> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/truck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Truck"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/truck> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/transport-mode> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

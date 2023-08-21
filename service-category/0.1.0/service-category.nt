@@ -1,0 +1,146 @@
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/service-category/0.1.0> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://purl.org/dc/terms/description> "Controlled vocabulary for the service category of a dataset."@en .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://purl.org/dc/terms/title> "Service Category"@en .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0"@en .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/information-service> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/location-search> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/other> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/trip-plans> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mobilitydcat-ap/service-category
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamic availability check"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-availability-check> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamic Information service"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-information-service> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamic Passing times, trip plans and auxiliary information"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/dynamic-passing-times-trip-plans-and-auxiliary-information> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/information-service
+<https://w3id.org/mobilitydcat-ap/service-category/information-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/information-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/information-service> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/information-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information service"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/information-service> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/location-search
+<https://w3id.org/mobilitydcat-ap/service-category/location-search> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/location-search> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/location-search> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/location-search> <http://www.w3.org/2004/02/skos/core#prefLabel> "Location search"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/location-search> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/other
+<https://w3id.org/mobilitydcat-ap/service-category/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trip plan computation scheduled modes transport"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plan-computation-scheduled-modes-transport> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/trip-plans
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trip plans"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/service-category> .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trip plans, auxiliary information, availability check"@en .
+<https://w3id.org/mobilitydcat-ap/service-category/trip-plans-auxiliary-information-availability-check> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/service-category> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
