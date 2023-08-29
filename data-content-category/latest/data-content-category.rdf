@@ -9,17 +9,17 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category">
-        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.1"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the classification of the content of a mobility dataset.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Data Content Category</terms:title>
-        <owl:versionInfo xml:lang="en">0.1.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0"/>
+        <owl:versionInfo xml:lang="en">0.1.1</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability"/>
     </owl:Ontology>
     
 
@@ -393,10 +393,10 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability- -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability-">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/parking-service-and-rest-area-information"/>
@@ -566,7 +566,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-hiring-availability"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-locations-and-stations"/>
@@ -578,6 +578,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/disruptions-delays-cancellations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-locations-and-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/environmental-standards-for-vehicles"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/expected-delays"/>
@@ -615,7 +616,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-accessibility-facilities"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/pedestrian-network-geometry"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/permanent-access-restrictions"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between--scheduled-services"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between-scheduled-services"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/points-of-interest"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/poor-road-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/predicted-travel-times"/>
@@ -627,7 +628,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-weather-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-width"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area--availability"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-locations-and-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-areas-and-service-times"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/short-term-road-works"/>
@@ -734,9 +735,10 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/sharing-and-hiring-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">E-scooter-sharing Availability</skos:prefLabel>
-        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
     </owl:NamedIndividual>
     
 
@@ -1214,10 +1216,10 @@
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bike-parking-locations"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/park-and-ride-stops"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area--availability"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-locations-and-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-locations-and-conditions"/>
@@ -1318,10 +1320,10 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between&#45;&#45;scheduled-services -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between-scheduled-services -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between--scheduled-services">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between-scheduled-services">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/public-transport-scheduled-transport"/>
@@ -1419,7 +1421,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/network-topology-and-routes-lines"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/operational-calendar"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/passenger-classes"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between--scheduled-services"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/planned-interchanges-between-scheduled-services"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/purchase-information"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/real-time-estimated-departure-and-arrival-times"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/special-fare-products"/>
@@ -1575,10 +1577,10 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area&#45;&#45;availability -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-availability -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area--availability">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-availability">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/parking-service-and-rest-area-information"/>
@@ -1629,6 +1631,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-locations-and-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-sharing-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/e-scooter-sharing-locations-and-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/environmental-standards-for-vehicles"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/payment-methods"/>
