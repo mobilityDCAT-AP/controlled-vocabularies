@@ -1,5 +1,5 @@
 # controlled-vocabularies
-Controlled vocabularies defined by mobilityDCAT-AP. The expected usage of the vocabularies is indicated by the mobilityDCAT-AP specification (https://w3id.org/mobilitydcat-ap).
+Controlled vocabularies defined by mobilityDCAT-AP. The expected usage of the vocabularies is indicated by the mobilityDCAT-AP specification (latest [release](https://w3id.org/mobilitydcat-ap)/[draft](https://w3id.org/mobilitydcat-ap/drafts)).
 
 The serialisation and publication of the vocabularies are based on the [controlled-vocabulary-template](https://github.com/mobilityDCAT-AP/controlled-vocabulary-template) repository.
 
