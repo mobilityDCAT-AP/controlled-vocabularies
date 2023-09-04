@@ -9,15 +9,15 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category">
-        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.1"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.2"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the classification of the content of a mobility dataset.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Data Content Category</terms:title>
-        <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0"/>
-        <owl:versionInfo xml:lang="en">0.1.1</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/0.1.1"/>
+        <owl:versionInfo xml:lang="en">0.1.2</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
     </owl:Ontology>
@@ -367,13 +367,13 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions- -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Bridge closures and access conditions</skos:prefLabel>
     </owl:NamedIndividual>
@@ -520,7 +520,7 @@
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/air-and-space-travel"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/cycle-network-data"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/filling-and-charging-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/general-information-for-trip-planning-"/>
@@ -564,7 +564,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-locations-and-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-access-conditions"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-hiring-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions"/>
@@ -589,7 +589,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/hours-of-operation"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/identification-of-tolled-roads"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/junctions"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-charging-points"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-filling-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/location-and-length-of-queues"/>
@@ -625,7 +625,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/real-time-estimated-departure-and-arrival-times"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/reservation-and-purchase-options"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-classification"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-weather-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-width"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-availability"/>
@@ -648,7 +648,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-locations-and-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-access-conditions"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/vehicle-details"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/waiting-time-at-border-crossings-to-non-eu-member-states"/>
         <skos:prefLabel xml:lang="en">Data content sub-category</skos:prefLabel>
@@ -663,7 +663,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Direction of travel on reversible lanes</skos:prefLabel>
     </owl:NamedIndividual>
@@ -689,7 +689,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Dynamic overtaking bans on heavy goods vehicles</skos:prefLabel>
     </owl:NamedIndividual>
@@ -702,29 +702,29 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Dynamic speed limits</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations- -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions-"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions"/>
         <skos:prefLabel xml:lang="en">Dynamic traffic signs and regulations</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -923,13 +923,13 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions- -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions-">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Lane closures and access conditions</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1123,7 +1123,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Other access restrictions and traffic regulations</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1149,7 +1149,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Other temporary traffic management measures or plans</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1509,13 +1509,13 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions- -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions-">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Road closures and access conditions</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1914,13 +1914,13 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions- -->
+    <!-- https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions-">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations-"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/data-content-category"/>
         <skos:prefLabel xml:lang="en">Tunnel closures and access conditions</skos:prefLabel>
     </owl:NamedIndividual>

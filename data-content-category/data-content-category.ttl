@@ -22,13 +22,13 @@
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Data Content Category"@en;
-  owl:priorVersion <https://w3id.org/mobilitydcat-ap/data-content-category/0.1.0>;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/data-content-category/0.1.1>;
-  owl:versionInfo "0.1.1"@en .
+  owl:priorVersion <https://w3id.org/mobilitydcat-ap/data-content-category/0.1.1>;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/data-content-category/0.1.2>;
+  owl:versionInfo "0.1.2"@en .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category> skos:narrower
     <https://w3id.org/mobilitydcat-ap/data-content-category/air-and-space-travel>, <https://w3id.org/mobilitydcat-ap/data-content-category/cycle-network-data>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/filling-and-charging-stations>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics>, <https://w3id.org/mobilitydcat-ap/data-content-category/general-information-for-trip-planning->,
     <https://w3id.org/mobilitydcat-ap/data-content-category/other>, <https://w3id.org/mobilitydcat-ap/data-content-category/parking-service-and-rest-area-information>,
@@ -56,7 +56,7 @@
     <https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-availability>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/bike-sharing-locations-and-stations>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/bridge-access-conditions>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions->,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/car-hiring-availability>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-availability>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/car-parking-locations-and-conditions>,
@@ -74,7 +74,7 @@
     <https://w3id.org/mobilitydcat-ap/data-content-category/freight-delivery-regulations>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/geometry>, <https://w3id.org/mobilitydcat-ap/data-content-category/gradients>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/hours-of-operation>, <https://w3id.org/mobilitydcat-ap/data-content-category/identification-of-tolled-roads>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/junctions>, <https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions->,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/junctions>, <https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-charging-points>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/location-and-conditions-of-filling-stations>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/location-and-length-of-queues>,
@@ -102,7 +102,7 @@
     <https://w3id.org/mobilitydcat-ap/data-content-category/predicted-travel-times>, <https://w3id.org/mobilitydcat-ap/data-content-category/provider-data>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/purchase-information>, <https://w3id.org/mobilitydcat-ap/data-content-category/real-time-estimated-departure-and-arrival-times>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/reservation-and-purchase-options>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/road-classification>, <https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions->,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/road-classification>, <https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/road-weather-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/road-width>, <https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-availability>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/service-and-rest-area-locations-and-conditions>,
@@ -120,7 +120,7 @@
     <https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-availability>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/truck-parking-locations-and-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-access-conditions>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions->,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/vehicle-details>, <https://w3id.org/mobilitydcat-ap/data-content-category/waiting-time-at-border-crossings-to-non-eu-member-states>;
   skos:prefLabel "Data content sub-category"@en .
 
@@ -290,27 +290,27 @@
 <https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-delivery-areas>
   skos:prefLabel "Availability of delivery areas"@en .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->
-  skos:narrower <https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions->,
+<https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>
+  skos:narrower <https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits>, <https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions->,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits>, <https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations>,
     <https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans>,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions->,
-    <https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions->;
+    <https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions>,
+    <https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions>;
   skos:prefLabel "Dynamic traffic signs and regulations"@en .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions>
   skos:prefLabel "Road closures and access conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions>
   skos:prefLabel "Lane closures and access conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions>
   skos:prefLabel "Bridge closures and access conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions>
   skos:prefLabel "Tunnel closures and access conditions"@en .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations>
@@ -698,20 +698,20 @@
 <https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-delivery-areas>
   a skos:Concept .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->
+<https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>
   a skos:Concept;
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions>
   a skos:Concept .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions>
   a skos:Concept .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions>
   a skos:Concept .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions>
   a skos:Concept .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations>
@@ -1012,16 +1012,16 @@
 <https://w3id.org/mobilitydcat-ap/data-content-category/availability-of-delivery-areas>
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions>
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions>
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions>
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions->
+<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions>
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/data-content-sub-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations>
@@ -1360,40 +1360,40 @@
   skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions->
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+<https://w3id.org/mobilitydcat-ap/data-content-category/road-closures-and-access-conditions>
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions->
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+<https://w3id.org/mobilitydcat-ap/data-content-category/lane-closures-and-access-conditions>
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions->
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+<https://w3id.org/mobilitydcat-ap/data-content-category/bridge-closures-and-access-conditions>
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions->
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+<https://w3id.org/mobilitydcat-ap/data-content-category/tunnel-closures-and-access-conditions>
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/other-access-restrictions-and-traffic-regulations>
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-overtaking-bans-on-heavy-goods-vehicles>
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-speed-limits> skos:broader
-    <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+    <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/direction-of-travel-on-reversible-lanes>
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/other-temporary-traffic-management-measures-or-plans>
-  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->;
+  skos:broader <https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/long-term-road-works> skos:broader
@@ -1623,7 +1623,7 @@
 <https://w3id.org/mobilitydcat-ap/data-content-category/freight-and-logistics> skos:inScheme
     <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
-<https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations->
+<https://w3id.org/mobilitydcat-ap/data-content-category/dynamic-traffic-signs-and-regulations>
   skos:inScheme <https://w3id.org/mobilitydcat-ap/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/data-content-category/road-work-information> skos:inScheme
