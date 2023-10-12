@@ -7,15 +7,14 @@ The controlled vocabularies available are:
 - Application Layer Protocol, https://w3id.org/mobilitydcat-ap/application-layer-protocol
 - Communication Method, https://w3id.org/mobilitydcat-ap/communication-method
 - Conditions for Access and Usage, https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage
-- Data Content Category, https://w3id.org/mobilitydcat-ap/data-content-category
-- Data Model, https://w3id.org/mobilitydcat-ap/data-model
+- Mobility Theme, https://w3id.org/mobilitydcat-ap/mobility-theme
+- Mobility Data Standard, https://w3id.org/mobilitydcat-ap/mobility-data-standard
 - Georeferencing Method, https://w3id.org/mobilitydcat-ap/georeferencing-method
 - Grammar, https://w3id.org/mobilitydcat-ap/grammar
 - Network Coverage, https://w3id.org/mobilitydcat-ap/network-coverage
-- Service Category, https://w3id.org/mobilitydcat-ap/service-category
+- Intended Information Service, https://w3id.org/mobilitydcat-ap/intended-information-service
 - Transport Mode, https://w3id.org/mobilitydcat-ap/transport-mode
 - Update Frequency, https://w3id.org/mobilitydcat-ap/update-frequency
-- Visibility Status, https://w3id.org/mobilitydcat-ap/visibility-status
 
 If you open an issue, please specify the name of the controlled vocabulary you are referring to.
 
