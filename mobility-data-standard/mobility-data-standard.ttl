@@ -10,9 +10,9 @@
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Mobility data standard"@en;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/0.1.0>;
-  owl:versionInfo "0.1.0"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0>;
+  owl:versionInfo "1.0.0"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml>,

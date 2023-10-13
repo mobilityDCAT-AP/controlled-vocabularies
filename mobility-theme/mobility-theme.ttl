@@ -22,9 +22,9 @@
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Mobility Theme"@en;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/0.1.0>;
-  owl:versionInfo "0.1.0"@en .
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.0>;
+  owl:versionInfo "1.0.0"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> skos:narrower
     <https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel>, <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data>,

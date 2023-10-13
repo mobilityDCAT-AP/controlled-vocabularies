@@ -10,15 +10,15 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/communication-method">
-        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/communication-method/0.1.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/communication-method/1.0.0"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the communication method of a distribution.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Communication Method</terms:title>
-        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
-        <owl:versionInfo xml:lang="en">0.1.0</owl:versionInfo>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/communication-method/pull"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/communication-method/push"/>
     </owl:Ontology>

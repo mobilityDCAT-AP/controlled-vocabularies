@@ -10,9 +10,9 @@
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Intended information service"@en;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/intended-information-service/0.1.0>;
-  owl:versionInfo "0.1.0"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/intended-information-service/1.0.0>;
+  owl:versionInfo "1.0.0"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/intended-information-service/dynamic-availability-check>,
     <https://w3id.org/mobilitydcat-ap/intended-information-service/dynamic-information-service>,
     <https://w3id.org/mobilitydcat-ap/intended-information-service/dynamic-passing-times-trip-plans-and-auxiliary-information>,
