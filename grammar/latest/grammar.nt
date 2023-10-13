@@ -6,6 +6,7 @@
 <https://w3id.org/mobilitydcat-ap/grammar> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/mobilitydcat-ap/grammar> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
 <https://w3id.org/mobilitydcat-ap/grammar> <http://purl.org/dc/terms/title> "Data Grammar"@en .
+<https://w3id.org/mobilitydcat-ap/grammar> <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
 <https://w3id.org/mobilitydcat-ap/grammar> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0"@en .
 <https://w3id.org/mobilitydcat-ap/grammar> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/grammar/asn.1> .
 <https://w3id.org/mobilitydcat-ap/grammar> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/grammar/json-schema> .
@@ -35,6 +36,9 @@
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#hasTopConcept
 <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
