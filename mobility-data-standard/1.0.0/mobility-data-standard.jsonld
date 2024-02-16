@@ -97,6 +97,8 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/other"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its"
@@ -275,6 +277,22 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "OCIT-C"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Other"
   } ],
   "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"

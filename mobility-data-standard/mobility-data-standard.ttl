@@ -18,8 +18,9 @@
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> a skos:Concept;
   skos:definition "DATEX II (CEN/TS 16157)"@en;
@@ -91,4 +92,9 @@ Guidelines"""@en;
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> a skos:Concept;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:prefLabel "DINO"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:prefLabel "Other"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .

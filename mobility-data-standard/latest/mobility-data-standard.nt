@@ -18,6 +18,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
@@ -164,6 +165,13 @@
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#prefLabel> "OCIT-C"@en .
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/other
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 # 
 # https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

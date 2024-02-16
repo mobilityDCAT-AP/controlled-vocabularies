@@ -26,6 +26,7 @@
                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> ,
                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> ,
                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> ,
+                                                                                                               <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> ,
                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> ,
                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> ,
                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
@@ -182,6 +183,14 @@ Guidelines"""@en ;
                                                                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> ;
                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "OCIT-C"@en ;
                                                                  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+
+###  https://w3id.org/mobilitydcat-ap/mobility-data-standard/other
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> ;
+                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en ;
+                                                                <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
 
 ###  https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri

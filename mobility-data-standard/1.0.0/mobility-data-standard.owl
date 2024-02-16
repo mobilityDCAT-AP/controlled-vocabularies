@@ -29,6 +29,7 @@
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/other"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml"/>
@@ -292,6 +293,18 @@ Guidelines</skos:definition>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
         <skos:prefLabel xml:lang="en">OCIT-C</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-data-standard/other -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard/other">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
     </owl:NamedIndividual>
     
