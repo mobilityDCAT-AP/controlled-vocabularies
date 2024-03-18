@@ -23,8 +23,9 @@
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Mobility Theme"@en;
   <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.0>;
-  owl:versionInfo "1.0.0"@en .
+  owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.0>;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.1>;
+  owl:versionInfo "1.0.1"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> skos:narrower
     <https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel>, <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data>,
@@ -52,12 +53,11 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-parking-locations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-access-conditions>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-closures-and-access-conditions>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-locations-and-conditions>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-locations-and-conditions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links>, <https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/direction-of-travel-on-reversible-lanes>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products>, <https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times>, <https://w3id.org/mobilitydcat-ap/mobility-theme/direction-of-travel-on-reversible-lanes>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/disruptions-delays-cancellations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-overtaking-bans-on-heavy-goods-vehicles>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-speed-limits>, <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability>,
@@ -479,9 +479,9 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services> skos:narrower
     <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods>;
@@ -496,8 +496,8 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> skos:prefLabel
     "Bike-hiring Stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations> skos:prefLabel
-    "Car-sharing Stations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> skos:prefLabel
+    "Car-hiring Stations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>
   skos:prefLabel "E-scooter-sharing Locations and stations"@en .
@@ -811,7 +811,7 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> a skos:Concept .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations> a skos:Concept .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> a skos:Concept .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>
   a skos:Concept .
@@ -1121,7 +1121,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> skos:broader
     <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>, <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations> skos:broader
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> skos:broader
     <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>, <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>
@@ -1556,7 +1556,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> skos:inScheme
     <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations> skos:inScheme
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> skos:inScheme
     <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>

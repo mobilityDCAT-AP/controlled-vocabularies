@@ -10,7 +10,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme">
-        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.1"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the classification of the theme for a mobility dataset.</terms:description>
@@ -18,7 +18,8 @@
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Mobility Theme</terms:title>
         <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.0"/>
+        <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
     </owl:Ontology>
@@ -401,6 +402,19 @@
     
 
 
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
+        <skos:prefLabel xml:lang="en">Car-hiring Stations</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability -->
 
 
@@ -449,19 +463,6 @@
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Car-sharing Locations and stations</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"/>
-        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
-        <skos:prefLabel xml:lang="en">Car-sharing Stations</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -574,11 +575,11 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-closures-and-access-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-locations-and-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times"/>
@@ -1636,9 +1637,9 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles"/>
