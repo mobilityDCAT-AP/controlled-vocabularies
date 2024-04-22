@@ -13,4 +13,4 @@ Replace  `CONTROLLED_VOCABULARY_NAME` with one of the following values:  `applic
 
 If the issue is generic and valid for all the controlled vocabularies, you can remove the part between square brackets.
 
-Provide a short title summarising the issue, and a full description of the use case and/or the proposal to be implemented.
+Provide a short title summarising the issue. Then remove the current text from this input box and provide a full description of the use case and/or the proposal to be implemented.
