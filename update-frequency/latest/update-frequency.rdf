@@ -13,11 +13,12 @@
         <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/1.0.0"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
-        <terms:description xml:lang="en">Controlled vocabulary for the update frequency of a dataset.</terms:description>
+        <terms:description xml:lang="en">Deprecated controlled vocabulary for the update frequency of a dataset. Terms added to the http://publications.europa.eu/resource/authority/frequency SKOS taxonomy.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Update frequency</terms:title>
-        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <bibo:status xml:lang="en">Deprecated Controlled Vocabulary</bibo:status>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency/1h"/>
@@ -94,6 +95,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -177,7 +185,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Less frequent than yearly</skos:definition>
+        <skos:exactMatch xml:lang="en">ttp://publications.europa.eu/resource/authority/frequency/ANNUAL</skos:exactMatch>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">Less than yearly</skos:prefLabel>
@@ -192,7 +202,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/1h">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 1h</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/HOURLY"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">1h</skos:prefLabel>
@@ -207,7 +219,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/1min">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 1 min</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/1MIN"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">1min</skos:prefLabel>
@@ -222,7 +236,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/10min">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 10 min</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/10MIN"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">10min</skos:prefLabel>
@@ -237,7 +253,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/12h">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 12h</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/12HRS"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">12h</skos:prefLabel>
@@ -252,7 +270,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/15min">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 15 min</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/15MIN"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">15min</skos:prefLabel>
@@ -267,7 +287,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/2h">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 2h</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIHOURLY"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">2h</skos:prefLabel>
@@ -282,7 +304,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/24h">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 24h</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">24h</skos:prefLabel>
@@ -297,7 +321,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/3h">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 3h</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIHOURLY"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">3h</skos:prefLabel>
@@ -312,7 +338,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/3-months">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to every 3 months</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">3 months</skos:prefLabel>
@@ -327,7 +355,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/30min">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 30 min</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/30MIN"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">30min</skos:prefLabel>
@@ -342,7 +372,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/5min">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to 5 min</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/5MIN"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">5min</skos:prefLabel>
@@ -357,7 +389,9 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/update-frequency/6-months">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Up to every 6 months</skos:definition>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
         <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/frequency"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/update-frequency"/>
         <skos:prefLabel xml:lang="en">6 months</skos:prefLabel>

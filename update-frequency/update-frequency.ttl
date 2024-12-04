@@ -16,16 +16,123 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/mobilitydcat-ap/update-frequency> a skos:ConceptScheme;
-  a owl:Ontology;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
-  dct:description "Controlled vocabulary for the update frequency of a dataset."@en;
+<https://w3id.org/mobilitydcat-ap/update-frequency> dct:creator "Mario Scrocca (Cefriel)"@en,
+    "Peter Lubrich (BASt)"@en;
+  dct:description "Deprecated controlled vocabulary for the update frequency of a dataset. Terms added to the http://publications.europa.eu/resource/authority/frequency SKOS taxonomy."@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Update frequency"@en;
-  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  <http://purl.org/ontology/bibo/status> "Deprecated Controlled Vocabulary"@en;
+  owl:deprecated true;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/update-frequency/1.0.0>;
-  owl:versionInfo "1.0.0"@en;
+  owl:versionInfo "1.0.0"@en .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/1min> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 1 min"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/1MIN>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "1min"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/5min> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 5 min"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/5MIN>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "5min"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/10min> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 10 min"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/10MIN>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "10min"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/15min> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 15 min"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/15MIN>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "15min"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/30min> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 30 min"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/30MIN>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "30min"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/1h> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 1h"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/HOURLY>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "1h"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/2h> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 2h"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/BIHOURLY>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "2h"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/3h> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 3h"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/TRIHOURLY>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "3h"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/12h> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 12h"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/12HRS>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "12h"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/24h> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to 24h"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/DAILY>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "24h"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/3-months> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to every 3 months"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/QUARTERLY>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "3 months"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/6-months> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Up to every 6 months"@en;
+  skos:exactMatch <http://publications.europa.eu/resource/authority/frequency/ANNUAL_2>;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "6 months"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> a skos:Concept;
+  owl:deprecated true;
+  skos:definition "Less frequent than yearly"@en;
+  skos:exactMatch "ttp://publications.europa.eu/resource/authority/frequency/ANNUAL"@en;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
+  skos:prefLabel "Less than yearly"@en;
+  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
+
+<https://w3id.org/mobilitydcat-ap/update-frequency> a skos:ConceptScheme;
+  a owl:Ontology;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/update-frequency/10min>, <https://w3id.org/mobilitydcat-ap/update-frequency/12h>,
     <https://w3id.org/mobilitydcat-ap/update-frequency/15min>, <https://w3id.org/mobilitydcat-ap/update-frequency/1h>,
     <https://w3id.org/mobilitydcat-ap/update-frequency/1min>, <https://w3id.org/mobilitydcat-ap/update-frequency/24h>,
@@ -33,81 +140,3 @@
     <https://w3id.org/mobilitydcat-ap/update-frequency/30min>, <https://w3id.org/mobilitydcat-ap/update-frequency/3h>,
     <https://w3id.org/mobilitydcat-ap/update-frequency/5min>, <https://w3id.org/mobilitydcat-ap/update-frequency/6-months>,
     <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/1min> a skos:Concept;
-  skos:definition "Up to 1 min"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "1min"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/5min> a skos:Concept;
-  skos:definition "Up to 5 min"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "5min"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/10min> a skos:Concept;
-  skos:definition "Up to 10 min"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "10min"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/15min> a skos:Concept;
-  skos:definition "Up to 15 min"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "15min"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/30min> a skos:Concept;
-  skos:definition "Up to 30 min"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "30min"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/1h> a skos:Concept;
-  skos:definition "Up to 1h"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "1h"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/2h> a skos:Concept;
-  skos:definition "Up to 2h"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "2h"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/3h> a skos:Concept;
-  skos:definition "Up to 3h"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "3h"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/12h> a skos:Concept;
-  skos:definition "Up to 12h"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "12h"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/24h> a skos:Concept;
-  skos:definition "Up to 24h"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "24h"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/3-months> a skos:Concept;
-  skos:definition "Up to every 3 months"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "3 months"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/6-months> a skos:Concept;
-  skos:definition "Up to every 6 months"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "6 months"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .
-
-<https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> a skos:Concept;
-  skos:definition "Less frequent than yearly"@en;
-  skos:inScheme <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency>;
-  skos:prefLabel "Less than yearly"@en;
-  skos:topConceptOf <http://publications.europa.eu/resource/authority/frequency>, <https://w3id.org/mobilitydcat-ap/update-frequency> .

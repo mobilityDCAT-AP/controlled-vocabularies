@@ -2,17 +2,21 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
- <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>Update frequency</title>
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />   
+ <link rel="stylesheet" href="resources/rec.css" media="screen" />   
+ <link rel="stylesheet" href="resources/extra.css" media="screen" />   
+ <link rel="stylesheet" href="resources/owl.css" media="screen" />   
+<link rel="icon" type="image/png" href="resources/rdf.icon"/> <title>Update frequency</title>
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/mobilitydcat-ap/update-frequency","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/mobilitydcat-ap/update-frequency","name":"Update frequency", "headline":"Controlled vocabulary for the update frequency of a dataset.", "datePublished":"Fri Oct 13 16:13:13 CEST 2023", "version":"1.0.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Mario Scrocca (Cefriel)"},{"@type":"Person","name":"Peter Lubrich (BASt)"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/mobilitydcat-ap/update-frequency","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/mobilitydcat-ap/update-frequency","name":"Update frequency", "headline":"Document describing the ontology https://w3id.org/mobilitydcat-ap/update-frequency", "dateReleased":"Wed Dec 04 09:35:06 CET 2024", "version":"1.0.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Mario Scrocca (Cefriel)"},{"@type":"Person","name":"Peter Lubrich (BASt)"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
     <script> 
 function loadHash() {
-  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
 	var hash = location.hash;
 	if($(hash).offset()!=null){
 	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
@@ -42,12 +46,14 @@ function loadTOC(){
 	  t+='</ul>';
 	  $("#toc").html(t); 
 }
-$(function(){
-    loadHash();
-}); $.fn.ignore = function(sel){
+ $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
- }; 
-   </script> 
+ };    $(function(){
+      $("#overview").load("sections/overview-en.html"); 
+      $("#description").load("sections/description-en.html"); 
+      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+    });
+    </script> 
   </head> 
 
 <body>
@@ -76,433 +82,11 @@ $(function(){
 </div>
 <div class="status">
 <div>
-<span>Published Controlled Vocabulary</span>
+<span>Deprecated Controlled Vocabulary</span>
 </div>
-</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
-Controlled vocabulary for the update frequency of a dataset.</span>
-</div>
-<div id="toc"></div>  
-
-<!--OVERVIEW SECTION-->
-    <div id="overview"><h2 id="overv" class="list">Update frequency: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This ontology has the following classes and properties.</span>
-<h4>Named Individuals</h4><ul xmlns:extra="https://w3id.org/extra#"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    class="hlist">
-   <li>
-      <a href="#/10min"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/10min">10min</a>
-   </li>
-   <li>
-      <a href="#/12h"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/12h">12h</a>
-   </li>
-   <li>
-      <a href="#/15min"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/15min">15min</a>
-   </li>
-   <li>
-      <a href="#/1h"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/1h">1h</a>
-   </li>
-   <li>
-      <a href="#/1min"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/1min">1min</a>
-   </li>
-   <li>
-      <a href="#/24h"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/24h">24h</a>
-   </li>
-   <li>
-      <a href="#/2h"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/2h">2h</a>
-   </li>
-   <li>
-      <a href="#/3-months"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/3-months">3 months</a>
-   </li>
-   <li>
-      <a href="#/30min"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/30min">30min</a>
-   </li>
-   <li>
-      <a href="#/3h"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/3h">3h</a>
-   </li>
-   <li>
-      <a href="#/5min"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/5min">5min</a>
-   </li>
-   <li>
-      <a href="#/6-months"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/6-months">6 months</a>
-   </li>
-   <li>
-      <a href="#/less-than-yearly"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly">Less than yearly</a>
-   </li>
-   <li>
-      <a href="#"
-         title="https://w3id.org/mobilitydcat-ap/update-frequency">
-         <span>update frequency</span>
-      </a>
-   </li>
-</ul>
-</div>
-   
-
-<!--CROSSREF SECTION-->
-   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Update frequency classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-This section provides details for each class and property defined by Update frequency.
-<div xmlns:extra="https://w3id.org/extra#"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     id="namedindividuals">
-   <h3 id="namedindividuals" class="list">Named Individuals</h3>
-   <ul class="hlist">
-      <li>
-         <a href="#/10min"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/10min">10min</a>
-      </li>
-      <li>
-         <a href="#/12h"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/12h">12h</a>
-      </li>
-      <li>
-         <a href="#/15min"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/15min">15min</a>
-      </li>
-      <li>
-         <a href="#/1h"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/1h">1h</a>
-      </li>
-      <li>
-         <a href="#/1min"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/1min">1min</a>
-      </li>
-      <li>
-         <a href="#/24h"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/24h">24h</a>
-      </li>
-      <li>
-         <a href="#/2h"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/2h">2h</a>
-      </li>
-      <li>
-         <a href="#/3-months"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/3-months">3 months</a>
-      </li>
-      <li>
-         <a href="#/30min"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/30min">30min</a>
-      </li>
-      <li>
-         <a href="#/3h"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/3h">3h</a>
-      </li>
-      <li>
-         <a href="#/5min"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/5min">5min</a>
-      </li>
-      <li>
-         <a href="#/6-months"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/6-months">6 months</a>
-      </li>
-      <li>
-         <a href="#/less-than-yearly"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly">Less than yearly</a>
-      </li>
-      <li>
-         <a href="#"
-            title="https://w3id.org/mobilitydcat-ap/update-frequency">
-            <span>update frequency</span>
-         </a>
-      </li>
-   </ul>
-   <div class="entity" id="/10min">
-      <h3>10min<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/10min</p>
-      <div class="comment">
-         <span class="markdown">Up to 10 min</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/12h">
-      <h3>12h<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/12h</p>
-      <div class="comment">
-         <span class="markdown">Up to 12h</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/15min">
-      <h3>15min<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/15min</p>
-      <div class="comment">
-         <span class="markdown">Up to 15 min</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/1h">
-      <h3>1h<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/1h</p>
-      <div class="comment">
-         <span class="markdown">Up to 1h</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/1min">
-      <h3>1min<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/1min</p>
-      <div class="comment">
-         <span class="markdown">Up to 1 min</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/24h">
-      <h3>24h<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/24h</p>
-      <div class="comment">
-         <span class="markdown">Up to 24h</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/2h">
-      <h3>2h<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/2h</p>
-      <div class="comment">
-         <span class="markdown">Up to 2h</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/3-months">
-      <h3>3 months<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/3-months</p>
-      <div class="comment">
-         <span class="markdown">Up to every 3 months</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/30min">
-      <h3>30min<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/30min</p>
-      <div class="comment">
-         <span class="markdown">Up to 30 min</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/3h">
-      <h3>3h<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/3h</p>
-      <div class="comment">
-         <span class="markdown">Up to 3h</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/5min">
-      <h3>5min<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/5min</p>
-      <div class="comment">
-         <span class="markdown">Up to 5 min</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/6-months">
-      <h3>6 months<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/6-months</p>
-      <div class="comment">
-         <span class="markdown">Up to every 6 months</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="/less-than-yearly">
-      <h3>Less than yearly<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly</p>
-      <div class="comment">
-         <span class="markdown">Less frequent than yearly</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#Concept"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="">
-      <h3>update frequency<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/mobilitydcat-ap/update-frequency</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme"
-               target="_blank"
-               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">concept scheme</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-</div><div id="legend">
-<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<div   class="entity">
-<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
-</div>
-</div>
-</div>
+</div><div id="toc"></div>     <div id="overview"></div>
+     <div id="description"></div>
+     <div id="crossref"></div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>

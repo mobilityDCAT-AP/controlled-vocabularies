@@ -2,11 +2,12 @@
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/update-frequency/1.0.0> .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
-<https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/description> "Controlled vocabulary for the update frequency of a dataset."@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/description> "Deprecated controlled vocabulary for the update frequency of a dataset. Terms added to the http://publications.europa.eu/resource/authority/frequency SKOS taxonomy."@en .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/dc/terms/title> "Update frequency"@en .
-<https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency> <http://purl.org/ontology/bibo/status> "Deprecated Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> .
 <https://w3id.org/mobilitydcat-ap/update-frequency> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/update-frequency/1h> .
@@ -51,6 +52,9 @@
 # http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://www.w3.org/2004/02/skos/core#exactMatch
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://www.w3.org/2004/02/skos/core#hasTopConcept
 <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -94,7 +98,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly
 <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/2004/02/skos/core#definition> "Less frequent than yearly"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/2004/02/skos/core#exactMatch> "ttp://publications.europa.eu/resource/authority/frequency/ANNUAL"@en .
 <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/less-than-yearly> <http://www.w3.org/2004/02/skos/core#prefLabel> "Less than yearly"@en .
@@ -104,7 +110,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/1h
 <https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/2004/02/skos/core#definition> "Up to 1h"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/HOURLY> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1h> <http://www.w3.org/2004/02/skos/core#prefLabel> "1h"@en .
@@ -114,7 +122,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/1min
 <https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/2004/02/skos/core#definition> "Up to 1 min"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/1MIN> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/1min> <http://www.w3.org/2004/02/skos/core#prefLabel> "1min"@en .
@@ -124,7 +134,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/10min
 <https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/2004/02/skos/core#definition> "Up to 10 min"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/10MIN> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/10min> <http://www.w3.org/2004/02/skos/core#prefLabel> "10min"@en .
@@ -134,7 +146,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/12h
 <https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/2004/02/skos/core#definition> "Up to 12h"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/12HRS> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/12h> <http://www.w3.org/2004/02/skos/core#prefLabel> "12h"@en .
@@ -144,7 +158,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/15min
 <https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/2004/02/skos/core#definition> "Up to 15 min"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/15MIN> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/15min> <http://www.w3.org/2004/02/skos/core#prefLabel> "15min"@en .
@@ -154,7 +170,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/2h
 <https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/2004/02/skos/core#definition> "Up to 2h"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/BIHOURLY> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/2h> <http://www.w3.org/2004/02/skos/core#prefLabel> "2h"@en .
@@ -164,7 +182,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/24h
 <https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/2004/02/skos/core#definition> "Up to 24h"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/DAILY> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/24h> <http://www.w3.org/2004/02/skos/core#prefLabel> "24h"@en .
@@ -174,7 +194,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/3h
 <https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/2004/02/skos/core#definition> "Up to 3h"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/TRIHOURLY> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3h> <http://www.w3.org/2004/02/skos/core#prefLabel> "3h"@en .
@@ -184,7 +206,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/3-months
 <https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/2004/02/skos/core#definition> "Up to every 3 months"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/QUARTERLY> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/3-months> <http://www.w3.org/2004/02/skos/core#prefLabel> "3 months"@en .
@@ -194,7 +218,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/30min
 <https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/2004/02/skos/core#definition> "Up to 30 min"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/30MIN> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/30min> <http://www.w3.org/2004/02/skos/core#prefLabel> "30min"@en .
@@ -204,7 +230,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/5min
 <https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/2004/02/skos/core#definition> "Up to 5 min"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/5MIN> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/5min> <http://www.w3.org/2004/02/skos/core#prefLabel> "5min"@en .
@@ -214,7 +242,9 @@
 # https://w3id.org/mobilitydcat-ap/update-frequency/6-months
 <https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/2004/02/skos/core#definition> "Up to every 6 months"@en .
+<https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/2004/02/skos/core#inScheme> <http://publications.europa.eu/resource/authority/frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/update-frequency> .
 <https://w3id.org/mobilitydcat-ap/update-frequency/6-months> <http://www.w3.org/2004/02/skos/core#prefLabel> "6 months"@en .
