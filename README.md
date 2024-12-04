@@ -15,7 +15,7 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Network Coverage | https://w3id.org/mobilitydcat-ap/network-coverage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Intended Information Service | https://w3id.org/mobilitydcat-ap/intended-information-service | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
-| Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
+| Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 
 If you open an issue, please specify the name of the controlled vocabulary you refer to.
 
