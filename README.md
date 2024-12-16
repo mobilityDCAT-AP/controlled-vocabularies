@@ -8,7 +8,7 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Application Layer Protocol | https://w3id.org/mobilitydcat-ap/application-layer-protocol | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Communication Method | https://w3id.org/mobilitydcat-ap/communication-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Conditions for Access and Usage | https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
-| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![1.0.1](https://img.shields.io/badge/-1.0.1-blue?style=flat) |
+| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![1.1.0](https://img.shields.io/badge/-1.1.0-blue?style=flat) |
 | Mobility Data Standard | https://w3id.org/mobilitydcat-ap/mobility-data-standard | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Georeferencing Method | https://w3id.org/mobilitydcat-ap/georeferencing-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
