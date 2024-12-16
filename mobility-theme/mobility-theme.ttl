@@ -23,15 +23,15 @@
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Mobility Theme"@en;
   <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
-  owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.0>;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.1>;
-  owl:versionInfo "1.0.1"@en .
+  owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-theme/1.0.1>;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.0>;
+  owl:versionInfo "1.1.0"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> skos:narrower
     <https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel>, <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-traffic-signs-and-regulations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/freight-and-logistics>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/other>, <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data>, <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>,
@@ -108,95 +108,130 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details>, <https://w3id.org/mobilitydcat-ap/mobility-theme/waiting-time-at-border-crossings-to-non-eu-member-states>;
   skos:prefLabel "Data content sub-category"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/geometry>, <https://w3id.org/mobilitydcat-ap/mobility-theme/gradients>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/geometry>, <https://w3id.org/mobilitydcat-ap/mobility-theme/gradients>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/junctions>, <https://w3id.org/mobilitydcat-ap/mobility-theme/number-of-lanes>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/road-classification>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-width>;
   skos:prefLabel "Static road network data"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/geometry> skos:prefLabel "Geometry"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/geometry> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Geometry"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/road-width> skos:prefLabel "Road width"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/road-width> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Road width"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/number-of-lanes> skos:prefLabel "Number of lanes"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/number-of-lanes> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Number of lanes"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/gradients> skos:prefLabel "Gradients"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/gradients> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Gradients"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/junctions> skos:prefLabel "Junctions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/junctions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Junctions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/road-classification> skos:prefLabel
-    "Road classification"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/road-classification> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Road classification"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions>, <https://w3id.org/mobilitydcat-ap/mobility-theme/network-detailed-attributes>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/network-geometry-and-lane-character>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/network-detailed-attributes>, <https://w3id.org/mobilitydcat-ap/mobility-theme/network-geometry-and-lane-character>;
   skos:prefLabel "Cycle network data"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/network-geometry-and-lane-character>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:definition "Cycle network geometry and lane character"@en;
   skos:prefLabel "Network geometry and lane character"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/network-detailed-attributes> skos:prefLabel
-    "Network detailed attributes"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/network-detailed-attributes> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Network detailed attributes"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions> skos:prefLabel
-    "Network closures/diversions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Network closures/diversions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-accessibility-facilities>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-accessibility-facilities>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-geometry>;
   skos:prefLabel "Pedestrian network data"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-geometry> skos:prefLabel
-    "Pedestrian network geometry"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-geometry> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Pedestrian network geometry"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-accessibility-facilities>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Pedestrian accessibility facilities"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/other-static-traffic-signs>, <https://w3id.org/mobilitydcat-ap/mobility-theme/other-traffic-regulations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/permanent-access-restrictions>, <https://w3id.org/mobilitydcat-ap/mobility-theme/speed-limits>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-circulation-plans>, <https://w3id.org/mobilitydcat-ap/mobility-theme/tunnel-access-conditions>;
   skos:prefLabel "Static traffic signs and regulations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/tunnel-access-conditions> skos:prefLabel
-    "Tunnel access conditions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/tunnel-access-conditions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Tunnel access conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-access-conditions> skos:prefLabel
-    "Bridge access conditions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-access-conditions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Bridge access conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/speed-limits> skos:prefLabel "Speed limits"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/speed-limits> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Speed limits"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/other-static-traffic-signs> skos:prefLabel
     "Other static traffic signs"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/permanent-access-restrictions> skos:prefLabel
-    "Permanent access restrictions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/permanent-access-restrictions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Permanent access restrictions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/other-traffic-regulations> skos:prefLabel
-    "Other traffic regulations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/other-traffic-regulations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Other traffic regulations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-circulation-plans> skos:prefLabel
-    "Traffic circulation plans"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-circulation-plans> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Traffic circulation plans"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/toll-information> skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/applicable-road-user-charges-and-payment-methods>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/toll-information> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/applicable-road-user-charges-and-payment-methods>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/identification-of-tolled-roads>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-tolling-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods-for-tolls>;
   skos:prefLabel "Toll information"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-tolling-stations> skos:prefLabel
-    "Location of tolling stations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-tolling-stations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Location of tolling stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/identification-of-tolled-roads> skos:prefLabel
-    "Identification of tolled roads"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/identification-of-tolled-roads> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Identification of tolled roads"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/applicable-road-user-charges-and-payment-methods>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Applicable road user charges and payment methods"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods-for-tolls> skos:prefLabel
-    "Payment methods for tolls"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods-for-tolls> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Payment methods for tolls"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2013/885/oj, https://eur-lex.europa.eu/eli/reg_del/2024/490/oj, https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-parking-locations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-locations-and-conditions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops>, <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability>,
@@ -205,63 +240,80 @@
   skos:prefLabel "Parking, service and rest area information"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-locations-and-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Car parking locations and conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability> skos:prefLabel
-    "Car parking availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Car parking availability"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-and-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Service and rest area locations and conditions"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability>
   skos:prefLabel "Service and rest area availability"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/truck-parking-locations-and-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2013/885/oj"^^xsd:anyURI;
   skos:prefLabel "Truck parking locations and conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/truck-parking-availability> skos:prefLabel
-    "Truck parking availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/truck-parking-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2013/885/oj"^^xsd:anyURI;
+  skos:prefLabel "Truck parking availability"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops> skos:prefLabel
-    "Park and Ride stops"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Park and Ride stops"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-parking-locations> skos:prefLabel
-    "Bike-parking locations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-parking-locations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Bike-parking locations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg/2023/1804/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations>;
   skos:prefLabel "Filling and charging stations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg/2023/1804/oj"^^xsd:anyURI;
   skos:prefLabel "Location and conditions of charging points"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Location and conditions of filling stations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg/2023/1804/oj"^^xsd:anyURI;
   skos:prefLabel "Availability of charging points for electric vehicles"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Availability of filling stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/freight-and-logistics> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/freight-and-logistics> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/freight-delivery-regulations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-delivery-areas>;
   skos:prefLabel "Freight and logistics"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/freight-delivery-regulations> skos:prefLabel
-    "Freight delivery regulations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/freight-delivery-regulations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Freight delivery regulations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-delivery-areas> skos:prefLabel
-    "Location of delivery areas"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-delivery-areas> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Location of delivery areas"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas> skos:prefLabel
-    "Availability of delivery areas"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Availability of delivery areas"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-traffic-signs-and-regulations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-closures-and-access-conditions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/direction-of-travel-on-reversible-lanes>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-overtaking-bans-on-heavy-goods-vehicles>,
@@ -273,107 +325,140 @@
   skos:prefLabel "Dynamic traffic signs and regulations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/road-closures-and-access-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Road closures and access conditions"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/lane-closures-and-access-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Lane closures and access conditions"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-closures-and-access-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Bridge closures and access conditions"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/tunnel-closures-and-access-conditions>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Tunnel closures and access conditions"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/other-access-restrictions-and-traffic-regulations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Other access restrictions and traffic regulations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-overtaking-bans-on-heavy-goods-vehicles>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Dynamic overtaking bans on heavy goods vehicles"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-speed-limits> skos:prefLabel
-    "Dynamic speed limits"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-speed-limits> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Dynamic speed limits"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/direction-of-travel-on-reversible-lanes>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Direction of travel on reversible lanes"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/other-temporary-traffic-management-measures-or-plans>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Other temporary traffic management measures or plans"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/road-work-information> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/long-term-road-works>, <https://w3id.org/mobilitydcat-ap/mobility-theme/short-term-road-works>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/road-work-information> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg_del/2013/886/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/long-term-road-works>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/short-term-road-works>;
   skos:prefLabel "Road work information"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/long-term-road-works> skos:prefLabel
-    "Long-term road works"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/long-term-road-works> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Long-term road works"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/short-term-road-works> skos:prefLabel
-    "Short-term road works"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/short-term-road-works> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg_del/2013/886/oj"^^xsd:anyURI;
+  skos:prefLabel "Short-term road works"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/road-events-and-conditions> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents>, <https://w3id.org/mobilitydcat-ap/mobility-theme/poor-road-conditions>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-weather-conditions>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/road-events-and-conditions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg_del/2013/886/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/poor-road-conditions>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-weather-conditions>;
   skos:prefLabel "Road events and conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents> skos:prefLabel
-    "Accidents and incidents"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg_del/2013/886/oj"^^xsd:anyURI;
+  skos:prefLabel "Accidents and incidents"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/poor-road-conditions> skos:prefLabel
-    "Poor road conditions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/poor-road-conditions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg_del/2013/886/oj"^^xsd:anyURI;
+  skos:prefLabel "Poor road conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/road-weather-conditions> skos:prefLabel
-    "Road weather conditions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/road-weather-conditions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj, https://eur-lex.europa.eu/eli/reg_del/2013/886/oj"^^xsd:anyURI;
+  skos:prefLabel "Road weather conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times>, <https://w3id.org/mobilitydcat-ap/mobility-theme/expected-delays>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues>, <https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/speed>, <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/expected-delays>, <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times>, <https://w3id.org/mobilitydcat-ap/mobility-theme/speed>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-volume>, <https://w3id.org/mobilitydcat-ap/mobility-theme/waiting-time-at-border-crossings-to-non-eu-member-states>;
   skos:prefLabel "Real-time traffic data"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-volume> skos:prefLabel "Traffic volume"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-volume> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Traffic volume"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/speed> skos:prefLabel "Speed"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/speed> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Speed"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues> skos:prefLabel
-    "Location and length of queues"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Location and length of queues"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times> skos:prefLabel
-    "Current travel times"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Current travel times"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times> skos:prefLabel
-    "Predicted travel times"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
+  skos:prefLabel "Predicted travel times"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/expected-delays> skos:prefLabel "Expected delays"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/waiting-time-at-border-crossings-to-non-eu-member-states>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2022/670/oj"^^xsd:anyURI;
   skos:prefLabel "Waiting time at border crossings to non-EU Member States"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries>
   skos:prefLabel "Traffic data at border crossings to third countries"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->
+<https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/address-identifiers>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-environmental-factors>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/points-of-interest>, <https://w3id.org/mobilitydcat-ap/mobility-theme/topographic-places>;
   skos:prefLabel "General information for trip-planning"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/address-identifiers> skos:prefLabel
-    "Address identifiers"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/address-identifiers> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Address identifiers"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/topographic-places> skos:prefLabel
-    "Topographic places"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/topographic-places> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Topographic places"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/points-of-interest> skos:prefLabel
-    "Points of interest"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/points-of-interest> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Points of interest"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-environmental-factors>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Parameters needed to calculate environmental factors"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs>
   skos:prefLabel "Parameters needed to calculate costs"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/basic-common-standard-fares>, <https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links>, <https://w3id.org/mobilitydcat-ap/mobility-theme/disruptions-delays-cancellations>,
@@ -391,68 +476,90 @@
   skos:prefLabel "Public transport scheduled transport"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-location-and-features>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Stop facilities location and features"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-geometry-and-map-layout>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Stop facilities geometry and map layout"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-status-of-features>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Stop facilities status of features"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-accessibility-and-paths-within-facility>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Stop facilities accessibility and paths within facility"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar> skos:prefLabel
-    "Operational Calendar"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Operational Calendar"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links> skos:prefLabel
-    "Connection links"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Connection links"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/network-topology-and-routes-lines>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Network topology and routes/lines"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operators> skos:prefLabel
-    "Transport operators"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operators> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Transport operators"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/timetables-static> skos:prefLabel
-    "Timetables static"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/timetables-static> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Timetables static"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-estimated-departure-and-arrival-times>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Real-time estimated departure and arrival times"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/planned-interchanges-between-scheduled-services>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Planned interchanges between scheduled services"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation> skos:prefLabel
-    "Hours of operation"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Hours of operation"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details> skos:prefLabel "Vehicle details"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Vehicle details"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles>
   skos:prefLabel "Environmental standards for vehicles"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/disruptions-delays-cancellations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Disruptions, delays, cancellations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/basic-common-standard-fares> skos:prefLabel
-    "Basic common standard fares"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/basic-common-standard-fares> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Basic common standard fares"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes> skos:prefLabel
-    "Passenger classes"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Passenger classes"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products> skos:prefLabel
-    "Common fare products"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Common fare products"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products> skos:prefLabel
-    "Special Fare Products"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Special Fare Products"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions> skos:prefLabel
-    "Basic commercial conditions"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Basic commercial conditions"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information> skos:prefLabel
-    "Purchase information"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Purchase information"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/accesibility-information-for-vehicles>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/fares>, <https://w3id.org/mobilitydcat-ap/mobility-theme/locations-and-stations>,
@@ -460,25 +567,35 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times>;
   skos:prefLabel "Public transport non-scheduled transport"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data> skos:prefLabel "Provider data"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Provider data"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Service areas and service times"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/locations-and-stations> skos:prefLabel
-    "Locations and stations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/locations-and-stations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Locations and stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/fares> skos:prefLabel "Fares"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/fares> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Fares"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Reservation and purchase options"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accesibility-information-for-vehicles>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Accesibility information for vehicles"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>,
+<https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability>, <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability>,
@@ -488,42 +605,56 @@
   skos:prefLabel "Sharing and Hiring Services"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Bike-sharing Locations and stations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "Car-sharing Locations and stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> skos:prefLabel
-    "Bike-hiring Stations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Bike-hiring Stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> skos:prefLabel
-    "Car-hiring Stations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Car-hiring Stations"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>
+  <http://data.europa.eu/r5r/applicableLegislation> "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
   skos:prefLabel "E-scooter-sharing Locations and stations"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability> skos:prefLabel
-    "Car-sharing Availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Car-sharing Availability"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability> skos:prefLabel
-    "Bike sharing Availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Bike sharing Availability"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability> skos:prefLabel
-    "Car-hiring Availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Car-hiring Availability"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability> skos:prefLabel
-    "Bike-hiring Availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Bike-hiring Availability"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability> skos:prefLabel
-    "E-scooter-sharing Availability"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "E-scooter-sharing Availability"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> skos:prefLabel "Payment methods"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Payment methods"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> skos:prefLabel
-    "Air and space travel"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Air and space travel"@en .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies> skos:prefLabel
-    "Waterways and water bodies"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies> <http://data.europa.eu/r5r/applicableLegislation>
+    "https://eur-lex.europa.eu/eli/reg_del/2024/490/oj"^^xsd:anyURI;
+  skos:prefLabel "Waterways and water bodies"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/other> skos:prefLabel "Other"@en .
 
@@ -710,7 +841,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries>
   a skos:Concept .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->
+<https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>
   a skos:Concept;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> .
 
@@ -1354,23 +1485,23 @@
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/address-identifiers> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/topographic-places> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/points-of-interest> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-environmental-factors>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-location-and-features>
@@ -1535,7 +1666,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data> skos:inScheme
     <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning->
+<https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>
