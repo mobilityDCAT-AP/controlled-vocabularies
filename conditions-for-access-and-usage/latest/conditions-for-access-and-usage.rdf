@@ -10,7 +10,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage">
-        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/1.0.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/1.1.0"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the conditions for access and usage for a Rights Statement.</terms:description>
@@ -18,11 +18,16 @@
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Conditions for access and usage</terms:title>
         <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/1.0.0"/>
+        <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement-fee-required"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement-free-of-charge"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/fee-required"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/free-of-charge"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided-fee-required"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided-free-of-charge"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/other"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/royalty-free"/>
     </owl:Ontology>
@@ -170,6 +175,30 @@
     
 
 
+    <!-- https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement-fee-required -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement-fee-required">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+        <skos:prefLabel xml:lang="en">Contractual arrangement, fee required</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement-free-of-charge -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/contractual-arrangement-free-of-charge">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+        <skos:prefLabel xml:lang="en">Contractual arrangement, free of charge</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/fee-required -->
 
 
@@ -201,6 +230,30 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
         <skos:prefLabel xml:lang="en">Licence provided</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided-fee-required -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided-fee-required">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+        <skos:prefLabel xml:lang="en">Licence provided, fee required</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided-free-of-charge -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage/licence-provided-free-of-charge">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
+        <skos:prefLabel xml:lang="en">Licence provided, free of charge</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage"/>
     </owl:NamedIndividual>
     
