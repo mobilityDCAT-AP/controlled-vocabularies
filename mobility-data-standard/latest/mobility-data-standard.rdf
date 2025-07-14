@@ -10,7 +10,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard">
-        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the mobility data standard adopted by a distribution.</terms:description>
@@ -18,7 +18,8 @@
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Mobility data standard</terms:title>
         <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0"/>
+        <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino"/>
@@ -29,6 +30,7 @@
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/other"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its"/>
@@ -216,6 +218,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">General Bikeshare Feed Specification</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
         <skos:prefLabel xml:lang="en">GBFS</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
@@ -240,6 +243,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">General Transit Feed Specification - Schedule</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
         <skos:prefLabel xml:lang="en">GTFS</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
@@ -252,6 +256,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">General Transit Feed Specification - Realtime</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
         <skos:prefLabel xml:lang="en">GTFS-RT</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
@@ -291,8 +296,22 @@ Guidelines</skos:definition>
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Open Communication Interface for Road Traffic Control Systems</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
         <skos:prefLabel xml:lang="en">OCIT-C</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Open Charge Point Interface (OCPI)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
+        <skos:prefLabel xml:lang="en">OCPI</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
     </owl:NamedIndividual>
     

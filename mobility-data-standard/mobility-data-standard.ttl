@@ -11,16 +11,17 @@
   dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Mobility data standard"@en;
   <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0>;
-  owl:versionInfo "1.0.0"@en;
+  owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0>;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0>;
+  owl:versionInfo "1.1.0"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> a skos:Concept;
   skos:definition "DATEX II (CEN/TS 16157)"@en;
@@ -29,6 +30,7 @@
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> a skos:Concept;
+  skos:definition "Open Communication Interface for Road Traffic Control Systems"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:prefLabel "OCIT-C"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
@@ -70,16 +72,19 @@ Guidelines"""@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> a skos:Concept;
+  skos:definition "General Transit Feed Specification - Schedule"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:prefLabel "GTFS"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> a skos:Concept;
+  skos:definition "General Transit Feed Specification - Realtime"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:prefLabel "GTFS-RT"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> a skos:Concept;
+  skos:definition "General Bikeshare Feed Specification"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:prefLabel "GBFS"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
@@ -92,6 +97,12 @@ Guidelines"""@en;
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> a skos:Concept;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:prefLabel "DINO"@en;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> a skos:Concept;
+  skos:definition "Open Charge Point Interface (OCPI)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:prefLabel "OCPI"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> a skos:Concept;
