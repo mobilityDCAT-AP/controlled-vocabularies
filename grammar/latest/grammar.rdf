@@ -17,7 +17,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Data Grammar</terms:title>
-        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <bibo:status xml:lang="en">Deprecated Controlled Vocabulary</bibo:status>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/grammar/asn.1"/>
