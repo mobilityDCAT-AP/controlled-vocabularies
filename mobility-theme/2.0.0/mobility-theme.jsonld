@@ -1,0 +1,80 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://data.europa.eu/eli/ontology#LegalResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Regulation (EU) 2023/1804 of the European Parliament and of the Council of 13 September 2023 on the deployment of alternative fuels infrastructure, and repealing Directive 2014/94/EU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Alternative Fuel Infrastructure Regulation (AFIR) - Regulation No 2023/1804"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2013/885/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) No 885/2013 of 15 May 2013 supplementing ITS Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of information services for safe and secure parking places for trucks and commercial vehicles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Safe and Secure Truck Parking (SSTP) - Delegated Regulation No 885/2013"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2013/886/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) No 886/2013 of 15 May 2013 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to data and procedures for the provision, where possible, of road safety-related minimum universal traffic information free of charge to users"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Safety Related Traffic Information (SRTI) - Delegated Regulation No 886/2013"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) 2022/670 of 2 February 2022 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide real-time traffic information services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Real-time Traffic Information (RTTI) - Delegated Regulation No 2022/670"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) 2024/490 of 29 November 2023 amending Delegated Regulation (EU) 2017/1926 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Multi-modal Travel Information Services (MMTIS) - Delegated Regulation No 2024/490"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

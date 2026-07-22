@@ -1,0 +1,65 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#description
+<http://www.w3.org/2000/01/rdf-schema#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://data.europa.eu/eli/ontology#LegalResource
+<http://data.europa.eu/eli/ontology#LegalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://data.europa.eu/eli/reg/2023/1804/oj
+<http://data.europa.eu/eli/reg/2023/1804/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.europa.eu/eli/reg/2023/1804/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/eli/reg/2023/1804/oj> <http://www.w3.org/2000/01/rdf-schema#description> "Regulation (EU) 2023/1804 of the European Parliament and of the Council of 13 September 2023 on the deployment of alternative fuels infrastructure, and repealing Directive 2014/94/EU"@en .
+<http://data.europa.eu/eli/reg/2023/1804/oj> <http://www.w3.org/2000/01/rdf-schema#label> "Alternative Fuel Infrastructure Regulation (AFIR) - Regulation No 2023/1804"@en .
+# 
+# http://data.europa.eu/eli/reg_del/2013/885/oj
+<http://data.europa.eu/eli/reg_del/2013/885/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.europa.eu/eli/reg_del/2013/885/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/eli/reg_del/2013/885/oj> <http://www.w3.org/2000/01/rdf-schema#description> "Commission Delegated Regulation (EU) No 885/2013 of 15 May 2013 supplementing ITS Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of information services for safe and secure parking places for trucks and commercial vehicles"@en .
+<http://data.europa.eu/eli/reg_del/2013/885/oj> <http://www.w3.org/2000/01/rdf-schema#label> "Safe and Secure Truck Parking (SSTP) - Delegated Regulation No 885/2013"@en .
+# 
+# http://data.europa.eu/eli/reg_del/2013/886/oj
+<http://data.europa.eu/eli/reg_del/2013/886/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.europa.eu/eli/reg_del/2013/886/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/eli/reg_del/2013/886/oj> <http://www.w3.org/2000/01/rdf-schema#description> "Commission Delegated Regulation (EU) No 886/2013 of 15 May 2013 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to data and procedures for the provision, where possible, of road safety-related minimum universal traffic information free of charge to users"@en .
+<http://data.europa.eu/eli/reg_del/2013/886/oj> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Related Traffic Information (SRTI) - Delegated Regulation No 886/2013"@en .
+# 
+# http://data.europa.eu/eli/reg_del/2022/670/oj
+<http://data.europa.eu/eli/reg_del/2022/670/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.europa.eu/eli/reg_del/2022/670/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/eli/reg_del/2022/670/oj> <http://www.w3.org/2000/01/rdf-schema#description> "Commission Delegated Regulation (EU) 2022/670 of 2 February 2022 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide real-time traffic information services"@en .
+<http://data.europa.eu/eli/reg_del/2022/670/oj> <http://www.w3.org/2000/01/rdf-schema#label> "Real-time Traffic Information (RTTI) - Delegated Regulation No 2022/670"@en .
+# 
+# http://data.europa.eu/eli/reg_del/2024/490/oj
+<http://data.europa.eu/eli/reg_del/2024/490/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.europa.eu/eli/reg_del/2024/490/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/eli/reg_del/2024/490/oj> <http://www.w3.org/2000/01/rdf-schema#description> "Commission Delegated Regulation (EU) 2024/490 of 29 November 2023 amending Delegated Regulation (EU) 2017/1926 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services"@en .
+<http://data.europa.eu/eli/reg_del/2024/490/oj> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-modal Travel Information Services (MMTIS) - Delegated Regulation No 2024/490"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

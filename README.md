@@ -9,11 +9,13 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Communication Method | https://w3id.org/mobilitydcat-ap/communication-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Conditions for Access and Usage | https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage | ![1.1.0](https://img.shields.io/badge/-1.1.0-blue?style=flat) |
 | Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![1.1.1](https://img.shields.io/badge/-1.1.1-blue?style=flat) |
+| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme/2.0.0 | ![2.0.0-CANDIDATE](https://img.shields.io/badge/-2.0.0-yellow?style=flat) |
 | Mobility Data Standard | https://w3id.org/mobilitydcat-ap/mobility-data-standard | ![1.1.0](https://img.shields.io/badge/-1.1.0-blue?style=flat) |
 | Georeferencing Method | https://w3id.org/mobilitydcat-ap/georeferencing-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Network Coverage | https://w3id.org/mobilitydcat-ap/network-coverage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Intended Information Service | https://w3id.org/mobilitydcat-ap/intended-information-service | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
+| Energy Fuel Type | https://w3id.org/mobilitydcat-ap/energy-fuel-type | ![1.0.0-CANDIDATE](https://img.shields.io/badge/-1.0.0-yellow?style=flat) |
 | Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 | Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 
