@@ -10,11 +10,12 @@
                                             owl:versionIRI <https://w3id.org/mobilitydcat-ap/grammar/1.0.0> ;
                                             <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en ,
                                                                                "Peter Lubrich (BASt)"@en ;
-                                            <http://purl.org/dc/terms/description> "Controlled vocabulary for the data grammar of a distribution."@en ;
+                                            <http://purl.org/dc/terms/description> "Deprecated controlled vocabulary for the data grammar of a distribution. The property mobilitydcatap:grammar and this related vocabulary are deprecated in mobilityDCAT-AP v3.0.0."@en ;
                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                             <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en ;
                                             <http://purl.org/dc/terms/title> "Data Grammar"@en ;
                                             <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en ;
+                                            owl:deprecated "true"^^xsd:boolean ;
                                             owl:versionInfo "1.0.0"@en ;
                                             <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/grammar/asn.1> ,
                                                                                                 <https://w3id.org/mobilitydcat-ap/grammar/json-schema> ,

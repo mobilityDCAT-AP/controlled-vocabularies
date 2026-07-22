@@ -11,10 +11,10 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![1.1.1](https://img.shields.io/badge/-1.1.1-blue?style=flat) |
 | Mobility Data Standard | https://w3id.org/mobilitydcat-ap/mobility-data-standard | ![1.1.0](https://img.shields.io/badge/-1.1.0-blue?style=flat) |
 | Georeferencing Method | https://w3id.org/mobilitydcat-ap/georeferencing-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
-| Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Network Coverage | https://w3id.org/mobilitydcat-ap/network-coverage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Intended Information Service | https://w3id.org/mobilitydcat-ap/intended-information-service | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
+| Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 | Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 
 ### Contributing

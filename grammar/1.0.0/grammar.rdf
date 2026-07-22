@@ -13,11 +13,12 @@
         <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/grammar/1.0.0"/>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
-        <terms:description xml:lang="en">Controlled vocabulary for the data grammar of a distribution.</terms:description>
+        <terms:description xml:lang="en">Deprecated controlled vocabulary for the data grammar of a distribution. The property mobilitydcatap:grammar and this related vocabulary are deprecated in mobilityDCAT-AP v3.0.0.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Data Grammar</terms:title>
         <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/grammar/asn.1"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/grammar/json-schema"/>
