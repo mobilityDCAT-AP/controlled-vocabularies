@@ -51,26 +51,30 @@ else
 	if [ "$APPLY_TREE" = "true" ]; then
 		TREE_SCRIPT="./generate_description_en_tree.py"
 		if [ -f "$TREE_SCRIPT" ]; then
-			PYTHON_BIN=""
+			ACTIVATE_SCRIPT="./.venv/Scripts/activate"
 
-			# Validate candidate interpreters to avoid selecting non-runnable binaries
-			# (e.g. Windows .exe inside WSL).
-			for CANDIDATE in "./.venv/bin/python" "./.venv/Scripts/python.exe" "python3" "python"; do
-				if [ "$CANDIDATE" = "python3" ] || [ "$CANDIDATE" = "python" ]; then
-					if command -v "$CANDIDATE" >/dev/null 2>&1 && "$CANDIDATE" -c "import sys" >/dev/null 2>&1; then
-						PYTHON_BIN="$CANDIDATE"
-						break
-					fi
-				elif [ -x "$CANDIDATE" ] && "$CANDIDATE" -c "import sys" >/dev/null 2>&1; then
-					PYTHON_BIN="$CANDIDATE"
-					break
-				fi
-			done
-
-			if [ "$PYTHON_BIN" = "" ]; then
-				echo "Warning: Python not found, skipping description tree generation for $VOCABULARY"
+			if [ ! -f "$ACTIVATE_SCRIPT" ]; then
+				echo "Warning: $ACTIVATE_SCRIPT not found, skipping description tree generation for $VOCABULARY"
 			else
-				"$PYTHON_BIN" "$TREE_SCRIPT" --xlsx "./$VOCABULARY/$VOCABULARY.xlsx"
+				# shellcheck disable=SC1090
+				. "$ACTIVATE_SCRIPT"
+
+				if command -v python >/dev/null 2>&1; then
+					echo "Info: Running description tree generation for $VOCABULARY"
+					python "$TREE_SCRIPT" --xlsx "./$VOCABULARY/$VOCABULARY.xlsx"
+					TREE_SCRIPT_EXIT_CODE=$?
+					if [ "$TREE_SCRIPT_EXIT_CODE" -eq 0 ]; then
+						echo "Info: Description tree generation completed successfully for $VOCABULARY"
+					else
+						echo "Warning: Description tree generation failed for $VOCABULARY (exit code: $TREE_SCRIPT_EXIT_CODE)"
+					fi
+				else
+					echo "Warning: python not available after activating $ACTIVATE_SCRIPT, skipping description tree generation for $VOCABULARY"
+				fi
+
+				if command -v deactivate >/dev/null 2>&1; then
+					deactivate
+				fi
 			fi
 		fi
 	fi
