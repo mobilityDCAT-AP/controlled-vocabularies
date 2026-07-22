@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/mobilitydcat-ap/energy-fuel-type#"
+     xml:base="https://w3id.org/mobilitydcat-ap/energy-fuel-type"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:r5r="http://data.europa.eu/r5r/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type">
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/1.0.0"/>
+        <terms:contributor xml:lang="en">Ed Ooms (NDW)</terms:contributor>
+        <terms:contributor xml:lang="en">Petr Bures (TamTam Research)</terms:contributor>
+        <terms:contributor xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:contributor>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:creator xml:lang="en">Valentina Carriero (Cefriel)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the energy and fuel types covered by a dataset.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">NAPCORE WG4 Task 4.4</terms:publisher>
+        <terms:title xml:lang="en">[CANDIDATE RELEASE] Energy Fuel Type</terms:title>
+        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.europa.eu/r5r/applicableLegislation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://data.europa.eu/r5r/applicableLegislation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#description"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.europa.eu/eli/ontology#LegalResource -->
+
+
+    <owl:Class rdf:about="http://data.europa.eu/eli/ontology#LegalResource"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.europa.eu/eli/reg/2023/1804/oj -->
+
+
+    <owl:NamedIndividual rdf:about="http://data.europa.eu/eli/reg/2023/1804/oj">
+        <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+        <rdfs:description xml:lang="en">Regulation (EU) 2023/1804 of the European Parliament and of the Council of 13 September 2023 on the deployment of alternative fuels infrastructure, and repealing Directive 2014/94/EU</rdfs:description>
+        <rdfs:label xml:lang="en">Alternative Fuel Infrastructure Regulation (AFIR) - Regulation No 2023/1804</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/ammonia -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/ammonia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Ammonia</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/biofuel -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/biofuel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Biofuel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/biogas -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/biogas">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Biogas</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/biomass-fuel -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/biomass-fuel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Biomass-fuel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/compressed-natural-gas -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/compressed-natural-gas">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Compressed natural gas</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/diesel -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/diesel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Diesel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-ac -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-ac">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Electricity AC</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-dc -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-dc">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Electricity DC</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/diesel"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/petrol"/>
+        <skos:prefLabel xml:lang="en">Fossil fuels</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/hydrogen -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/hydrogen">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Hydrogen</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/liquefied-natural-gas -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/liquefied-natural-gas">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Liquefied natural gas</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/liquefied-petroleum-gas -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/liquefied-petroleum-gas">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Liquefied petroleum gas</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/non-renewable-synthetic-fuel -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non-renewable-synthetic-fuel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Non-renewable synthetic fuel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/petrol -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/petrol">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Petrol</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-ammonia -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-ammonia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Renewable ammonia</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/biofuel"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/biogas"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/biomass-fuel"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-ammonia"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-synthetic-fuel"/>
+        <skos:prefLabel xml:lang="en">Renewable fuels</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-synthetic-fuel -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-synthetic-fuel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:prefLabel xml:lang="en">Renewable synthetic fuel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/ammonia"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-ac"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-dc"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/hydrogen"/>
+        <skos:prefLabel xml:lang="en">Zero-emission energy types</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/compressed-natural-gas"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/liquefied-natural-gas"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/liquefied-petroleum-gas"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/non-renewable-synthetic-fuel"/>
+        <skos:prefLabel xml:lang="en">Non‑renewable alternative and transitional fossil fuels</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
