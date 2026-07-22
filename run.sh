@@ -2,6 +2,7 @@
 
 VOCABULARY="$1"
 RELEASE="$2"
+LANGUAGES="${3:-en}"
 
 if [ "$VOCABULARY" = "" ] || [ "$RELEASE" = "" ]; then
     echo "Provide the name of a vocabulary as first argument and a version number x.y.z as the second one"
@@ -27,7 +28,7 @@ else
 	mkdir './'$VOCABULARY'/'$RELEASE
 
 	# Create serialisations and documentation
-	java -jar tools/widoco.jar -excludeIntroduction -noPlaceHolderText -ontFile './'$VOCABULARY'/'$VOCABULARY'.ttl' -outFolder './'$VOCABULARY'/latest' -lang en
+	java -jar tools/widoco.jar -excludeIntroduction -noPlaceHolderText -ontFile './'$VOCABULARY'/'$VOCABULARY'.ttl' -outFolder './'$VOCABULARY'/latest' -lang $LANGUAGES
 
 	# Move files
 	mv './'$VOCABULARY'/latest/index-en.html' './'$VOCABULARY'/latest/index.html'
