@@ -16,7 +16,7 @@
                                                      <http://purl.org/dc/terms/description> "Controlled vocabulary for the energy and fuel types covered by a dataset."@en ;
                                                      <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                      <http://purl.org/dc/terms/publisher> "NAPCORE WG4 Task 4.4"@en ;
-                                                     <http://purl.org/dc/terms/title> "[CANDIDATE RELEASE] Energy Fuel Type"@en ;
+                                                     <http://purl.org/dc/terms/title> "Energy Fuel Type"@en ;
                                                      <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en ;
                                                      owl:versionInfo "1.0.0"@en ;
                                                      <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels> ,

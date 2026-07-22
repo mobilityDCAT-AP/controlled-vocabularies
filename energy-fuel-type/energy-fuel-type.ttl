@@ -22,7 +22,7 @@
 
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> a skos:ConceptScheme;
   a owl:Ontology;
-  dct:title "[CANDIDATE RELEASE] Energy Fuel Type"@en;
+  dct:title "Energy Fuel Type"@en;
   dct:description "Controlled vocabulary for the energy and fuel types covered by a dataset."@en;
   dct:creator "Valentina Carriero (Cefriel)"@en, "Mario Scrocca (Cefriel)"@en;
   dct:publisher "NAPCORE WG4 Task 4.4"@en;

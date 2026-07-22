@@ -99,7 +99,7 @@
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
-    "@value" : "[CANDIDATE RELEASE] Energy Fuel Type"
+    "@value" : "Energy Fuel Type"
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@language" : "en",
