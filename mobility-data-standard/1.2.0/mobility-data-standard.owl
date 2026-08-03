@@ -13,6 +13,7 @@
         <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.2.0"/>
         <terms:contributor xml:lang="en">Ed Ooms (NDW)</terms:contributor>
         <terms:contributor xml:lang="en">Petr Bures (TamTam Research)</terms:contributor>
+        <terms:contributor xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:contributor>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the mobility data standard adopted by a distribution.</terms:description>

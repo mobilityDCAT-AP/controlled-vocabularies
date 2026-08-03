@@ -49,6 +49,9 @@
   }, {
     "@language" : "en",
     "@value" : "Petr Bures (TamTam Research)"
+  }, {
+    "@language" : "en",
+    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",

@@ -1,0 +1,234 @@
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/2.0.0> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/contributor> "Petr Bures (TamTam Research)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/description> "Controlled vocabulary for the application layer protocol of a distribution."@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/title> "Application layer protocol"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2002/07/owl#versionInfo> "2.0.0"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/replacedBy
+<http://purl.org/dc/terms/replacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#narrower
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> <http://www.w3.org/2004/02/skos/core#definition> "Advanced Message Queuing Protocol (AMQP)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> <http://www.w3.org/2004/02/skos/core#prefLabel> "AMQP"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#definition> "(Secure) File Transfer Protocol (FTP/SFTP)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#prefLabel> "FTP/SFTP"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> <http://www.w3.org/2004/02/skos/core#definition> "gRPC Remote Procedure Call (gRPC)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> <http://www.w3.org/2004/02/skos/core#prefLabel> "gRPC"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/http
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#definition> "Hypertext Transfer Protocol (HTTP/HTTPS)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#narrower> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#narrower> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#narrower> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTTP/HTTPS"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2004/02/skos/core#definition> "HTTP/HTTPS"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTTP HTTPS"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> <http://www.w3.org/2004/02/skos/core#definition> "HTTP Long Polling"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Long Polling"@en .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> <http://www.w3.org/2004/02/skos/core#definition> "MQTT"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> <http://www.w3.org/2004/02/skos/core#prefLabel> "MQTT"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2004/02/skos/core#prefLabel> "OCIT"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/other
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> <http://www.w3.org/2004/02/skos/core#definition> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2004/02/skos/core#prefLabel> "OTS2"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> <http://www.w3.org/2004/02/skos/core#definition> "REST"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest> <http://www.w3.org/2004/02/skos/core#prefLabel> "REST"@en .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> <http://www.w3.org/2004/02/skos/core#definition> "Really Simple Syndication (RSS)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> <http://www.w3.org/2004/02/skos/core#prefLabel> "RSS"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> <http://www.w3.org/2004/02/skos/core#definition> "Simple Object Access Protocol (SOAP)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> <http://www.w3.org/2004/02/skos/core#prefLabel> "SOAP"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> <http://www.w3.org/2004/02/skos/core#definition> "Server-Sent Events (SSE)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse> <http://www.w3.org/2004/02/skos/core#prefLabel> "SSE"@en .
+# 
+# https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> <http://www.w3.org/2004/02/skos/core#definition> "ZeroMQ"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> <http://www.w3.org/2004/02/skos/core#prefLabel> "ZeroMQ"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

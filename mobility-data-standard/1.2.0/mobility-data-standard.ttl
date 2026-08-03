@@ -9,7 +9,8 @@
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> rdf:type owl:Ontology ;
                                                            owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.2.0> ;
                                                            <http://purl.org/dc/terms/contributor> "Ed Ooms (NDW)"@en ,
-                                                                                                  "Petr Bures (TamTam Research)"@en ;
+                                                                                                  "Petr Bures (TamTam Research)"@en ,
+                                                                                                  "Sara Guerra de Oliveira (University of Maribor)"@en ;
                                                            <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en ,
                                                                                               "Peter Lubrich (BASt)"@en ;
                                                            <http://purl.org/dc/terms/description> "Controlled vocabulary for the mobility data standard adopted by a distribution."@en ;

@@ -24,7 +24,7 @@
   dct:title "Mobility data standard"@en;
   dct:description "Controlled vocabulary for the mobility data standard adopted by a distribution."@en;
   dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
-  dct:contributor "Ed Ooms (NDW)"@en, "Petr Bures (TamTam Research)"@en;
+  dct:contributor "Ed Ooms (NDW)"@en, "Petr Bures (TamTam Research)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en;
   dct:publisher "NAPCORE SubWG4.4"@en;
   owl:versionInfo "1.2.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.2.0>;
