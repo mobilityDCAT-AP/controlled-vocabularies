@@ -1,111 +1,228 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-data-standard> a skos:ConceptScheme;
   a owl:Ontology;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
-  dct:description "Controlled vocabulary for the mobility data standard adopted by a distribution."@en;
-  dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:publisher "NAPCORE SubWG4.4"@en;
   dct:title "Mobility data standard"@en;
-  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
-  owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0>;
-  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0>;
-  owl:versionInfo "1.1.0"@en;
-  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its>,
+  dct:description "Controlled vocabulary for the mobility data standard adopted by a distribution."@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:contributor "Ed Ooms (NDW)"@en, "Petr Bures (TamTam Research)"@en;
+  dct:publisher "NAPCORE SubWG4.4"@en;
+  owl:versionInfo "1.2.0"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.2.0>;
+  owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0>;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its>,
     <https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri>,
-    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/era>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api>,
+    <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml>, <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> a skos:Concept;
-  skos:definition "DATEX II (CEN/TS 16157)"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "APDS"@en;
+  skos:definition "Alliance for Parking Data Standards (ADPS)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "DATEX II"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> a skos:Concept;
-  skos:definition "Open Communication Interface for Road Traffic Control Systems"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> a skos:Concept,
+    <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "ALERT-C"@en;
+  skos:definition "Traffic Message Channel (TMC) ALERT‑C location table standard (CEN/EN 14819‑3)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "OCIT-C"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> a skos:Concept;
-  skos:definition "CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "CDS"@en;
+  skos:definition "Curb Data Specification (Open Mobility Foundation)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "CDS-M"@en;
+  skos:definition "City Data Specification for Mobility (Open Mobility Foundation)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
   skos:prefLabel "C-ITS"@en;
+  skos:definition "Cooperative ITS message standards: CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> a skos:Concept;
-  skos:definition "TN-ITS (CEN/TS 17268)"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> a skos:Concept,
+    <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "DATEX II"@en;
+  skos:definition "Road Traffic and Travel Data Exchange (DATEX II, CEN/TS 16157)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "TN-ITS"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> a skos:Concept;
-  skos:definition """D2.8.I.7 Data Specification on Transport Networks – Technical 
-Guidelines"""@en;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "INSPIRE"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> a skos:Concept;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "GML"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> a skos:Concept;
-  skos:definition "NeTEx (CEN/TS 16614)"@en;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "NeTEx"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> a skos:Concept;
-  skos:definition "SIRI (CEN/TS 15531)"@en;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "SIRI"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> a skos:Concept;
-  skos:definition "General Transit Feed Specification - Schedule"@en;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "GTFS"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> a skos:Concept;
-  skos:definition "General Transit Feed Specification - Realtime"@en;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "GTFS-RT"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> a skos:Concept;
-  skos:definition "General Bikeshare Feed Specification"@en;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "GBFS"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> a skos:Concept;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "tpegML"@en;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> a skos:Concept;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
   skos:prefLabel "DINO"@en;
+  skos:definition "DINO exchange format based on the VDV-DIVA exchange format"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> a skos:Concept;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "e-CMR"@en;
+  skos:definition "Electronic Consignment Note under the UNECE CMR Convention"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "ERA Ontology"@en;
+  skos:definition "Ontology of the European Railway Agency (ERA)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "ERTMS"@en;
+  skos:definition "European Rail Traffic Management System"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "GBFS"@en;
+  skos:definition "General Bikeshare Feed Specification (MobilityData)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "GML"@en;
+  skos:definition "Geography Markup Language (OGC) XML encoding"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "GTFS"@en;
+  skos:definition "General Transit Feed Specification - Schedule (MobilityData)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> a skos:Concept,
+    <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "GTFS-RT"@en;
+  skos:definition "General Transit Feed Specification - Realtime (MobilityData)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> a skos:Concept,
+    <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "INSPIRE DS TN"@en;
+  skos:definition "INSPIRE Data Specification on Transport Networks"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "MDS"@en;
+  skos:definition "Mobility Data Specification (Open Mobility Foundation)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "NeTEx"@en;
+  skos:definition "Network and Timetable Exchange (NeTEx, CEN/TS 16614)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OCIT-O"@en;
+  skos:definition "OCIT (Open Communication Interface for Road Traffic Control Systems) Outstations"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OCIT-C"@en;
+  skos:definition "OCIT (Open Communication Interface for Road Traffic Control Systems) Center-to-Center"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OCPI"@en;
   skos:definition "Open Charge Point Interface (OCPI)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
-  skos:prefLabel "OCPI"@en;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> a skos:Concept;
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OJP"@en;
+  skos:definition "Open Journey Planner (CEN/TS 17118)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> a skos:Concept,
+    <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OpenTNF"@en;
+  skos:definition "Open specification for interoperability and exchange of data on transport networks"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OpRa"@en;
+  skos:definition "Operating Raw Data and Statistics Exchange (CEN/TS 17413)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "OSDM"@en;
+  skos:definition "Open Sales and Distribution Model (OSDM)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "SIRI"@en;
+  skos:definition "Service Interface for Real‑time Information (SIRI, CEN/TS 15531)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "TN-ITS"@en;
+  skos:definition "TN-ITS (CEN/TS 17268)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> a skos:Concept,
+    <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "TOMP-API"@en;
+  skos:definition "Transport Operator - MaaS Provider API"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
+  skos:prefLabel "tpegML"@en;
+  skos:definition "XML encoding of TPEG messages (ISO/TS 21219 series)"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> a skos:Concept, <https://w3id.org/mobilitydcatap#MobilityDataStandard>;
   skos:prefLabel "Other"@en;
+  skos:definition "Dataset uses a data standard not listed in this vocabulary"@en;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-data-standard>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .

@@ -1,0 +1,380 @@
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.2.0> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/contributor> "Ed Ooms (NDW)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/contributor> "Petr Bures (TamTam Research)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/description> "Controlled vocabulary for the mobility data standard adopted by a distribution."@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/dc/terms/title> "Mobility data standard"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2002/07/owl#versionInfo> "1.2.0"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/mobilitydcatap#MobilityDataStandard
+<https://w3id.org/mobilitydcatap#MobilityDataStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/2004/02/skos/core#definition> "Traffic Message Channel (TMC) ALERT‑C location table standard (CEN/EN 14819‑3)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/2004/02/skos/core#prefLabel> "ALERT-C"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/2004/02/skos/core#definition> "Alliance for Parking Data Standards (ADPS)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/2004/02/skos/core#prefLabel> "APDS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/2004/02/skos/core#definition> "Cooperative ITS message standards: CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/2004/02/skos/core#prefLabel> "C-ITS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/2004/02/skos/core#definition> "Curb Data Specification (Open Mobility Foundation)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/2004/02/skos/core#prefLabel> "CDS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/2004/02/skos/core#definition> "City Data Specification for Mobility (Open Mobility Foundation)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/2004/02/skos/core#prefLabel> "CDS-M"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/2004/02/skos/core#definition> "Road Traffic and Travel Data Exchange (DATEX II, CEN/TS 16157)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/2004/02/skos/core#prefLabel> "DATEX II"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/2004/02/skos/core#definition> "DINO exchange format based on the VDV-DIVA exchange format"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/2004/02/skos/core#prefLabel> "DINO"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/2004/02/skos/core#definition> "Electronic Consignment Note under the UNECE CMR Convention"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/2004/02/skos/core#prefLabel> "e-CMR"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/era
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/2004/02/skos/core#definition> "Ontology of the European Railway Agency (ERA)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/2004/02/skos/core#prefLabel> "ERA Ontology"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/era> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/2004/02/skos/core#definition> "European Rail Traffic Management System"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/2004/02/skos/core#prefLabel> "ERTMS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/2004/02/skos/core#definition> "General Bikeshare Feed Specification (MobilityData)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/2004/02/skos/core#prefLabel> "GBFS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/2004/02/skos/core#definition> "Geography Markup Language (OGC) XML encoding"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/2004/02/skos/core#prefLabel> "GML"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gml> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/2004/02/skos/core#definition> "General Transit Feed Specification - Schedule (MobilityData)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/2004/02/skos/core#prefLabel> "GTFS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/2004/02/skos/core#definition> "General Transit Feed Specification - Realtime (MobilityData)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/2004/02/skos/core#prefLabel> "GTFS-RT"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/gtfs-rt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/2004/02/skos/core#definition> "INSPIRE Data Specification on Transport Networks"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/2004/02/skos/core#prefLabel> "INSPIRE DS TN"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/2004/02/skos/core#definition> "Mobility Data Specification (Open Mobility Foundation)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/2004/02/skos/core#prefLabel> "MDS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/2004/02/skos/core#definition> "Network and Timetable Exchange (NeTEx, CEN/TS 16614)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/2004/02/skos/core#prefLabel> "NeTEx"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#definition> "OCIT (Open Communication Interface for Road Traffic Control Systems) Center-to-Center"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#prefLabel> "OCIT-C"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/2004/02/skos/core#definition> "OCIT (Open Communication Interface for Road Traffic Control Systems) Outstations"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/2004/02/skos/core#prefLabel> "OCIT-O"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/2004/02/skos/core#definition> "Open Charge Point Interface (OCPI)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/2004/02/skos/core#prefLabel> "OCPI"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/2004/02/skos/core#definition> "Open Journey Planner (CEN/TS 17118)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/2004/02/skos/core#prefLabel> "OJP"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/2004/02/skos/core#definition> "Open specification for interoperability and exchange of data on transport networks"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenTNF"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/2004/02/skos/core#definition> "Operating Raw Data and Statistics Exchange (CEN/TS 17413)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/2004/02/skos/core#prefLabel> "OpRa"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/2004/02/skos/core#definition> "Open Sales and Distribution Model (OSDM)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/2004/02/skos/core#prefLabel> "OSDM"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/other
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#definition> "Dataset uses a data standard not listed in this vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/2004/02/skos/core#definition> "Service Interface for Real‑time Information (SIRI, CEN/TS 15531)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/2004/02/skos/core#prefLabel> "SIRI"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/siri> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/2004/02/skos/core#definition> "TN-ITS (CEN/TS 17268)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/2004/02/skos/core#prefLabel> "TN-ITS"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/2004/02/skos/core#definition> "Transport Operator - MaaS Provider API"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "TOMP-API"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/mobilitydcatap#MobilityDataStandard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/2004/02/skos/core#definition> "XML encoding of TPEG messages (ISO/TS 21219 series)"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/2004/02/skos/core#prefLabel> "tpegML"@en .
+<https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
