@@ -7,7 +7,7 @@
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/dc/terms/title> "Application layer protocol"@en .
-<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2002/07/owl#versionInfo> "2.0.0"@en .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> .
@@ -115,7 +115,7 @@
 # https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#definition> "(Secure) File Transfer Protocol (FTP/SFTP)"@en .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#definition> "File Transfer Protocol (FTP/SFTP)"@en .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#prefLabel> "FTP/SFTP"@en .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .

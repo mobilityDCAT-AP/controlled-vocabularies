@@ -80,7 +80,7 @@
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@language" : "en",
-    "@value" : "Published Controlled Vocabulary"
+    "@value" : "Draft Controlled Vocabulary"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -148,7 +148,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "(Secure) File Transfer Protocol (FTP/SFTP)"
+    "@value" : "File Transfer Protocol (FTP/SFTP)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"

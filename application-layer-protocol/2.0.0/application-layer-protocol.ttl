@@ -15,7 +15,7 @@
                                                                <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                                <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en ;
                                                                <http://purl.org/dc/terms/title> "Application layer protocol"@en ;
-                                                               <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en ;
+                                                               <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en ;
                                                                owl:priorVersion <https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0> ;
                                                                owl:versionInfo "2.0.0"@en ;
                                                                <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp> ,
@@ -128,7 +128,7 @@
 ###  https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> rdf:type owl:NamedIndividual ,
                                                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                  <http://www.w3.org/2004/02/skos/core#definition> "(Secure) File Transfer Protocol (FTP/SFTP)"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "File Transfer Protocol (FTP/SFTP)"@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "FTP/SFTP"@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .

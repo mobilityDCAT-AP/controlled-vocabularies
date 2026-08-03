@@ -30,7 +30,7 @@
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/application-layer-protocol/2.0.0>;
   owl:priorVersion <https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0>;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2>,
     <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https>,
     <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap>,
@@ -95,7 +95,7 @@
 
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp> a skos:Concept;
   skos:prefLabel "FTP/SFTP"@en;
-  skos:definition "(Secure) File Transfer Protocol (FTP/SFTP)"@en;
+  skos:definition "File Transfer Protocol (FTP/SFTP)"@en;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 

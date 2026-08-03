@@ -18,7 +18,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
         <terms:title xml:lang="en">Application layer protocol</terms:title>
-        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
         <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0"/>
         <owl:versionInfo xml:lang="en">2.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp"/>
@@ -219,7 +219,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">(Secure) File Transfer Protocol (FTP/SFTP)</skos:definition>
+        <skos:definition xml:lang="en">File Transfer Protocol (FTP/SFTP)</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol"/>
         <skos:prefLabel xml:lang="en">FTP/SFTP</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol"/>
