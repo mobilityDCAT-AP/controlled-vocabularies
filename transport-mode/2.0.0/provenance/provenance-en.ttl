@@ -1,0 +1,23 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/2.0.0> a prov:Entity;
+	 dc:title "Transport Mode";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
+	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo :agent6;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasRevisionOf <https://w3id.org/mobilitydcat-ap/transport-mode/1.0.0>;
+.
+:agent0 a prov:Agent; foaf:name "Mario Scrocca (Cefriel)".
+:agent1 a prov:Agent; foaf:name "Peter Lubrich (BASt)".
+:agent2 a prov:Agent; foaf:name "Benjamin Witsch (AustriaTech)".
+:agent3 a prov:Agent; foaf:name "Christian Rantzow von Huth (Vejdirektoratet)".
+:agent4 a prov:Agent; foaf:name "Ed Ooms (NDW)".
+:agent5 a prov:Agent; foaf:name "Petr Bures (TamTam Research)".
+:agent6 a prov:Agent; foaf:name "Sara Guerra de Oliveira (University of Maribor)".

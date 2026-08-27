@@ -3,7 +3,7 @@
 VOCABULARY="$1"
 RELEASE="$2"
 LANGUAGES="${3:-en}"
-TREE_VOCABULARIES=("mobility-theme" "energy-fuel-type")
+TREE_VOCABULARIES=("mobility-theme" "energy-fuel-type" "transport-mode")
 
 if [ "$VOCABULARY" = "" ] || [ "$RELEASE" = "" ]; then
     echo "Provide the name of a vocabulary as first argument and a version number x.y.z as the second one"
