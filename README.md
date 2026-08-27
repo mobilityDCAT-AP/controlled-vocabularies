@@ -17,6 +17,7 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Network Coverage | https://w3id.org/mobilitydcat-ap/network-coverage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Intended Information Service | https://w3id.org/mobilitydcat-ap/intended-information-service | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
+|  | https://w3id.org/mobilitydcat-ap/transport-mode/2.0.0 | ![2.0.0-CANDIDATE](https://img.shields.io/badge/-2.0.0--CANDIDATE-yellow?style=flat) |
 | *Energy Fuel Type* | https://w3id.org/mobilitydcat-ap/energy-fuel-type | ![1.0.0-CANDIDATE](https://img.shields.io/badge/-1.0.0--CANDIDATE-yellow?style=flat) |
 | Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 | Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
