@@ -141,6 +141,7 @@ def parse_concepts(xlsx_path: Path, sheet_name: str) -> tuple[str, list[Concept]
     vocabulary_uri = ""
     narrower_column = ""
     broader_column = ""
+    deprecated_column = ""
 
     for row in sheet_data.findall(f"{{{NS_MAIN}}}row"):
         row_index = int(row.attrib.get("r", "0"))
@@ -162,6 +163,7 @@ def parse_concepts(xlsx_path: Path, sheet_name: str) -> tuple[str, list[Concept]
             concept_table_started = True
             narrower_column = ""
             broader_column = ""
+            deprecated_column = ""
 
             for column, value in cells_by_column.items():
                 normalized_value = value.strip().lower()
@@ -169,12 +171,16 @@ def parse_concepts(xlsx_path: Path, sheet_name: str) -> tuple[str, list[Concept]
                     narrower_column = column
                 elif normalized_value == "skos:broader":
                     broader_column = column
+                elif normalized_value == "owl:deprecated^^xsd:boolean":
+                    deprecated_column = column
 
             missing_columns: list[str] = []
             if not narrower_column:
                 missing_columns.append("skos:narrower")
             if not broader_column:
                 missing_columns.append("skos:broader")
+            if not deprecated_column:
+                missing_columns.append("owl:deprecated^^xsd:boolean")
             if missing_columns:
                 missing_text = ", ".join(missing_columns)
                 raise ValueError(
@@ -195,7 +201,7 @@ def parse_concepts(xlsx_path: Path, sheet_name: str) -> tuple[str, list[Concept]
 
         label_en = cells_by_column.get("B", "")
         broader = cells_by_column.get(broader_column, "")
-        deprecated_raw = cells_by_column.get("G", "").lower()
+        deprecated_raw = cells_by_column.get(deprecated_column, "").lower()
 
         concepts.append(
             Concept(

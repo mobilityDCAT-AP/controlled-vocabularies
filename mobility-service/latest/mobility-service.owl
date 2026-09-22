@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/mobilitydcat-ap/mobility-service#"
+     xml:base="https://w3id.org/mobilitydcat-ap/mobility-service"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service">
+        <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/1.0.0"/>
+        <terms:contributor xml:lang="en">Benjamin Witsch (AustriaTech)</terms:contributor>
+        <terms:contributor xml:lang="en">Christian Rantzow von Huth (Vejdirektoratet)</terms:contributor>
+        <terms:contributor xml:lang="en">Ed Ooms (NDW)</terms:contributor>
+        <terms:contributor xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:contributor>
+        <terms:contributor xml:lang="en">Valentina Carriero (Cefriel)</terms:contributor>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
+        <terms:creator xml:lang="en">Petr Bures (TamTam Research)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the mobility services covered by a dataset.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">NAPCORE WG4 Task 4.4</terms:publisher>
+        <terms:title xml:lang="en">Mobility Service</terms:title>
+        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Services picking up and dropping off passengers at specific locations</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Door-to-door</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Services following a predefined route</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Fixed route</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/flexible -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/flexible">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Services with variable routing depending on demand</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Flexible</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"/>
+        <skos:definition xml:lang="en">Vehicles can be picked up and dropped off anywhere within a zone</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Free-floating sharing service</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Rental of vehicle for hours or days</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/rental-service"/>
+        <skos:prefLabel xml:lang="en">Hiring Mobility Service</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/on-demand -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/on-demand">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Services activated only when requested by users</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">On-demand</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service"/>
+        <skos:definition xml:lang="en">Private owners rent out their vehicles to others</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Peer-to-peer</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/rental-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/rental-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service"/>
+        <skos:definition xml:lang="en">Organization that rents vehicles to individuals or businesses on a temporary basis.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Rental service</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Service for requesting point-to-point transport on demand via an application (e.g., Uber, Lyft, Bolt, etc.)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Ride hailing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"/>
+        <skos:definition xml:lang="en">Service for multiple passengers to organise a shared trip</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Ride pooling</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"/>
+        <skos:definition xml:lang="en">Service providing a trip on a given route to be shared among multiple participants</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Ride sharing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/scheduled -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/scheduled">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Services operating according to a fixed timetable</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Scheduled</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Services with partial timetable constraints or flexible timing</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Semi-scheduled</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Mobility provided through shared access to vehicles instead of ownership</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service"/>
+        <skos:prefLabel xml:lang="en">Sharing Mobility Service</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Repeated transport between fixed points, often for events or airports</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Shuttle service</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"/>
+        <skos:definition xml:lang="en">Vehicles must be picked up and returned to designated stations</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Station-based sharing service</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/taxi -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/taxi">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"/>
+        <skos:definition xml:lang="en">Licensed vehicle providing point‑to‑point transport on demand</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:prefLabel xml:lang="en">Taxi</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-service/transport-service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-service/transport-service">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Organized transport service delivered to users</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/flexible"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/on-demand"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/scheduled"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service/taxi"/>
+        <skos:prefLabel xml:lang="en">Transport Service</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-service"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

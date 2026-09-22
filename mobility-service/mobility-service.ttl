@@ -1,0 +1,155 @@
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service> a skos:ConceptScheme;
+  a owl:Ontology;
+  dct:title "Mobility Service"@en;
+  dct:description "Controlled vocabulary for the mobility services covered by a dataset."@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Petr Bures (TamTam Research)"@en, "Peter Lubrich (BASt)"@en;
+  dct:publisher "NAPCORE WG4 Task 4.4"@en;
+  dct:contributor "Sara Guerra de Oliveira (University of Maribor)"@en, "Ed Ooms (NDW)"@en,
+    "Benjamin Witsch (AustriaTech)"@en, "Valentina Carriero (Cefriel)"@en, "Christian Rantzow von Huth (Vejdirektoratet)"@en;
+  owl:versionInfo "1.0.0"@en;
+  owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-service/1.0.0>;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
+  skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service>, <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service> a skos:Concept;
+  skos:prefLabel "Sharing Mobility Service"@en;
+  skos:definition "Mobility provided through shared access to vehicles instead of ownership"@en;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing>, <https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service>
+  a skos:Concept;
+  skos:prefLabel "Free-floating sharing service"@en;
+  skos:definition "Vehicles can be picked up and dropped off anywhere within a zone"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service>
+  a skos:Concept;
+  skos:prefLabel "Station-based sharing service"@en;
+  skos:definition "Vehicles must be picked up and returned to designated stations"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing> a skos:Concept;
+  skos:prefLabel "Ride sharing"@en;
+  skos:definition "Service providing a trip on a given route to be shared among multiple participants"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling> a skos:Concept;
+  skos:prefLabel "Ride pooling"@en;
+  skos:definition "Service for multiple passengers to organise a shared trip"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service> a skos:Concept;
+  skos:prefLabel "Hiring Mobility Service"@en;
+  skos:definition "Rental of vehicle for hours or days"@en;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-service/rental-service>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/rental-service> a skos:Concept;
+  skos:prefLabel "Rental service"@en;
+  skos:definition "Organization that rents vehicles to individuals or businesses on a temporary basis."@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer> a skos:Concept;
+  skos:prefLabel "Peer-to-peer"@en;
+  skos:definition "Private owners rent out their vehicles to others"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/transport-service> a skos:Concept;
+  skos:prefLabel "Transport Service"@en;
+  skos:definition "Organized transport service delivered to users"@en;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-service/scheduled>, <https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/on-demand>, <https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/flexible>, <https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service>, <https://w3id.org/mobilitydcat-ap/mobility-service/taxi>,
+    <https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/scheduled> a skos:Concept;
+  skos:prefLabel "Scheduled"@en;
+  skos:definition "Services operating according to a fixed timetable"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled> a skos:Concept;
+  skos:prefLabel "Semi-scheduled"@en;
+  skos:definition "Services with partial timetable constraints or flexible timing"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/on-demand> a skos:Concept;
+  skos:prefLabel "On-demand"@en;
+  skos:definition "Services activated only when requested by users"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route> a skos:Concept;
+  skos:prefLabel "Fixed route"@en;
+  skos:definition "Services following a predefined route"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/flexible> a skos:Concept;
+  skos:prefLabel "Flexible"@en;
+  skos:definition "Services with variable routing depending on demand"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door> a skos:Concept;
+  skos:prefLabel "Door-to-door"@en;
+  skos:definition "Services picking up and dropping off passengers at specific locations"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service> a skos:Concept;
+  skos:prefLabel "Shuttle service"@en;
+  skos:definition "Repeated transport between fixed points, often for events or airports"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/taxi> a skos:Concept;
+  skos:prefLabel "Taxi"@en;
+  skos:definition "Licensed vehicle providing point‑to‑point transport on demand"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing> a skos:Concept;
+  skos:prefLabel "Ride hailing"@en;
+  skos:definition "Service for requesting point-to-point transport on demand via an application (e.g., Uber, Lyft, Bolt, etc.)"@en;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-service> .

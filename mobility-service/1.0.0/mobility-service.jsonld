@@ -1,0 +1,507 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Benjamin Witsch (AustriaTech)"
+  }, {
+    "@language" : "en",
+    "@value" : "Christian Rantzow von Huth (Vejdirektoratet)"
+  }, {
+    "@language" : "en",
+    "@value" : "Ed Ooms (NDW)"
+  }, {
+    "@language" : "en",
+    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
+  }, {
+    "@language" : "en",
+    "@value" : "Valentina Carriero (Cefriel)"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Mario Scrocca (Cefriel)"
+  }, {
+    "@language" : "en",
+    "@value" : "Peter Lubrich (BASt)"
+  }, {
+    "@language" : "en",
+    "@value" : "Petr Bures (TamTam Research)"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Controlled vocabulary for the mobility services covered by a dataset."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "en",
+    "@value" : "NAPCORE WG4 Task 4.4"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Mobility Service"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@language" : "en",
+    "@value" : "Draft Controlled Vocabulary"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0.0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Services picking up and dropping off passengers at specific locations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Door-to-door"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Services following a predefined route"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fixed route"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/flexible",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Services with variable routing depending on demand"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Flexible"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Vehicles can be picked up and dropped off anywhere within a zone"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Free-floating sharing service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Rental of vehicle for hours or days"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/rental-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Hiring Mobility Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/on-demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Services activated only when requested by users"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "On-demand"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/peer-to-peer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Private owners rent out their vehicles to others"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Peer-to-peer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/rental-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Organization that rents vehicles to individuals or businesses on a temporary basis."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Rental service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Service for requesting point-to-point transport on demand via an application (e.g., Uber, Lyft, Bolt, etc.)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ride hailing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Service for multiple passengers to organise a shared trip"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ride pooling"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Service providing a trip on a given route to be shared among multiple participants"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ride sharing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/scheduled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Services operating according to a fixed timetable"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Scheduled"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Services with partial timetable constraints or flexible timing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Semi-scheduled"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Mobility provided through shared access to vehicles instead of ownership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/free-floating-sharing-service"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/ride-pooling"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/ride-sharing"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Sharing Mobility Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Repeated transport between fixed points, often for events or airports"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Shuttle service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/station-based-sharing-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Vehicles must be picked up and returned to designated stations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Station-based sharing service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/taxi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Licensed vehicle providing point‑to‑point transport on demand"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Taxi"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/transport-service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Organized transport service delivered to users"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/door-to-door"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/fixed-route"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/flexible"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/on-demand"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/ride-hailing"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/scheduled"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/semi-scheduled"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/shuttle-service"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service/taxi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Transport Service"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-service"
+  } ]
+} ]

@@ -19,12 +19,13 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 |  | https://w3id.org/mobilitydcat-ap/transport-mode/2.0.0 | ![2.0.0-CANDIDATE](https://img.shields.io/badge/-2.0.0--CANDIDATE-yellow?style=flat) |
 | *Energy Fuel Type* | https://w3id.org/mobilitydcat-ap/energy-fuel-type | ![1.0.0-CANDIDATE](https://img.shields.io/badge/-1.0.0--CANDIDATE-yellow?style=flat) |
+| *Mobility Service* | https://w3id.org/mobilitydcat-ap/mobility-service | ![1.0.0-CANDIDATE](https://img.shields.io/badge/-1.0.0--CANDIDATE-yellow?style=flat) |
 | Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 | Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 
 ### Contributing
 
-If you open an issue, please specify the name of the controlled vocabulary you refer to. If you would like to propose modifications to a controlled vocabulary, you can: i) download the Excel (.xlsx file in the related subfolder), (ii) apply modifications to the downloaded copy and (iii) open a pull request or attach the new version of the Excel to the issue. 
+If you open an issue, please specify the name of the controlled vocabulary you refer to. If you would like to propose modifications to a controlled vocabulary, you can: (i) download the Excel (.xlsx file in the related subfolder), (ii) apply modifications to the downloaded copy and (iii) open a pull request or attach the new version of the Excel to the issue. 
 
 ### License
 
