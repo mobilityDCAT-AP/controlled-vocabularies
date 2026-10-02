@@ -8,11 +8,15 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme> rdf:type owl:Ontology ;
                                                    owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/2.0.0> ;
-                                                   <http://purl.org/dc/terms/contributor> "Benjamin Witsch (AustriaTech)"@en ,
+                                                   <http://purl.org/dc/terms/contributor> "Christian Rantzow von Huth (Vejdirektoratet)"@en ,
+                                                                                          "Darko Ilić (ASTRA)"@en ,
+                                                                                          "Ed Ooms (NDW)"@en ,
                                                                                           "Jasper Beernaerts (NGI)"@en ,
                                                                                           "Julien Martineau (NGI)"@en ,
+                                                                                          "Sara Guerra de Oliveira (University of Maribor)"@en ,
                                                                                           "Valentina Carriero (Cefriel)"@en ;
-                                                   <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en ,
+                                                   <http://purl.org/dc/terms/creator> "Benjamin Witsch (AustriaTech)"@en ,
+                                                                                      "Mario Scrocca (Cefriel)"@en ,
                                                                                       "Peter Lubrich (BASt)"@en ;
                                                    <http://purl.org/dc/terms/description> "Controlled vocabulary for the classification of the theme for a mobility dataset."@en ;
                                                    <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
@@ -158,6 +162,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities> rdf:type owl:NamedIndividual ,
                                                                                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                            <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                             <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                           <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services> ;
                                                                                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -482,6 +487,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions
 <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions> rdf:type owl:NamedIndividual ,
                                                                                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                    <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                     <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data> ,
                                                                                                                                   <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ;
                                                                                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -881,6 +887,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status> rdf:type owl:NamedIndividual ,
                                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                           <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                            <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                          <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services> ;
                                                                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1053,6 +1060,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops
 <https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops> rdf:type owl:NamedIndividual ,
                                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                      <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                       <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                     <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1158,6 +1166,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions
 <https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions> rdf:type owl:NamedIndividual ,
                                                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                              <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                               <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions> ;
                                                                               owl:deprecated "true"^^xsd:boolean ;
                                                                               <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data> ,
@@ -1303,6 +1312,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs> rdf:type owl:NamedIndividual ,
                                                                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                       <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                        <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels> ;
                                                                                        owl:deprecated "true"^^xsd:boolean ;
                                                                                        <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
@@ -1358,6 +1368,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs> rdf:type owl:NamedIndividual ,
                                                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                 <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                  <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1367,6 +1378,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities> rdf:type owl:NamedIndividual ,
                                                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                               <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                                <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                              <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1376,6 +1388,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods> rdf:type owl:NamedIndividual ,
                                                                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                     <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                      <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                    <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                                      <http://www.w3.org/2004/02/skos/core#definition> "Where and how to pay for parking, including retail channels and fulfilment methods"@en ;
@@ -1386,6 +1399,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability> rdf:type owl:NamedIndividual ,
                                                                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                 <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                  <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1423,6 +1437,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones> rdf:type owl:NamedIndividual ,
                                                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                 <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                               <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1850,6 +1865,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability> rdf:type owl:NamedIndividual ,
                                                                                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                     <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> ;
                                                                                      <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability> ;
                                                                                      owl:deprecated "true"^^xsd:boolean ;
                                                                                      <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
@@ -1873,6 +1889,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities> rdf:type owl:NamedIndividual ,
                                                                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                                             <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> ;
                                                                                                              <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                                            <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                                                              <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1882,6 +1899,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability> rdf:type owl:NamedIndividual ,
                                                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                               <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> ;
                                                                                                <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                              <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information> ;
                                                                                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
@@ -1975,6 +1993,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services
 <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services> rdf:type owl:NamedIndividual ,
                                                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                      <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                       <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> ;
                                                                                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-theme> ;
                                                                                       <http://www.w3.org/2004/02/skos/core#narrower> <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability> ,
@@ -2214,6 +2233,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description
 <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description> rdf:type owl:NamedIndividual ,
                                                                                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                                               <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> ;
                                                                                                <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> ,
                                                                                                                                              <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services> ;
                                                                                                <http://www.w3.org/2004/02/skos/core#definition> "Transport operator vehicle fleet description including environmental standards"@en ;

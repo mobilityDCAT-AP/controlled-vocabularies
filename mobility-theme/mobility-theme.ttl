@@ -22,10 +22,11 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme> dct:title "Mobility Theme"@en;
   dct:description "Controlled vocabulary for the classification of the theme for a mobility dataset."@en;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en, "Benjamin Witsch (AustriaTech)"@en;
   dct:publisher "NAPCORE WG4 Task 4.4"@en;
-  dct:contributor "Benjamin Witsch (AustriaTech)"@en, "Valentina Carriero (Cefriel)"@en,
-    "Julien Martineau (NGI)"@en, "Jasper Beernaerts (NGI)"@en;
+  dct:contributor "Valentina Carriero (Cefriel)"@en, "Julien Martineau (NGI)"@en, "Jasper Beernaerts (NGI)"@en,
+    "Darko Ilić (ASTRA)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en, "Ed Ooms (NDW)"@en,
+    "Christian Rantzow von Huth (Vejdirektoratet)"@en;
   owl:versionInfo "2.0.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/2.0.0>;
   owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.1>;
@@ -33,17 +34,11 @@
   <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> a skos:Concept;
-  skos:prefLabel "Data content category"@en;
-  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data> .
+  skos:prefLabel "Data content category"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> a skos:Concept;
   skos:prefLabel "Data content sub-category"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
-  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/geometry>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-width>, <https://w3id.org/mobilitydcat-ap/mobility-theme/number-of-lanes>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes>, <https://w3id.org/mobilitydcat-ap/mobility-theme/gradients>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients>, <https://w3id.org/mobilitydcat-ap/mobility-theme/junctions> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data> a skos:Concept;
   skos:prefLabel "Static road network data"@en;
@@ -153,12 +148,14 @@
   skos:prefLabel "Network closures/diversions"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions> .
+  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions>
   a skos:Concept;
   skos:prefLabel "Cycle network closures/diversions"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data> a skos:Concept;
   skos:prefLabel "Pedestrian network data"@en;
@@ -338,27 +335,32 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>
   a skos:Concept;
   skos:prefLabel "Parking Locations, Description and Facilities"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones> a skos:Concept;
   skos:prefLabel "Parking Zones"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability> a
     skos:Concept;
   skos:prefLabel "Parking Real-time Availability"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs> a
     skos:Concept;
   skos:prefLabel "Parking Conditions and Tariffs"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods>
   a skos:Concept;
   skos:prefLabel "Parking Payment Points and Methods"@en;
   skos:definition "Where and how to pay for parking, including retail channels and fulfilment methods"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-and-conditions>
   a skos:Concept;
@@ -371,19 +373,22 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities>
   a skos:Concept;
   skos:prefLabel "Service and Rest Area Locations, Description and Facilities"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability>
   a skos:Concept;
   skos:prefLabel "Service and Rest Area Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability> .
+  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability>
   a skos:Concept;
   skos:prefLabel "Service and Rest Area Real-time Availability"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/truck-parking-locations-and-conditions>
   a skos:Concept;
@@ -414,7 +419,8 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops> a skos:Concept;
   skos:prefLabel "Kiss and Ride stops"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-parking-locations> a skos:Concept;
   skos:prefLabel "Bike-parking locations"@en;
@@ -745,7 +751,8 @@
   skos:prefLabel "Parameters needed to calculate costs"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels> .
+  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-energy-fuel-consumption>
   a skos:Concept;
@@ -844,7 +851,8 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status> a skos:Concept;
   skos:prefLabel "Facility features status"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-accessibility-and-paths-within-facility>
   a skos:Concept;
@@ -857,7 +865,8 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities>
   a skos:Concept;
   skos:prefLabel "Accessibility and paths within facilities"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar> a skos:Concept;
   skos:prefLabel "Operational calendar"@en;
@@ -914,7 +923,8 @@
   a skos:Concept;
   skos:prefLabel "Transport Operator Vehicle Fleet Description"@en;
   skos:definition "Transport operator vehicle fleet description including environmental standards"@en;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles>
   a skos:Concept;
@@ -1099,7 +1109,8 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods>, <https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods>, <https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles>;
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> .
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>
   a skos:Concept;
@@ -1171,67 +1182,124 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability> a
-    skos:Concept;
-  skos:prefLabel "E-scooter Sharing Availability"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability> skos:prefLabel
+    "E-scooter Sharing Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
   dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations> a
-    skos:Concept;
-  skos:prefLabel "Service Locations and Stations"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations> skos:prefLabel
+    "Service Locations and Stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>
-  a skos:Concept;
   skos:prefLabel "Service Vehicle Fleet Description"@en;
   skos:definition "Service Vehicle Fleet Description including environmental standards"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability> a
-    skos:Concept;
-  skos:prefLabel "Service Real-time Availability"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability> skos:prefLabel
+    "Service Real-time Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods> a skos:Concept;
-  skos:prefLabel "Service Payment Methods"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods> skos:prefLabel
+    "Service Payment Methods"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones> a skos:Concept;
-  skos:prefLabel "Service Zones"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones> skos:prefLabel "Service Zones"@en;
   skos:definition "Service Zones including parking zones, no-parking zones, no-entry zones, speed limit zones, etc."@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> a skos:Concept;
-  skos:prefLabel "Payment methods"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> skos:prefLabel "Payment methods"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
   dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> a skos:Concept;
-  skos:prefLabel "Air and space travel"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> skos:prefLabel
+    "Air and space travel"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies> a skos:Concept;
-  skos:prefLabel "Waterways and water bodies"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies> skos:prefLabel
+    "Waterways and water bodies"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/other> a skos:Concept;
-  skos:prefLabel "Other"@en;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/other> skos:prefLabel "Other"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> .
 
+<https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability> a
+    skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations> a
+    skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>
+  a skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability> a
+    skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods> a skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones> a skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> a skos:Concept;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/other> a skos:Concept;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
+<https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> skos:narrower
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>, <https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data>, <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/toll-information>, <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/freight-and-logistics>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-traffic-signs-and-regulations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-work-information>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-events-and-conditions>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data>, <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services>, <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel>, <https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/other>;
+  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme>;
+  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-theme> .
+
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category> skos:narrower
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/geometry>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-width>, <https://w3id.org/mobilitydcat-ap/mobility-theme/number-of-lanes>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes>, <https://w3id.org/mobilitydcat-ap/mobility-theme/gradients>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients>, <https://w3id.org/mobilitydcat-ap/mobility-theme/junctions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-classification>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/network-geometry-and-lane-character>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry>, <https://w3id.org/mobilitydcat-ap/mobility-theme/network-detailed-attributes>,
@@ -1336,24 +1404,6 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods>, <https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> skos:narrower
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data>, <https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/toll-information>, <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/freight-and-logistics>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-traffic-signs-and-regulations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/road-work-information>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-events-and-conditions>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data>, <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services>, <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel>, <https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/other>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme>;
-  skos:topConceptOf <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/geometry> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
@@ -1902,32 +1952,6 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-availability> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
-  skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
 <https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data> skos:inScheme
     <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
@@ -1992,14 +2016,6 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> skos:inScheme
-    <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/waterways-and-water-bodies> skos:inScheme
-    <https://w3id.org/mobilitydcat-ap/mobility-theme> .
-
-<https://w3id.org/mobilitydcat-ap/mobility-theme/other> skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme> a skos:ConceptScheme;
   a owl:Ontology;

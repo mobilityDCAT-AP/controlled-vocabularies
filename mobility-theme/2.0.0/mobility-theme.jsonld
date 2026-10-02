@@ -133,7 +133,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@language" : "en",
-    "@value" : "Benjamin Witsch (AustriaTech)"
+    "@value" : "Christian Rantzow von Huth (Vejdirektoratet)"
+  }, {
+    "@language" : "en",
+    "@value" : "Darko Ilić (ASTRA)"
+  }, {
+    "@language" : "en",
+    "@value" : "Ed Ooms (NDW)"
   }, {
     "@language" : "en",
     "@value" : "Jasper Beernaerts (NGI)"
@@ -142,9 +148,15 @@
     "@value" : "Julien Martineau (NGI)"
   }, {
     "@language" : "en",
+    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
+  }, {
+    "@language" : "en",
     "@value" : "Valentina Carriero (Cefriel)"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Benjamin Witsch (AustriaTech)"
+  }, {
     "@language" : "en",
     "@value" : "Mario Scrocca (Cefriel)"
   }, {
@@ -189,6 +201,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -912,6 +927,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -1752,6 +1770,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2127,6 +2148,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2355,6 +2379,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://purl.org/dc/terms/replacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions"
   } ],
@@ -2669,6 +2696,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://purl.org/dc/terms/replacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels"
   } ],
@@ -2794,6 +2824,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2812,6 +2845,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2830,6 +2866,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2852,6 +2891,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2928,6 +2970,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -3847,6 +3892,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
   "http://purl.org/dc/terms/replacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability"
   } ],
@@ -3900,6 +3948,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -3918,6 +3969,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -4119,6 +4173,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -4634,6 +4691,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
