@@ -93,10 +93,10 @@
     
 
 
-    <!-- http://purl.org/dc/terms/replacedBy -->
+    <!-- http://purl.org/dc/terms/isReplacedBy -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/replacedBy"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
     
 
 
@@ -228,7 +228,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/air">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/air-transport"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/air-transport"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">Movement of people or goods using aircrafts operating in the airspace</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
@@ -284,7 +284,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/bicycle"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/bicycle"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Bike Hire</skos:prefLabel>
@@ -298,7 +298,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/bicycle"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/bicycle"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Bike Sharing</skos:prefLabel>
@@ -351,7 +351,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/car-hire">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Car Hire</skos:prefLabel>
@@ -365,7 +365,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Car Pooling</skos:prefLabel>
@@ -379,7 +379,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Car Sharing</skos:prefLabel>
@@ -497,7 +497,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/metro"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/metro"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Metro, Subway train</skos:prefLabel>
@@ -608,7 +608,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Ride Pooling</skos:prefLabel>
@@ -683,7 +683,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/transport-mode/taxi">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/car"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
         <skos:prefLabel xml:lang="en">Taxi</skos:prefLabel>

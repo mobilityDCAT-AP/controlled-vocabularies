@@ -14,7 +14,7 @@
   "@id" : "http://purl.org/dc/terms/publisher",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/replacedBy",
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -165,7 +165,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/air",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/air-transport"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -257,7 +257,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/bicycle"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -280,7 +280,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/bicycle"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -363,7 +363,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car-hire",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -386,7 +386,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -409,7 +409,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -592,7 +592,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/metro"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -767,7 +767,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -890,7 +890,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/taxi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/transport-mode/car"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {

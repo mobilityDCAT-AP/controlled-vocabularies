@@ -14,7 +14,7 @@
   "@id" : "http://purl.org/dc/terms/publisher",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/replacedBy",
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -210,7 +210,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -277,7 +277,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -320,7 +320,7 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {

@@ -55,8 +55,8 @@
 # http://purl.org/dc/terms/publisher
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/replacedBy
-<http://purl.org/dc/terms/replacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/isReplacedBy
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -124,7 +124,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/air
 <https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/air-transport> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/air-transport> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/2004/02/skos/core#definition> "Movement of people or goods using aircrafts operating in the airspace"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode/air> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
@@ -160,7 +160,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bike Hire"@en .
@@ -169,7 +169,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bike Sharing"@en .
@@ -202,7 +202,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/car-hire
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car Hire"@en .
@@ -211,7 +211,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car Pooling"@en .
@@ -220,7 +220,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Car Sharing"@en .
@@ -293,7 +293,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train
 <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/metro> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/metro> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metro, Subway train"@en .
@@ -364,7 +364,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling
 <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ride Pooling"@en .
@@ -414,7 +414,7 @@
 # https://w3id.org/mobilitydcat-ap/transport-mode/taxi
 <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
+<https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/transport-mode/car> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taxi"@en .

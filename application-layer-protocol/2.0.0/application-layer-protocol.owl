@@ -84,10 +84,10 @@
     
 
 
-    <!-- http://purl.org/dc/terms/replacedBy -->
+    <!-- http://purl.org/dc/terms/isReplacedBy -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/replacedBy"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
     
 
 
@@ -261,7 +261,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:definition xml:lang="en">HTTP/HTTPS</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol"/>
@@ -302,7 +302,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol"/>
         <skos:prefLabel xml:lang="en">OCIT</skos:prefLabel>
@@ -329,7 +329,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <terms:replacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/application-layer-protocol"/>
         <skos:prefLabel xml:lang="en">OTS2</skos:prefLabel>

@@ -42,14 +42,14 @@
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> a skos:Concept;
   skos:prefLabel "OTS2"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> a skos:Concept;
   skos:prefLabel "OCIT"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 
@@ -57,7 +57,7 @@
   skos:prefLabel "HTTP HTTPS"@en;
   skos:definition "HTTP/HTTPS"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/application-layer-protocol>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 

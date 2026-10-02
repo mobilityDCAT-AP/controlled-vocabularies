@@ -46,8 +46,8 @@
 # http://purl.org/dc/terms/publisher
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/replacedBy
-<http://purl.org/dc/terms/replacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/isReplacedBy
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -142,7 +142,7 @@
 # https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2004/02/skos/core#definition> "HTTP/HTTPS"@en .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
@@ -168,7 +168,7 @@
 # https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit> <http://www.w3.org/2004/02/skos/core#prefLabel> "OCIT"@en .
@@ -185,7 +185,7 @@
 # https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://purl.org/dc/terms/replacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
+<https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://purl.org/dc/terms/isReplacedBy> <https://w3id.org/mobilitydcat-ap/application-layer-protocol/other> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/application-layer-protocol> .
 <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2> <http://www.w3.org/2004/02/skos/core#prefLabel> "OTS2"@en .

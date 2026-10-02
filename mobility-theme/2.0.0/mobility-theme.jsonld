@@ -90,7 +90,7 @@
   "@id" : "http://purl.org/dc/terms/publisher",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/replacedBy",
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -309,7 +309,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -362,7 +362,7 @@
   }, {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -409,7 +409,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -481,7 +481,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
@@ -511,7 +511,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -539,7 +539,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -567,7 +567,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
@@ -597,7 +597,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -667,7 +667,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
@@ -697,7 +697,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -725,7 +725,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -753,7 +753,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -781,7 +781,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
@@ -811,7 +811,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -902,7 +902,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1434,7 +1434,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1584,7 +1584,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
@@ -1614,7 +1614,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1642,7 +1642,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"
@@ -1724,7 +1724,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1836,7 +1836,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products"
@@ -2000,7 +2000,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2028,7 +2028,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2123,7 +2123,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2218,7 +2218,7 @@
   }, {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2244,7 +2244,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2333,7 +2333,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2382,7 +2382,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2410,7 +2410,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2438,7 +2438,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2487,7 +2487,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -2699,7 +2699,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3015,7 +3015,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3043,7 +3043,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/variable-road-user-charges-and-payment-methods"
@@ -3246,7 +3246,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3297,7 +3297,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3325,7 +3325,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3478,7 +3478,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3525,7 +3525,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3643,7 +3643,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3895,7 +3895,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -3923,7 +3923,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4014,7 +4014,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-area"
@@ -4274,7 +4274,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4426,7 +4426,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4454,7 +4454,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4482,7 +4482,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4508,7 +4508,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4740,7 +4740,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2013/885/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4768,7 +4768,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2013/885/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -4859,7 +4859,7 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://purl.org/dc/terms/replacedBy" : [ {
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {

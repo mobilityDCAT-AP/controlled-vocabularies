@@ -54,7 +54,7 @@
   skos:prefLabel "Geometry"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry> a skos:Concept;
@@ -71,7 +71,7 @@
   skos:prefLabel "Number of lanes"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes> a skos:Concept;
@@ -83,7 +83,7 @@
   skos:prefLabel "Gradients"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients> a skos:Concept;
@@ -95,7 +95,7 @@
   skos:prefLabel "Junctions"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions> a skos:Concept;
@@ -122,7 +122,7 @@
   skos:prefLabel "Network geometry and lane character"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry> a skos:Concept;
@@ -135,7 +135,7 @@
   skos:prefLabel "Network detailed attributes"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes>
@@ -148,7 +148,7 @@
   skos:prefLabel "Network closures/diversions"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions>
@@ -274,7 +274,7 @@
   skos:prefLabel "Applicable road user charges and payment methods"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods>
@@ -293,7 +293,7 @@
   skos:prefLabel "Payment methods for tolls"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/variable-road-user-charges-and-payment-methods>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
@@ -322,14 +322,14 @@
   skos:prefLabel "Car parking locations and conditions"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-availability> a skos:Concept;
   skos:prefLabel "Car parking availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>
@@ -367,7 +367,7 @@
   skos:prefLabel "Service and rest area locations and conditions"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities>
@@ -381,7 +381,7 @@
   skos:prefLabel "Service and Rest Area Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability>
@@ -395,14 +395,14 @@
   skos:prefLabel "Truck parking locations and conditions"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2013/885/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/truck-parking-availability> a skos:Concept;
   skos:prefLabel "Truck parking availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2013/885/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops> a skos:Concept;
@@ -426,7 +426,7 @@
   skos:prefLabel "Bike-parking locations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations> a
@@ -444,7 +444,7 @@
   skos:prefLabel "Location and conditions of charging points"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
 
@@ -453,7 +453,7 @@
   skos:prefLabel "Location and conditions of filling stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles>
@@ -461,7 +461,7 @@
   skos:prefLabel "Availability of charging points for electric vehicles"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
 
@@ -470,7 +470,7 @@
   skos:prefLabel "Availability of filling stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>
@@ -650,7 +650,7 @@
   skos:prefLabel "Speed"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed> a skos:Concept;
@@ -668,7 +668,7 @@
   skos:prefLabel "Current travel times"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times> a skos:Concept;
@@ -680,7 +680,7 @@
   skos:prefLabel "Predicted travel times"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times> a skos:Concept;
@@ -692,7 +692,7 @@
   skos:prefLabel "Expected delays"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays> a skos:Concept;
@@ -751,7 +751,7 @@
   skos:prefLabel "Parameters needed to calculate costs"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-energy-fuel-consumption>
@@ -773,7 +773,7 @@
   skos:prefLabel "Public transport scheduled transport"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>
@@ -818,7 +818,7 @@
   skos:prefLabel "Stop facilities location and features"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features> a
@@ -832,7 +832,7 @@
   skos:prefLabel "Stop facilities geometry and map layout"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout>
@@ -846,7 +846,7 @@
   skos:prefLabel "Stop facilities status of features"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status> a skos:Concept;
@@ -859,7 +859,7 @@
   skos:prefLabel "Stop facilities accessibility and paths within facility"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities>
@@ -916,7 +916,7 @@
   skos:prefLabel "Vehicle details"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description>
@@ -931,7 +931,7 @@
   skos:prefLabel "Environmental standards for vehicles"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
@@ -971,7 +971,7 @@
   skos:prefLabel "Purchase information"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information>
@@ -985,7 +985,7 @@
   skos:prefLabel "Defaut transfer times at interchanges"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges>
@@ -1030,14 +1030,14 @@
   skos:prefLabel "Public transport non-scheduled transport"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data> a skos:Concept;
   skos:prefLabel "Provider data"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data> a
@@ -1051,7 +1051,7 @@
   skos:prefLabel "Service areas and service times"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-area>, <https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-area>, <https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-area> a skos:Concept;
@@ -1063,14 +1063,14 @@
   skos:prefLabel "Locations and stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/fares> a skos:Concept;
   skos:prefLabel "Fares"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products>, <https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
@@ -1080,7 +1080,7 @@
   skos:prefLabel "Reservation and purchase options"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-information-for-vehicles>
@@ -1117,7 +1117,7 @@
   skos:prefLabel "Bike-sharing Locations and stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-locations-and-stations>
@@ -1125,21 +1125,21 @@
   skos:prefLabel "Car-sharing Locations and stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-stations> a skos:Concept;
   skos:prefLabel "Bike-hiring Stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/car-hiring-stations> a skos:Concept;
   skos:prefLabel "Car-hiring Stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations>
@@ -1147,14 +1147,14 @@
   skos:prefLabel "E-scooter Sharing Locations and stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/car-sharing-availability> a skos:Concept;
   skos:prefLabel "Car-sharing Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
@@ -1162,7 +1162,7 @@
   skos:prefLabel "Bike sharing Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
@@ -1170,7 +1170,7 @@
   skos:prefLabel "Car-hiring Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
@@ -1178,7 +1178,7 @@
   skos:prefLabel "Bike-hiring Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
@@ -1186,7 +1186,7 @@
     "E-scooter Sharing Availability"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
@@ -1219,7 +1219,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods> skos:prefLabel "Payment methods"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/air-and-space-travel> skos:prefLabel

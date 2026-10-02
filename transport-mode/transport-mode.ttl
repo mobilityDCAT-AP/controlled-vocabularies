@@ -111,7 +111,7 @@
 <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train> a skos:Concept;
   skos:prefLabel "Metro, Subway train"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/metro>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/metro>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
@@ -164,7 +164,7 @@
   skos:prefLabel "Air"@en;
   skos:definition "Movement of people or goods using aircrafts operating in the airspace"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/air-transport>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/air-transport>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
@@ -252,48 +252,48 @@
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-hire> a skos:Concept;
   skos:prefLabel "Bike Hire"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/bike-sharing> a skos:Concept;
   skos:prefLabel "Bike Sharing"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/bicycle>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-hire> a skos:Concept;
   skos:prefLabel "Car Hire"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-pooling> a skos:Concept;
   skos:prefLabel "Car Pooling"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/car-sharing> a skos:Concept;
   skos:prefLabel "Car Sharing"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/ride-pooling> a skos:Concept;
   skos:prefLabel "Ride Pooling"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/taxi> a skos:Concept;
   skos:prefLabel "Taxi"@en;
   owl:deprecated true;
-  dct:replacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/transport-mode/car>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode>;
   skos:topConceptOf <https://w3id.org/mobilitydcat-ap/transport-mode> .
