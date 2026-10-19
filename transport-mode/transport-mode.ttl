@@ -23,15 +23,15 @@
   a owl:Ontology;
   dct:title "Transport Mode"@en;
   dct:description "Controlled vocabulary for the transport modes covered by a dataset."@en;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
-  dct:publisher "NAPCORE SubWG4.4"@en;
-  dct:contributor "Petr Bures (TamTam Research)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en,
-    "Ed Ooms (NDW)"@en, "Benjamin Witsch (AustriaTech)"@en, "Christian Rantzow von Huth (Vejdirektoratet)"@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en, "Petr Bures (TamTam Research)"@en,
+    "Sara Guerra de Oliveira (University of Maribor)"@en;
+  dct:publisher "NAPCORE Task 4.4"@en;
+  dct:contributor "Ed Ooms (NDW)"@en, "Benjamin Witsch (AustriaTech)"@en, "Christian Rantzow von Huth (Vejdirektoratet)"@en;
   owl:versionInfo "2.0.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/transport-mode/2.0.0>;
   owl:priorVersion <https://w3id.org/mobilitydcat-ap/transport-mode/1.0.0>;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/transport-mode/road-transport>,
     <https://w3id.org/mobilitydcat-ap/transport-mode/rail-transport>, <https://w3id.org/mobilitydcat-ap/transport-mode/metro-subway-train>,
     <https://w3id.org/mobilitydcat-ap/transport-mode/water-transport>, <https://w3id.org/mobilitydcat-ap/transport-mode/air-transport>,
@@ -103,7 +103,7 @@
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode> .
 
 <https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> a skos:Concept;
-  skos:prefLabel "Tram and light rail"@en;
+  skos:prefLabel "Tram, Light rail"@en;
   skos:definition "Street‑level rail vehicle operating in mixed traffic or dedicated lanes"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/transport-mode/rail-transport>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/transport-mode> .

@@ -14,15 +14,15 @@
         <terms:contributor xml:lang="en">Benjamin Witsch (AustriaTech)</terms:contributor>
         <terms:contributor xml:lang="en">Christian Rantzow von Huth (Vejdirektoratet)</terms:contributor>
         <terms:contributor xml:lang="en">Ed Ooms (NDW)</terms:contributor>
-        <terms:contributor xml:lang="en">Petr Bures (TamTam Research)</terms:contributor>
-        <terms:contributor xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:contributor>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
+        <terms:creator xml:lang="en">Petr Bures (TamTam Research)</terms:creator>
+        <terms:creator xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the transport modes covered by a dataset.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:publisher xml:lang="en">NAPCORE SubWG4.4</terms:publisher>
+        <terms:publisher xml:lang="en">NAPCORE Task 4.4</terms:publisher>
         <terms:title xml:lang="en">Transport Mode</terms:title>
-        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
         <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/1.0.0"/>
         <owl:versionInfo xml:lang="en">2.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/air"/>
@@ -79,6 +79,13 @@
     
 
 
+    <!-- http://purl.org/dc/terms/isReplacedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
@@ -90,13 +97,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/isReplacedBy -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
     
 
 
@@ -700,7 +700,7 @@
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode/rail-transport"/>
         <skos:definition xml:lang="en">Street‑level rail vehicle operating in mixed traffic or dedicated lanes</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/transport-mode"/>
-        <skos:prefLabel xml:lang="en">Tram and light rail</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Tram, Light rail</skos:prefLabel>
     </owl:NamedIndividual>
     
 

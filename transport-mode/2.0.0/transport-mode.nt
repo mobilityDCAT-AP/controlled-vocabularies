@@ -3,15 +3,15 @@
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/contributor> "Benjamin Witsch (AustriaTech)"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/contributor> "Christian Rantzow von Huth (Vejdirektoratet)"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/contributor> "Ed Ooms (NDW)"@en .
-<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/contributor> "Petr Bures (TamTam Research)"@en .
-<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/contributor> "Sara Guerra de Oliveira (University of Maribor)"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/creator> "Peter Lubrich (BASt)"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/creator> "Petr Bures (TamTam Research)"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/creator> "Sara Guerra de Oliveira (University of Maribor)"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/description> "Controlled vocabulary for the transport modes covered by a dataset."@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/publisher> "NAPCORE SubWG4.4"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/publisher> "NAPCORE Task 4.4"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/dc/terms/title> "Transport Mode"@en .
-<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/mobilitydcat-ap/transport-mode/1.0.0> .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2002/07/owl#versionInfo> "2.0.0"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/transport-mode/air> .
@@ -49,14 +49,14 @@
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/isReplacedBy
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/publisher
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/terms/isReplacedBy
-<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -426,7 +426,7 @@
 <https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/mobilitydcat-ap/transport-mode/rail-transport> .
 <https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#definition> "Street‑level rail vehicle operating in mixed traffic or dedicated lanes"@en .
 <https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/transport-mode> .
-<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tram and light rail"@en .
+<https://w3id.org/mobilitydcat-ap/transport-mode/tram-light-rail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tram, Light rail"@en .
 # 
 # https://w3id.org/mobilitydcat-ap/transport-mode/truck
 <https://w3id.org/mobilitydcat-ap/transport-mode/truck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

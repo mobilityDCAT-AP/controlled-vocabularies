@@ -16,8 +16,8 @@
 .
 :agent0 a prov:Agent; foaf:name "Mario Scrocca (Cefriel)".
 :agent1 a prov:Agent; foaf:name "Peter Lubrich (BASt)".
-:agent2 a prov:Agent; foaf:name "Benjamin Witsch (AustriaTech)".
-:agent3 a prov:Agent; foaf:name "Christian Rantzow von Huth (Vejdirektoratet)".
-:agent4 a prov:Agent; foaf:name "Ed Ooms (NDW)".
-:agent5 a prov:Agent; foaf:name "Petr Bures (TamTam Research)".
-:agent6 a prov:Agent; foaf:name "Sara Guerra de Oliveira (University of Maribor)".
+:agent2 a prov:Agent; foaf:name "Petr Bures (TamTam Research)".
+:agent3 a prov:Agent; foaf:name "Sara Guerra de Oliveira (University of Maribor)".
+:agent4 a prov:Agent; foaf:name "Benjamin Witsch (AustriaTech)".
+:agent5 a prov:Agent; foaf:name "Christian Rantzow von Huth (Vejdirektoratet)".
+:agent6 a prov:Agent; foaf:name "Ed Ooms (NDW)".
