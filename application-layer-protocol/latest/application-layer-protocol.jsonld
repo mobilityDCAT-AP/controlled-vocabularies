@@ -1,8 +1,14 @@
 [ {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
@@ -23,6 +29,9 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.w3.org/2004/02/skos/core#definition",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -30,6 +39,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -40,12 +52,19 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Ed Ooms (NDW)"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",
     "@value" : "Mario Scrocca (Cefriel)"
   }, {
     "@language" : "en",
     "@value" : "Peter Lubrich (BASt)"
+  }, {
+    "@language" : "en",
+    "@value" : "Petr Bures (TamTam Research)"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
@@ -56,7 +75,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "NAPCORE SubWG4.4"
+    "@value" : "NAPCORE Task 4.4"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -69,12 +88,15 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
   } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/2.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "1.0.0"
+    "@value" : "2.0.0"
   } ],
   "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp"
@@ -82,6 +104,8 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/ftp"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/grpc"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https"
   }, {
@@ -96,12 +120,18 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/amqp",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Advanced Message Queuing Protocol (AMQP)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -119,12 +149,16 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "File Transfer Protocol (FTP/SFTP)"
+  } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "FTP"
+    "@value" : "FTP/SFTP"
   } ],
   "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -134,6 +168,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "gRPC Remote Procedure Call (gRPC)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -146,10 +184,44 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https",
+  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Hypertext Transfer Protocol (HTTP/HTTPS)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HTTP/HTTPS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -166,10 +238,34 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/long-polling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "HTTP Long Polling"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Long Polling"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/mqtt",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "MQTT"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -184,8 +280,15 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -203,6 +306,10 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Other"
+  } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
   } ],
@@ -216,8 +323,15 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/other"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -230,10 +344,34 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/rest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "REST"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "REST"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/rss",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Really Simple Syndication (RSS)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -253,7 +391,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "HTTP/HTTPS-SOAP"
+    "@value" : "Simple Object Access Protocol (SOAP)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
@@ -261,6 +399,46 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "SOAP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/sse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/http"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Server-Sent Events (SSE)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SSE"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol/zeromq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "ZeroMQ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ZeroMQ"
   } ],
   "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/application-layer-protocol"

@@ -23,14 +23,14 @@
   a owl:Ontology;
   dct:title "Application layer protocol"@en;
   dct:description "Controlled vocabulary for the application layer protocol of a distribution."@en;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en;
-  dct:publisher "NAPCORE SubWG4.4"@en;
-  dct:contributor "Petr Bures (TamTam Research)"@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en, "Petr Bures (TamTam Research)"@en;
+  dct:publisher "NAPCORE Task 4.4"@en;
+  dct:contributor "Ed Ooms (NDW)"@en;
   owl:versionInfo "2.0.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/application-layer-protocol/2.0.0>;
   owl:priorVersion <https://w3id.org/mobilitydcat-ap/application-layer-protocol/1.0.0>;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ots2>,
     <https://w3id.org/mobilitydcat-ap/application-layer-protocol/ocit>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http-https>,
     <https://w3id.org/mobilitydcat-ap/application-layer-protocol/http>, <https://w3id.org/mobilitydcat-ap/application-layer-protocol/soap>,

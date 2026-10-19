@@ -8,13 +8,13 @@
   "@id" : "http://purl.org/dc/terms/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/publisher",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -54,7 +54,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@language" : "en",
-    "@value" : "Petr Bures (TamTam Research)"
+    "@value" : "Ed Ooms (NDW)"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",
@@ -62,6 +62,9 @@
   }, {
     "@language" : "en",
     "@value" : "Peter Lubrich (BASt)"
+  }, {
+    "@language" : "en",
+    "@value" : "Petr Bures (TamTam Research)"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
@@ -72,7 +75,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "NAPCORE SubWG4.4"
+    "@value" : "NAPCORE Task 4.4"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -80,7 +83,7 @@
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@language" : "en",
-    "@value" : "Draft Controlled Vocabulary"
+    "@value" : "Published Controlled Vocabulary"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
