@@ -1,4 +1,7 @@
 [ {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -40,7 +43,17 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Petr Bures (TamTam Research)"
+  }, {
+    "@language" : "en",
+    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Ed Ooms (NDW)"
+  }, {
     "@language" : "en",
     "@value" : "Mario Scrocca (Cefriel)"
   }, {
@@ -56,7 +69,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "NAPCORE SubWG4.4"
+    "@value" : "NAPCORE Task 4.4"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -70,21 +83,35 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
   } ],
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.0.0"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.1.0"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/1.2.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "1.1.0"
+    "@value" : "1.2.0"
   } ],
   "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/dino"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/era"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs"
   }, {
@@ -96,11 +123,23 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/inspire"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/netex"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-c"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/other"
   }, {
@@ -108,17 +147,65 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/tn-its"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/alert-c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Traffic Message Channel (TMC) ALERT‑C location table standard (CEN/EN 14819‑3)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ALERT-C"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/apds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Alliance for Parking Data Standards (ADPS)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "APDS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/c-its",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)"
+    "@value" : "Cooperative ITS message standards: CAM (ETSI EN 302 637-2), DENM (ETSI EN 302 637-3), SPAT/MAP (SAE-J2735 and ISO 19091)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -131,14 +218,60 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Curb Data Specification (Open Mobility Foundation)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CDS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/cds-m",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "City Data Specification for Mobility (Open Mobility Foundation)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CDS-M"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/datex-II",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "DATEX II (CEN/TS 16157)"
+    "@value" : "Road Traffic and Travel Data Exchange (DATEX II, CEN/TS 16157)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -155,6 +288,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "DINO exchange format based on the VDV-DIVA exchange format"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -167,14 +306,82 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/e-cmr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Electronic Consignment Note under the UNECE CMR Convention"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "e-CMR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/era",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Ontology of the European Railway Agency (ERA)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ERA Ontology"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ertms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "European Rail Traffic Management System"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ERTMS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/gbfs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "General Bikeshare Feed Specification"
+    "@value" : "General Bikeshare Feed Specification (MobilityData)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -191,6 +398,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Geography Markup Language (OGC) XML encoding"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -207,10 +420,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "General Transit Feed Specification - Schedule"
+    "@value" : "General Transit Feed Specification - Schedule (MobilityData)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -227,10 +442,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "General Transit Feed Specification - Realtime"
+    "@value" : "General Transit Feed Specification - Realtime (MobilityData)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -247,17 +464,41 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "D2.8.I.7 Data Specification on Transport Networks – Technical \nGuidelines"
+    "@value" : "INSPIRE Data Specification on Transport Networks"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "INSPIRE"
+    "@value" : "INSPIRE DS TN"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/mds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Mobility Data Specification (Open Mobility Foundation)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MDS"
   } ],
   "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -267,10 +508,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "NeTEx (CEN/TS 16614)"
+    "@value" : "Network and Timetable Exchange (NeTEx, CEN/TS 16614)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -287,10 +530,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "Open Communication Interface for Road Traffic Control Systems"
+    "@value" : "OCIT (Open Communication Interface for Road Traffic Control Systems) Center-to-Center"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -303,10 +548,34 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocit-o",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "OCIT (Open Communication Interface for Road Traffic Control Systems) Outstations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OCIT-O"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ocpi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -323,10 +592,104 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/ojp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Open Journey Planner (CEN/TS 17118)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OJP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/opentnf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Open specification for interoperability and exchange of data on transport networks"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OpenTNF"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/opra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Operating Raw Data and Statistics Exchange (CEN/TS 17413)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OpRa"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/osdm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Open Sales and Distribution Model (OSDM)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OSDM"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/other",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Dataset uses a data standard not listed in this vocabulary"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -343,10 +706,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
-    "@value" : "SIRI (CEN/TS 15531)"
+    "@value" : "Service Interface for Real‑time Information (SIRI, CEN/TS 15531)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -363,6 +728,8 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -379,10 +746,38 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/tomp-api",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Transport Operator - MaaS Provider API"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TOMP-API"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard/tpegml",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "XML encoding of TPEG messages (ISO/TS 21219 series)"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
@@ -394,4 +789,7 @@
   "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-data-standard"
   } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcatap#MobilityDataStandard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]
