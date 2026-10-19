@@ -16,17 +16,17 @@
         <terms:contributor xml:lang="en">Darko Ilić (ASTRA)</terms:contributor>
         <terms:contributor xml:lang="en">Ed Ooms (NDW)</terms:contributor>
         <terms:contributor xml:lang="en">Jasper Beernaerts (NGI)</terms:contributor>
-        <terms:contributor xml:lang="en">Julien Martineau (NGI)</terms:contributor>
         <terms:contributor xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:contributor>
-        <terms:contributor xml:lang="en">Valentina Carriero (Cefriel)</terms:contributor>
         <terms:creator xml:lang="en">Benjamin Witsch (AustriaTech)</terms:creator>
+        <terms:creator xml:lang="en">Julien Martineau (NGI)</terms:creator>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
         <terms:creator xml:lang="en">Peter Lubrich (BASt)</terms:creator>
+        <terms:creator xml:lang="en">Valentina Carriero (Cefriel)</terms:creator>
         <terms:description xml:lang="en">Controlled vocabulary for the classification of the theme for a mobility dataset.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:publisher xml:lang="en">NAPCORE WG4 Task 4.4</terms:publisher>
+        <terms:publisher xml:lang="en">NAPCORE Task 4.4</terms:publisher>
         <terms:title xml:lang="en">Mobility Theme</terms:title>
-        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
         <owl:priorVersion rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.1"/>
         <owl:versionInfo xml:lang="en">2.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
@@ -74,6 +74,13 @@
     
 
 
+    <!-- http://purl.org/dc/terms/isReplacedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
@@ -85,13 +92,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/isReplacedBy -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
     
 
 
@@ -281,7 +281,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Accessibility and paths within facilities</skos:prefLabel>
     </owl:NamedIndividual>
@@ -295,7 +295,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Accessibility information for vehicles</skos:prefLabel>
     </owl:NamedIndividual>
@@ -360,21 +360,6 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
-        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"/>
-        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
-        <skos:prefLabel xml:lang="en">Availability of filling stations and charging stations</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles -->
 
 
@@ -382,7 +367,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
-        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
@@ -411,11 +396,26 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
-        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Availability of filling stations</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
+        <skos:prefLabel xml:lang="en">Availability of filling stations and charging stations</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -427,7 +427,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:definition xml:lang="en">Basic commercial conditions such as refunding, replacing, exchanging or transferring.</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Basic commercial conditions</skos:prefLabel>
@@ -442,7 +442,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Basic common standard fares</skos:prefLabel>
     </owl:NamedIndividual>
@@ -664,7 +664,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Common fare products</skos:prefLabel>
     </owl:NamedIndividual>
@@ -678,7 +678,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Connection links</skos:prefLabel>
     </owl:NamedIndividual>
@@ -794,8 +794,8 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/other"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/road-events-and-conditions"/>
@@ -824,10 +824,10 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/address-identifiers"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/applicable-road-user-charges-and-payment-methods"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/basic-common-standard-fares"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/bike-hiring-availability"/>
@@ -876,7 +876,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/junctions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/lane-closures-and-access-conditions"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-traffic-queues"/>
@@ -918,7 +918,7 @@
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/poor-road-conditions"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data"/>
         <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"/>
@@ -983,7 +983,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Default transfer times at interchanges</skos:prefLabel>
     </owl:NamedIndividual>
@@ -999,7 +999,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Defaut transfer times at interchanges</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1027,7 +1027,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Disruptions, delays, cancellations</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1127,7 +1127,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Environmental standards for vehicles</skos:prefLabel>
@@ -1157,7 +1157,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:definition xml:lang="en">On site assistance</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Existence of assistance services</skos:prefLabel>
@@ -1202,7 +1202,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Facility features status</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1216,7 +1216,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Facility geometry and map layout</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1230,7 +1230,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Facility location and features</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1249,7 +1249,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Fares</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1265,9 +1265,9 @@
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"/>
-        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"/>
+        <skos:narrower rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations"/>
         <skos:prefLabel xml:lang="en">Filling and charging stations</skos:prefLabel>
     </owl:NamedIndividual>
     
@@ -1376,7 +1376,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Historic travel and traffic data and delays</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1390,7 +1390,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:definition xml:lang="en">Hours of operation and service times</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Hours of operation</skos:prefLabel>
@@ -1456,17 +1456,17 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations -->
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
-        <skos:prefLabel xml:lang="en">Location and characteristics for filling stations and charging stations</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Location and characteristics of filling stations and charging stations</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -1478,7 +1478,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
-        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
@@ -1493,7 +1493,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
-        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
@@ -1553,7 +1553,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Locations and stations</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1629,7 +1629,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Network topology and routes/lines</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1659,7 +1659,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Observed data on cancellations</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1673,7 +1673,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Observed data on delays and passing time</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1701,7 +1701,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Operational calendar</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1962,7 +1962,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Passenger classes</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2066,7 +2066,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Planned interchanges between scheduled services</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2132,10 +2132,10 @@
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations -->
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2023/1804/oj"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2022/670/oj"/>
@@ -2156,33 +2156,17 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Provider data</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport -->
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
-        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
-        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
-        <skos:prefLabel xml:lang="en">Public transport non-scheduled transport</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services -->
-
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services">
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
@@ -2234,6 +2218,22 @@
     
 
 
+    <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
+        <skos:prefLabel xml:lang="en">Public transport non-scheduled transport</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data -->
 
 
@@ -2241,7 +2241,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Public transport provider data</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2254,7 +2254,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
-        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
@@ -2270,7 +2270,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Purchase and reservation information</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2286,7 +2286,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Purchase information</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2300,7 +2300,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Real-time estimated departure and arrival times</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2356,7 +2356,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Reservation and purchase options</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2576,7 +2576,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Service area</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2593,7 +2593,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/service-area"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Service areas and service times</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2737,7 +2737,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Special fare products</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2844,7 +2844,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Stop facilities accessibility and paths within facility</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2860,7 +2860,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Stop facilities geometry and map layout</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2891,7 +2891,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Stop facilities status of features</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2905,7 +2905,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Timetables static</skos:prefLabel>
     </owl:NamedIndividual>
@@ -3008,7 +3008,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:definition xml:lang="en">Transport operator vehicle fleet description including environmental standards</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Transport Operator Vehicle Fleet Description</skos:prefLabel>
@@ -3023,7 +3023,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Transport operators</skos:prefLabel>
     </owl:NamedIndividual>
@@ -3113,7 +3113,7 @@
         <terms:isReplacedBy rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Vehicle details</skos:prefLabel>
     </owl:NamedIndividual>
@@ -3127,7 +3127,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <r5r:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_del/2024/490/oj"/>
         <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"/>
-        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"/>
+        <skos:broader rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"/>
         <skos:definition xml:lang="en">Occupancy information of the vehicle</skos:definition>
         <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-theme"/>
         <skos:prefLabel xml:lang="en">Vehicle occupancy</skos:prefLabel>

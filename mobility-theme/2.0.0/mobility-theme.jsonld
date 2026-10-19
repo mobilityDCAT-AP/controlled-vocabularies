@@ -84,13 +84,13 @@
   "@id" : "http://purl.org/dc/terms/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/publisher",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -145,23 +145,23 @@
     "@value" : "Jasper Beernaerts (NGI)"
   }, {
     "@language" : "en",
-    "@value" : "Julien Martineau (NGI)"
-  }, {
-    "@language" : "en",
     "@value" : "Sara Guerra de Oliveira (University of Maribor)"
-  }, {
-    "@language" : "en",
-    "@value" : "Valentina Carriero (Cefriel)"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",
     "@value" : "Benjamin Witsch (AustriaTech)"
   }, {
     "@language" : "en",
+    "@value" : "Julien Martineau (NGI)"
+  }, {
+    "@language" : "en",
     "@value" : "Mario Scrocca (Cefriel)"
   }, {
     "@language" : "en",
     "@value" : "Peter Lubrich (BASt)"
+  }, {
+    "@language" : "en",
+    "@value" : "Valentina Carriero (Cefriel)"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
@@ -172,7 +172,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "NAPCORE WG4 Task 4.4"
+    "@value" : "NAPCORE Task 4.4"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -180,7 +180,7 @@
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@language" : "en",
-    "@value" : "Draft Controlled Vocabulary"
+    "@value" : "Published Controlled Vocabulary"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -210,7 +210,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -231,7 +231,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -332,29 +332,6 @@
     "@value" : "Applicable road user charges and payment methods"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://data.europa.eu/r5r/applicableLegislation" : [ {
-    "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
-  }, {
-    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "Availability of filling stations and charging stations"
-  } ]
-}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -363,7 +340,7 @@
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
   "http://purl.org/dc/terms/isReplacedBy" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -410,7 +387,7 @@
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
   "http://purl.org/dc/terms/isReplacedBy" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -430,6 +407,29 @@
     "@value" : "Availability of filling stations"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
+  }, {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Availability of filling stations and charging stations"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -441,7 +441,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -466,7 +466,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -845,7 +845,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -866,7 +866,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1055,9 +1055,9 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
   }, {
@@ -1109,13 +1109,13 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/applicable-road-user-charges-and-payment-methods"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"
-  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions"
   }, {
@@ -1213,7 +1213,7 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/lane-closures-and-access-conditions"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points"
   }, {
@@ -1297,7 +1297,7 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data"
   }, {
@@ -1419,7 +1419,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1447,7 +1447,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1489,7 +1489,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1657,7 +1657,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
@@ -1705,7 +1705,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -1779,7 +1779,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1800,7 +1800,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1821,7 +1821,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1855,7 +1855,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1882,11 +1882,11 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2062,7 +2062,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2083,7 +2083,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -2188,7 +2188,7 @@
     "@value" : "Lane closures and access conditions"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
@@ -2208,7 +2208,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Location and characteristics for filling stations and charging stations"
+    "@value" : "Location and characteristics of filling stations and charging stations"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points",
@@ -2219,7 +2219,7 @@
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
   "http://purl.org/dc/terms/isReplacedBy" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -2245,7 +2245,7 @@
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
   "http://purl.org/dc/terms/isReplacedBy" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -2346,7 +2346,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2472,7 +2472,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2521,7 +2521,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2542,7 +2542,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2584,7 +2584,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3000,7 +3000,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3166,7 +3166,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3269,7 +3269,7 @@
     "@value" : "Predicted travel times"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
@@ -3310,7 +3310,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3320,35 +3320,7 @@
     "@value" : "Provider data"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://data.europa.eu/r5r/applicableLegislation" : [ {
-    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
-  } ],
-  "http://purl.org/dc/terms/isReplacedBy" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-  } ],
-  "http://www.w3.org/2002/07/owl#deprecated" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "Public transport non-scheduled transport"
-  } ]
-}, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -3452,6 +3424,34 @@
     "@value" : "Public transport and on-demand services"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public transport non-scheduled transport"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -3463,7 +3463,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3479,7 +3479,7 @@
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
   "http://purl.org/dc/terms/isReplacedBy" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -3510,7 +3510,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3538,7 +3538,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3559,7 +3559,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3656,7 +3656,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -3999,7 +3999,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4029,7 +4029,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4259,7 +4259,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4439,7 +4439,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4467,7 +4467,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4521,7 +4521,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4542,7 +4542,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4700,7 +4700,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -4725,7 +4725,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4872,7 +4872,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -4893,7 +4893,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",

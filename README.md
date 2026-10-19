@@ -8,8 +8,7 @@ The serialisation and publication of the vocabularies are based on the [controll
 | Application Layer Protocol | https://w3id.org/mobilitydcat-ap/application-layer-protocol | ![2.0.0](https://img.shields.io/badge/-2.0.0-blue?style=flat) |
 | Communication Method | https://w3id.org/mobilitydcat-ap/communication-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Conditions for Access and Usage | https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage | ![1.1.0](https://img.shields.io/badge/-1.1.0-blue?style=flat) |
-| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![1.1.1](https://img.shields.io/badge/-1.1.1-blue?style=flat) |
-|  | https://w3id.org/mobilitydcat-ap/mobility-theme/2.0.0 | ![2.0.0-CANDIDATE](https://img.shields.io/badge/-2.0.0--CANDIDATE-yellow?style=flat) |
+| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![2.0.0](https://img.shields.io/badge/-2.0.0-blue?style=flat) |
 | Mobility Data Standard | https://w3id.org/mobilitydcat-ap/mobility-data-standard | ![1.2.0](https://img.shields.io/badge/-1.2.0-blue?style=flat) |
 | Georeferencing Method | https://w3id.org/mobilitydcat-ap/georeferencing-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Network Coverage | https://w3id.org/mobilitydcat-ap/network-coverage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |

@@ -22,16 +22,16 @@
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme> dct:title "Mobility Theme"@en;
   dct:description "Controlled vocabulary for the classification of the theme for a mobility dataset."@en;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en, "Benjamin Witsch (AustriaTech)"@en;
-  dct:publisher "NAPCORE WG4 Task 4.4"@en;
-  dct:contributor "Valentina Carriero (Cefriel)"@en, "Julien Martineau (NGI)"@en, "Jasper Beernaerts (NGI)"@en,
-    "Darko Ilić (ASTRA)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en, "Ed Ooms (NDW)"@en,
-    "Christian Rantzow von Huth (Vejdirektoratet)"@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Peter Lubrich (BASt)"@en, "Benjamin Witsch (AustriaTech)"@en,
+    "Valentina Carriero (Cefriel)"@en, "Julien Martineau (NGI)"@en;
+  dct:publisher "NAPCORE Task 4.4"@en;
+  dct:contributor "Jasper Beernaerts (NGI)"@en, "Darko Ilić (ASTRA)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en,
+    "Ed Ooms (NDW)"@en, "Christian Rantzow von Huth (Vejdirektoratet)"@en;
   owl:versionInfo "2.0.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-theme/2.0.0>;
   owl:priorVersion <https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.1>;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category> a skos:Concept;
   skos:prefLabel "Data content category"@en .
@@ -432,9 +432,9 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations> a
     skos:Concept;
   skos:prefLabel "Filling and charging stations"@en;
-  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations>;
+  skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations>;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
@@ -444,7 +444,7 @@
   skos:prefLabel "Location and conditions of charging points"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
 
@@ -453,7 +453,7 @@
   skos:prefLabel "Location and conditions of filling stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles>
@@ -461,7 +461,7 @@
   skos:prefLabel "Availability of charging points for electric vehicles"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
 
@@ -470,24 +470,24 @@
   skos:prefLabel "Availability of filling stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   owl:deprecated true;
-  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations>
   a skos:Concept;
-  skos:prefLabel "Location and characteristics for filling stations and charging stations"@en;
+  skos:prefLabel "Location and characteristics of filling stations and charging stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations>
   a skos:Concept;
   skos:prefLabel "Availability of filling stations and charging stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2022/670/oj>,
     <http://data.europa.eu/eli/reg/2023/1804/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations>
   a skos:Concept;
   skos:prefLabel "Prices of filling stations and charging stations"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category>;
@@ -773,10 +773,10 @@
   skos:prefLabel "Public transport scheduled transport"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   owl:deprecated true;
-  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>
   a skos:Concept;
   skos:prefLabel "Public transport and on-demand services"@en;
   skos:narrower <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features>,
@@ -1030,7 +1030,7 @@
   skos:prefLabel "Public transport non-scheduled transport"@en;
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category>;
   owl:deprecated true;
-  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  dct:isReplacedBy <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg_del/2024/490/oj> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data> a skos:Concept;
@@ -1286,7 +1286,7 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/road-work-information>, <https://w3id.org/mobilitydcat-ap/mobility-theme/road-events-and-conditions>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data>, <https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services>, <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>,
@@ -1332,9 +1332,9 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>,
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations>,
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/freight-delivery-regulations>, <https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-delivery-areas>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/road-closures-and-access-conditions>,
@@ -1603,15 +1603,15 @@
     <https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-filling-charging-stations>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations>
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/availability-filling-charging-stations>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations>
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-charging-stations>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations>
   skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
@@ -1756,164 +1756,164 @@
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-geometry-and-map-layout>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-status-of-features>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-accessibility-and-paths-within-facility>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/network-topology-and-routes-lines>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operators> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/timetables-static> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/timetables-static> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-estimated-departure-and-arrival-times>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/planned-interchanges-between-scheduled-services>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>,
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>,
     <https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/disruptions-delays-cancellations>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/basic-common-standard-fares> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/existence-of-assistance-services>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/historic-travel-and-traffic-data-and-delays>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-delays-and-passing-time>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-cancellations> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-occupancy> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-occupancy> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/service-area> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/service-area> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/locations-and-stations> skos:broader
-    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+    <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/fares> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+<https://w3id.org/mobilitydcat-ap/mobility-theme/fares> skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-information-for-vehicles>
-  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>;
+  skos:broader <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/bike-sharing-locations-and-stations>
@@ -2005,7 +2005,7 @@
 <https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport>
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
-<https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-on-demand-services>
+<https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services>
   skos:inScheme <https://w3id.org/mobilitydcat-ap/mobility-theme> .
 
 <https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-location-and-features>

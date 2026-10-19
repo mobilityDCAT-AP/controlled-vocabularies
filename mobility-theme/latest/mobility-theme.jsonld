@@ -1,11 +1,90 @@
 [ {
+  "@id" : "http://data.europa.eu/eli/ontology#LegalResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Regulation (EU) 2023/1804 of the European Parliament and of the Council of 13 September 2023 on the deployment of alternative fuels infrastructure, and repealing Directive 2014/94/EU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Alternative Fuel Infrastructure Regulation (AFIR) - Regulation No 2023/1804"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2013/885/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) No 885/2013 of 15 May 2013 supplementing ITS Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of information services for safe and secure parking places for trucks and commercial vehicles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Safe and Secure Truck Parking (SSTP) - Delegated Regulation No 885/2013"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2013/886/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) No 886/2013 of 15 May 2013 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to data and procedures for the provision, where possible, of road safety-related minimum universal traffic information free of charge to users"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Safety Related Traffic Information (SRTI) - Delegated Regulation No 886/2013"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) 2022/670 of 2 February 2022 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide real-time traffic information services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Real-time Traffic Information (RTTI) - Delegated Regulation No 2022/670"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://data.europa.eu/eli/ontology#LegalResource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Commission Delegated Regulation (EU) 2024/490 of 29 November 2023 amending Delegated Regulation (EU) 2017/1926 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Multi-modal Travel Information Services (MMTIS) - Delegated Regulation No 2024/490"
+  } ]
+}, {
   "@id" : "http://data.europa.eu/r5r/applicableLegislation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/isReplacedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
@@ -18,6 +97,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
@@ -49,12 +131,37 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Christian Rantzow von Huth (Vejdirektoratet)"
+  }, {
+    "@language" : "en",
+    "@value" : "Darko Ilić (ASTRA)"
+  }, {
+    "@language" : "en",
+    "@value" : "Ed Ooms (NDW)"
+  }, {
+    "@language" : "en",
+    "@value" : "Jasper Beernaerts (NGI)"
+  }, {
+    "@language" : "en",
+    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Benjamin Witsch (AustriaTech)"
+  }, {
+    "@language" : "en",
+    "@value" : "Julien Martineau (NGI)"
+  }, {
     "@language" : "en",
     "@value" : "Mario Scrocca (Cefriel)"
   }, {
     "@language" : "en",
     "@value" : "Peter Lubrich (BASt)"
+  }, {
+    "@language" : "en",
+    "@value" : "Valentina Carriero (Cefriel)"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
@@ -65,7 +172,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "NAPCORE SubWG4.4"
+    "@value" : "NAPCORE Task 4.4"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -79,22 +186,20 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
   } ],
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.0"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/1.1.1"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/2.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "1.1.1"
+    "@value" : "2.0.0"
   } ],
   "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accesibility-information-for-vehicles",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -105,14 +210,35 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Accesibility information for vehicles"
+    "@value" : "Accessibility and paths within facilities"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-information-for-vehicles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Accessibility information for vehicles"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents",
@@ -183,8 +309,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -206,13 +339,18 @@
   }, {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -248,6 +386,34 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Availability of filling stations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
+  }, {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -261,7 +427,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Availability of filling stations"
+    "@value" : "Availability of filling stations and charging stations"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions",
@@ -275,7 +441,11 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Basic commercial conditions such as refunding, replacing, exchanging or transferring."
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -296,7 +466,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -311,13 +481,22 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -332,13 +511,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -353,8 +539,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -374,13 +567,22 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -395,13 +597,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -458,13 +667,22 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -479,13 +697,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -500,8 +725,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -521,8 +753,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -542,13 +781,22 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -563,13 +811,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -590,7 +845,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -611,7 +866,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -621,7 +876,7 @@
     "@value" : "Connection links"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
@@ -639,7 +894,56 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
+    "@value" : "Current road travel times"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
     "@value" : "Current travel times"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cycle network closures/diversions"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data",
@@ -657,6 +961,12 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/network-closures-diversions"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/network-detailed-attributes"
@@ -666,6 +976,52 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Cycle network data"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cycle network detailed attributes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Cycle network geometry and lane character"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cycle network geometry"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category",
@@ -681,6 +1037,10 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/dynamic-traffic-signs-and-regulations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"
@@ -695,6 +1055,8 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/pedestrian-network-data"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
@@ -706,6 +1068,8 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-work-information"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data"
   }, {
@@ -728,11 +1092,16 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
+  } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accesibility-information-for-vehicles"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-information-for-vehicles"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accidents-and-incidents"
   }, {
@@ -745,6 +1114,8 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-delivery-areas"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions"
   }, {
@@ -780,7 +1151,17 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/direction-of-travel-on-reversible-lanes"
   }, {
@@ -796,9 +1177,23 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/estimated-travel-times-for-multimodal-trip-planning"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/existence-of-assistance-services"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-delays"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fares"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/freight-delivery-regulations"
   }, {
@@ -806,19 +1201,25 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/gradients"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/historic-travel-and-traffic-data-and-delays"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/identification-of-tolled-roads"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/junctions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/lane-closures-and-access-conditions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-traffic-queues"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-delivery-areas"
   }, {
@@ -838,6 +1239,12 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/number-of-lanes"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-cancellations"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-delays-and-passing-time"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/one-way-streets"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/other-access-restrictions-and-traffic-regulations"
@@ -850,9 +1257,23 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-energy-fuel-consumption"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-environmental-factors"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-drive-stops"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes"
   }, {
@@ -872,19 +1293,37 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/poor-road-conditions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-estimated-departure-and-arrival-times"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/regulated-traffic-zones"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-classification"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-closures-and-access-conditions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-weather-conditions"
   }, {
@@ -894,7 +1333,23 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-and-conditions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-area"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/short-term-road-works"
   }, {
@@ -903,6 +1358,8 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/speed"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/speed-limits"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-overtaking-bans-on-heavy-goods-vehicles"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-accessibility-and-paths-within-facility"
   }, {
@@ -920,7 +1377,11 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-volume"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operators"
   }, {
@@ -932,16 +1393,68 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/tunnel-closures-and-access-conditions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/variable-road-user-charges-and-payment-methods"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-occupancy"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/waiting-time-at-border-crossings-to-non-eu-member-states"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/weight-length-width-height-restrictions"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Data content sub-category"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
-  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Default transfer times at interchanges"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Defaut transfer times at interchanges"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/direction-of-travel-on-reversible-lanes",
@@ -976,7 +1489,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1071,23 +1584,92 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "E-scooter-sharing Availability"
+    "@value" : "E-scooter Sharing Availability"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/e-scooter-sharing-locations-and-stations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "E-scooter Sharing Locations and stations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Environmental standards for vehicles"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/estimated-travel-times-for-multimodal-trip-planning",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -1098,42 +1680,59 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Estimated travel times by day type and time-band by transport mode/combination of transport modes"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "E-scooter-sharing Locations and stations"
+    "@value" : "Estimated travel times for multimodal trip-planning"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/existence-of-assistance-services",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "On site assistance"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Environmental standards for vehicles"
+    "@value" : "Existence of assistance services"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-delays",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -1148,7 +1747,28 @@
     "@value" : "Expected delays"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fares",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Expected road traffic delays"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -1159,7 +1779,83 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Facility features status"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Facility geometry and map layout"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Facility location and features"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fares",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/common-fare-products"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1186,17 +1882,36 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-charging-points-for-electric-vehicles"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations-and-charging-stations"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/availability-of-filling-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-filling-stations"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Filling and charging stations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/toll-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fixed road user charges and payment methods"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/freight-and-logistics",
@@ -1263,7 +1978,11 @@
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/address-identifiers"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/estimated-travel-times-for-multimodal-trip-planning"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-energy-fuel-consumption"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-environmental-factors"
   }, {
@@ -1281,8 +2000,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -1302,8 +2028,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -1318,6 +2051,27 @@
     "@value" : "Gradients"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/historic-travel-and-traffic-data-and-delays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Historic travel and traffic data and delays"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -1329,7 +2083,11 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Hours of operation and service times"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1365,8 +2123,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -1379,6 +2144,27 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Junctions"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Kiss and Ride stops"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/lane-closures-and-access-conditions",
@@ -1402,7 +2188,7 @@
     "@value" : "Lane closures and access conditions"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
@@ -1422,6 +2208,34 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
+    "@value" : "Location and characteristics of filling stations and charging stations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-conditions-of-charging-points",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
+  }, {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
     "@value" : "Location and conditions of charging points"
   } ]
 }, {
@@ -1430,13 +2244,18 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-characteristics-of-filling-stations-and-charging-stations"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1446,7 +2265,7 @@
     "@value" : "Location and conditions of filling stations"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-traffic-queues",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
@@ -1464,7 +2283,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Location and length of queues"
+    "@value" : "Location and length of traffic queues"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-delivery-areas",
@@ -1514,13 +2333,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1556,8 +2382,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-closures-diversions"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
@@ -1577,8 +2410,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-detailed-attributes"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
@@ -1598,17 +2438,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-geometry"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/cycle-network-data"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "en",
-    "@value" : "Cycle network geometry and lane character"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1629,7 +2472,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1644,8 +2487,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -1660,6 +2510,69 @@
     "@value" : "Number of lanes"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-cancellations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Observed data on cancellations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-delays-and-passing-time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Observed data on delays and passing time"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/one-way-streets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "One-way streets"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -1671,14 +2584,14 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Operational Calendar"
+    "@value" : "Operational calendar"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/other",
@@ -1720,6 +2633,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/other-static-traffic-signs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -1780,8 +2696,18 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-costs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-fuel-consumption-of-conventional-and-alternative-fuels"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -1794,6 +2720,31 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Parameters needed to calculate costs"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-energy-fuel-consumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Parameters needed to calculate fuel consumption of conventional and alternative fuels"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parameters needed to calculate energy-fuel consumption"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parameters-needed-to-calculate-environmental-factors",
@@ -1809,6 +2760,10 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/general-information-for-trip-planning"
   } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "parameters needed to calculate an environmental factor such as greenhouse gas emissions per vehicle type or passenger mile or per distance walked"
+  } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
@@ -1817,7 +2772,57 @@
     "@value" : "Parameters needed to calculate environmental factors"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-drive-stops",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Park and car pooling"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Park and Drive stops"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Park and get public transport"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Park and Ride stops"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -1835,7 +2840,74 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Park and Ride stops"
+    "@value" : "Parking Conditions and Tariffs"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parking Locations, Description and Facilities"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Where and how to pay for parking, including retail channels and fulfilment methods"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parking Payment Points and Methods"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parking Real-time Availability"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information",
@@ -1863,11 +2935,29 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/car-parking-locations-and-conditions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/kiss-and-ride-stops"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-drive-stops"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/park-and-ride-stops"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-conditions-and-tariffs"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-payment-points-and-methods"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-and-conditions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/truck-parking-availability"
   }, {
@@ -1876,6 +2966,27 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Parking, service and rest area information"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-zones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parking Zones"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/passenger-classes",
@@ -1889,7 +3000,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1904,13 +3015,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -1925,8 +3043,17 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/variable-road-user-charges-and-payment-methods"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -2039,7 +3166,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2093,7 +3220,7 @@
     "@value" : "Poor road conditions"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
@@ -2111,13 +3238,43 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
+    "@value" : "Predicted road travel times"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
     "@value" : "Predicted travel times"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/prices-of-filling-stations-and-charging-stations",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
-    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+    "@id" : "http://data.europa.eu/eli/reg/2023/1804/oj"
+  }, {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -2125,7 +3282,35 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/filling-and-charging-stations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Prices of filling stations and charging stations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2135,7 +3320,7 @@
     "@value" : "Provider data"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -2150,40 +3335,10 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accesibility-information-for-vehicles"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-information-for-vehicles"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fares"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/locations-and-stations"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "Public transport non-scheduled transport"
-  } ]
-}, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://data.europa.eu/r5r/applicableLegislation" : [ {
-    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-commercial-conditions"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/basic-common-standard-fares"
@@ -2192,13 +3347,35 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/connection-links"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/default-transfer-times-at-interchanges"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/defaut-transfer-times-at-interchanges"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/disruptions-delays-cancellations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/existence-of-assistance-services"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fares"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/historic-travel-and-traffic-data-and-delays"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/locations-and-stations"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/network-topology-and-routes-lines"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-cancellations"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/observed-data-on-delays-and-passing-time"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/operational-calendar"
   }, {
@@ -2206,9 +3383,23 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/planned-interchanges-between-scheduled-services"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/provider-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-estimated-departure-and-arrival-times"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-area"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/special-fare-products"
   }, {
@@ -2216,22 +3407,52 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-geometry-and-map-layout"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-location-and-features"
-  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/stop-facilities-status-of-features"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/timetables-static"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operators"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-occupancy"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Public transport scheduled transport"
+    "@value" : "Public transport and on-demand services"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public transport non-scheduled transport"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-provider-data",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -2242,7 +3463,82 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public transport provider data"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public transport scheduled transport"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Purchase and reservation information"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2263,7 +3559,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2288,17 +3584,25 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-road-travel-times"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/current-travel-times"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-delays"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-queues"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/expected-road-traffic-delays"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-and-length-of-traffic-queues"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-road-travel-times"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/predicted-travel-times"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/speed"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-volume"
   }, {
@@ -2309,10 +3613,10 @@
     "@value" : "Real-time traffic data"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/regulated-traffic-zones",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
-    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -2320,7 +3624,39 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "boundaries of restrictions, prohibitions or obligations with zonal validity, current access status and conditions for circulation in regulated traffic zones"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Regulated traffic zones"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/reservation-and-purchase-options",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/purchase-and-reservation-information"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2400,6 +3736,90 @@
     "@value" : "Road events and conditions"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road gradients"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road junctions"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road network geometry"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road number of lanes"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-weather-conditions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -2472,8 +3892,18 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-availability",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -2485,10 +3915,38 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Service and rest area availability"
+    "@value" : "Service and Rest Area Availability"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-and-conditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service and rest area locations and conditions"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-locations-description-and-facilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
@@ -2506,10 +3964,31 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Service and rest area locations and conditions"
+    "@value" : "Service and Rest Area Locations, Description and Facilities"
   } ]
 }, {
-  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times",
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-and-rest-area-real-time-availability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-service-and-rest-area-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service and Rest Area Real-time Availability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-area",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -2520,7 +3999,37 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-non-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service area"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-areas-and-service-times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/hours-of-operation"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-area"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2530,7 +4039,139 @@
     "@value" : "Service areas and service times"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service Locations and Stations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service Payment Methods"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service Real-time Availability"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Service Vehicle Fleet Description including environmental standards"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service Vehicle Fleet Description"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Service Zones including parking zones, no-parking zones, no-entry zones, speed limit zones, etc."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service Zones"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-and-hiring-services",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Sharing and Hiring Services"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/sharing-hiring-and-renting-services",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -2568,10 +4209,20 @@
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/environmental-standards-for-vehicles"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-locations-and-stations"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-payment-methods"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-real-time-availability"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-vehicle-fleet-description"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/service-zones"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Sharing and Hiring Services"
+    "@value" : "Sharing, Hiring and Renting Services"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/short-term-road-works",
@@ -2608,14 +4259,14 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Special Fare Products"
+    "@value" : "Special fare products"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/speed",
@@ -2623,8 +4274,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -2660,6 +4318,27 @@
     "@value" : "Speed limits"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-overtaking-bans-on-heavy-goods-vehicles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Static overtaking bans on heavy goods vehicles"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-road-network-data",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -2685,6 +4364,14 @@
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-classification"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-gradients"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-junctions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-network-geometry"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-number-of-lanes"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/road-width"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2709,17 +4396,25 @@
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/bridge-access-conditions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/one-way-streets"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/other-static-traffic-signs"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/other-traffic-regulations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/permanent-access-restrictions"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/regulated-traffic-zones"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/speed-limits"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-overtaking-bans-on-heavy-goods-vehicles"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-circulation-plans"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/tunnel-access-conditions"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/weight-length-width-height-restrictions"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2731,13 +4426,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/accessibility-and-paths-within-facilities"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2752,13 +4454,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-geometry-and-map-layout"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2773,13 +4482,18 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-location-and-features"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
-  }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2794,13 +4508,20 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/facility-features-status"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2821,7 +4542,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2848,11 +4569,15 @@
   "http://www.w3.org/2004/02/skos/core#narrower" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/applicable-road-user-charges-and-payment-methods"
   }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/fixed-road-user-charges-and-payment-methods"
+  }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/identification-of-tolled-roads"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/location-of-tolling-stations"
   }, {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/payment-methods-for-tolls"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/variable-road-user-charges-and-payment-methods"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2903,6 +4628,9 @@
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-data-at-border-crossings-to-third-countries",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   } ],
@@ -2917,6 +4645,27 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Traffic data at border crossings to third countries"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/real-time-traffic-data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Traffic speed"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/traffic-volume",
@@ -2940,6 +4689,31 @@
     "@value" : "Traffic volume"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Transport operator vehicle fleet description including environmental standards"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Transport Operator Vehicle Fleet Description"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operators",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
@@ -2951,7 +4725,7 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
@@ -2966,8 +4740,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2013/885/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-real-time-availability"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -2987,8 +4768,15 @@
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2013/885/oj"
   } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/parking-locations-description-and-facilities"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
@@ -3045,7 +4833,56 @@
     "@value" : "Tunnel closures and access conditions"
   } ]
 }, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/variable-road-user-charges-and-payment-methods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/toll-information"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Variable road user charges and payment methods"
+  } ]
+}, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-details",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
+  } ],
+  "http://purl.org/dc/terms/isReplacedBy" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/transport-operator-vehicle-fleet-description"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Vehicle details"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/vehicle-occupancy",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://data.europa.eu/r5r/applicableLegislation" : [ {
     "@id" : "http://data.europa.eu/eli/reg_del/2024/490/oj"
@@ -3056,14 +4893,18 @@
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
   }, {
-    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-scheduled-transport"
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/public-transport-and-on-demand-services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Occupancy information of the vehicle"
   } ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
     "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Vehicle details"
+    "@value" : "Vehicle occupancy"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/waiting-time-at-border-crossings-to-non-eu-member-states",
@@ -3104,5 +4945,26 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "Waterways and water bodies"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/weight-length-width-height-restrictions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.europa.eu/r5r/applicableLegislation" : [ {
+    "@id" : "http://data.europa.eu/eli/reg_del/2022/670/oj"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/data-content-sub-category"
+  }, {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme/static-traffic-signs-and-regulations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobility-theme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Weight/length/width/height restrictions"
   } ]
 } ]
