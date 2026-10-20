@@ -3,19 +3,21 @@ Controlled vocabularies defined by mobilityDCAT-AP. The expected usage of the vo
 
 The serialisation and publication of the vocabularies are based on the [controlled-vocabulary-template](https://github.com/mobilityDCAT-AP/controlled-vocabulary-template) repository.
 
+Green badges indicate vocabularies that have been recently updated or added.
+
 | Controlled Vocabulary | IRI | Current Version |
 | :------------: | :------------------: | :------: |
-| Application Layer Protocol | https://w3id.org/mobilitydcat-ap/application-layer-protocol | ![2.0.0](https://img.shields.io/badge/-2.0.0-blue?style=flat) |
+| Application Layer Protocol | https://w3id.org/mobilitydcat-ap/application-layer-protocol | ![2.0.0](https://img.shields.io/badge/-2.0.0-green?style=flat) |
 | Communication Method | https://w3id.org/mobilitydcat-ap/communication-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Conditions for Access and Usage | https://w3id.org/mobilitydcat-ap/conditions-for-access-and-usage | ![1.1.0](https://img.shields.io/badge/-1.1.0-blue?style=flat) |
-| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![2.0.0](https://img.shields.io/badge/-2.0.0-blue?style=flat) |
-| Mobility Data Standard | https://w3id.org/mobilitydcat-ap/mobility-data-standard | ![1.2.0](https://img.shields.io/badge/-1.2.0-blue?style=flat) |
+| Mobility Theme | https://w3id.org/mobilitydcat-ap/mobility-theme | ![2.0.0](https://img.shields.io/badge/-2.0.0-green?style=flat) |
+| Mobility Data Standard | https://w3id.org/mobilitydcat-ap/mobility-data-standard | ![1.2.0](https://img.shields.io/badge/-1.2.0-green?style=flat) |
 | Georeferencing Method | https://w3id.org/mobilitydcat-ap/georeferencing-method | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Network Coverage | https://w3id.org/mobilitydcat-ap/network-coverage | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
 | Intended Information Service | https://w3id.org/mobilitydcat-ap/intended-information-service | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
-| Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![2.0.0](https://img.shields.io/badge/-2.0.0-blue?style=flat) |
-| Energy Fuel Type | https://w3id.org/mobilitydcat-ap/energy-fuel-type | ![1.0.0](https://img.shields.io/badge/-1.0.0-blue?style=flat) |
-| *Mobility Service* | https://w3id.org/mobilitydcat-ap/mobility-service | ![1.0.0-CANDIDATE](https://img.shields.io/badge/-1.0.0--CANDIDATE-yellow?style=flat) |
+| Transport Mode | https://w3id.org/mobilitydcat-ap/transport-mode | ![2.0.0](https://img.shields.io/badge/-2.0.0-green?style=flat) |
+| Energy Fuel Type | https://w3id.org/mobilitydcat-ap/energy-fuel-type | ![1.0.0](https://img.shields.io/badge/-1.0.0-green?style=flat) |
+| Mobility Service | https://w3id.org/mobilitydcat-ap/mobility-service | ![1.0.0](https://img.shields.io/badge/-1.0.0-green?style=flat) |
 | Grammar | https://w3id.org/mobilitydcat-ap/grammar | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 | Update Frequency | https://w3id.org/mobilitydcat-ap/update-frequency | ![1.0.0](https://img.shields.io/badge/-deprecated-grey?style=flat) |
 

@@ -60,7 +60,7 @@
     "@value" : "Ed Ooms (NDW)"
   }, {
     "@language" : "en",
-    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
+    "@value" : "Peter Lubrich (BASt)"
   }, {
     "@language" : "en",
     "@value" : "Valentina Carriero (Cefriel)"
@@ -70,10 +70,10 @@
     "@value" : "Mario Scrocca (Cefriel)"
   }, {
     "@language" : "en",
-    "@value" : "Peter Lubrich (BASt)"
+    "@value" : "Petr Bures (TamTam Research)"
   }, {
     "@language" : "en",
-    "@value" : "Petr Bures (TamTam Research)"
+    "@value" : "Sara Guerra de Oliveira (University of Maribor)"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
@@ -84,7 +84,7 @@
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@language" : "en",
-    "@value" : "NAPCORE WG4 Task 4.4"
+    "@value" : "NAPCORE Task 4.4"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -92,7 +92,7 @@
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@language" : "en",
-    "@value" : "Draft Controlled Vocabulary"
+    "@value" : "Published Controlled Vocabulary"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"

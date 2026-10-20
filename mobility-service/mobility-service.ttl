@@ -23,14 +23,14 @@
   a owl:Ontology;
   dct:title "Mobility Service"@en;
   dct:description "Controlled vocabulary for the mobility services covered by a dataset."@en;
-  dct:creator "Mario Scrocca (Cefriel)"@en, "Petr Bures (TamTam Research)"@en, "Peter Lubrich (BASt)"@en;
-  dct:publisher "NAPCORE WG4 Task 4.4"@en;
-  dct:contributor "Sara Guerra de Oliveira (University of Maribor)"@en, "Ed Ooms (NDW)"@en,
-    "Benjamin Witsch (AustriaTech)"@en, "Valentina Carriero (Cefriel)"@en, "Christian Rantzow von Huth (Vejdirektoratet)"@en;
+  dct:creator "Mario Scrocca (Cefriel)"@en, "Petr Bures (TamTam Research)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en;
+  dct:publisher "NAPCORE Task 4.4"@en;
+  dct:contributor "Ed Ooms (NDW)"@en, "Benjamin Witsch (AustriaTech)"@en, "Valentina Carriero (Cefriel)"@en,
+    "Christian Rantzow von Huth (Vejdirektoratet)"@en, "Peter Lubrich (BASt)"@en;
   owl:versionInfo "1.0.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/mobility-service/1.0.0>;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/mobility-service/sharing-mobility-service>,
     <https://w3id.org/mobilitydcat-ap/mobility-service/hiring-mobility-service>, <https://w3id.org/mobilitydcat-ap/mobility-service/transport-service> .
 
