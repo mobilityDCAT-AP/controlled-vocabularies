@@ -1,6 +1,8 @@
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mobilitydcat-ap/energy-fuel-type/1.0.0> .
+<https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/contributor> "Darko Ilić (ASTRA)"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/contributor> "Ed Ooms (NDW)"@en .
+<https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/contributor> "Hilde Austlid (Norwegian Public Roads Administration, Statens vegvesen)"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/contributor> "Petr Bures (TamTam Research)"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/contributor> "Sara Guerra de Oliveira (University of Maribor)"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
@@ -9,7 +11,7 @@
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/publisher> "NAPCORE WG4 Task 4.4"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/dc/terms/title> "Energy Fuel Type"@en .
-<https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en .
+<https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels> .
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels> .

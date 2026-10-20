@@ -71,7 +71,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@language" : "en",
+    "@value" : "Darko Ilić (ASTRA)"
+  }, {
+    "@language" : "en",
     "@value" : "Ed Ooms (NDW)"
+  }, {
+    "@language" : "en",
+    "@value" : "Hilde Austlid (Norwegian Public Roads Administration, Statens vegvesen)"
   }, {
     "@language" : "en",
     "@value" : "Petr Bures (TamTam Research)"
@@ -103,7 +109,7 @@
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@language" : "en",
-    "@value" : "Draft Controlled Vocabulary"
+    "@value" : "Published Controlled Vocabulary"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"

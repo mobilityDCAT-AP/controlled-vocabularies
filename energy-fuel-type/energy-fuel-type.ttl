@@ -27,11 +27,12 @@
   dct:creator "Valentina Carriero (Cefriel)"@en, "Mario Scrocca (Cefriel)"@en;
   dct:publisher "NAPCORE WG4 Task 4.4"@en;
   dct:contributor "Petr Bures (TamTam Research)"@en, "Sara Guerra de Oliveira (University of Maribor)"@en,
-    "Ed Ooms (NDW)"@en;
+    "Ed Ooms (NDW)"@en, "Hilde Austlid (Norwegian Public Roads Administration, Statens vegvesen)"@en,
+    "Darko Ilić (ASTRA)"@en;
   owl:versionInfo "1.0.0"@en;
   owl:versionIRI <https://w3id.org/mobilitydcat-ap/energy-fuel-type/1.0.0>;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  <http://purl.org/ontology/bibo/status> "Draft Controlled Vocabulary"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
   skos:hasTopConcept <https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types>,
     <https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels>, <https://w3id.org/mobilitydcat-ap/energy-fuel-type/non‑renewable-alternative-and-transitional-fossil-fuels>,
     <https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels> .
@@ -53,8 +54,8 @@
 
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type/electricity-dc> a skos:Concept;
   skos:prefLabel "Electricity DC"@en;
-  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg/2023/1804/oj>;
   skos:broader <https://w3id.org/mobilitydcat-ap/energy-fuel-type/zero-emission-energy-types>;
+  <http://data.europa.eu/r5r/applicableLegislation> <http://data.europa.eu/eli/reg/2023/1804/oj>;
   skos:inScheme <https://w3id.org/mobilitydcat-ap/energy-fuel-type> .
 
 <https://w3id.org/mobilitydcat-ap/energy-fuel-type/hydrogen> a skos:Concept;

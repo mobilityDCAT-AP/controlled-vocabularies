@@ -12,7 +12,9 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mobilitydcat-ap/energy-fuel-type">
         <owl:versionIRI rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/1.0.0"/>
+        <terms:contributor xml:lang="en">Darko Ilić (ASTRA)</terms:contributor>
         <terms:contributor xml:lang="en">Ed Ooms (NDW)</terms:contributor>
+        <terms:contributor xml:lang="en">Hilde Austlid (Norwegian Public Roads Administration, Statens vegvesen)</terms:contributor>
         <terms:contributor xml:lang="en">Petr Bures (TamTam Research)</terms:contributor>
         <terms:contributor xml:lang="en">Sara Guerra de Oliveira (University of Maribor)</terms:contributor>
         <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
@@ -21,7 +23,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:publisher xml:lang="en">NAPCORE WG4 Task 4.4</terms:publisher>
         <terms:title xml:lang="en">Energy Fuel Type</terms:title>
-        <bibo:status xml:lang="en">Draft Controlled Vocabulary</bibo:status>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/fossil-fuels"/>
         <skos:hasTopConcept rdf:resource="https://w3id.org/mobilitydcat-ap/energy-fuel-type/renewable-fuels"/>
